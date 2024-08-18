@@ -1,22 +1,20 @@
 document.addEventListener('DOMContentLoaded', function() {
-    // Get the query parameters from the URL
     const urlParams = new URLSearchParams(window.location.search);
-    const folder = urlParams.get('folder') || '';  // Default to an empty string if no folder is provided
-    const file = urlParams.get('file') || 'data1';  // Default to 'data1.json' if no file parameter is provided
+    const folder = urlParams.get('folder') || '';
+    const file = urlParams.get('file') || 'data1';
     
-    // Replace hyphens with spaces for display
-    const formattedFilename = file.replace(/-/g, ' ');  // Replace hyphens with spaces
-
-    // Display the JSON filename in the heading
-    const heading = document.getElementById('json-filename-heading');
-    heading.textContent = formattedFilename;
-
-    // Construct the file path based on whether a folder is provided
+    // Construct the correct file path
     const filePath = folder ? `json/${folder}/${file}.json` : `json/${file}.json`;
 
-    // Fetch the appropriate JSON file
+    console.log('Fetching from:', filePath);
+
     fetch(filePath)
-        .then(response => response.json())
+        .then(response => {
+            if (!response.ok) {
+                throw new Error('Network response was not ok');
+            }
+            return response.json();
+        })
         .then(flashcards => {
             const flashcardsContainer = document.getElementById("flashcards");
             const accessibleList = document.querySelector('.accessible-view ul');
@@ -27,8 +25,12 @@ document.addEventListener('DOMContentLoaded', function() {
                 accessibleList.appendChild(createListItem(cardData));
             });
         })
-        .catch(error => console.error('Error fetching JSON:', error));
+        .catch(error => {
+            console.error('Error fetching JSON:', error);
+            // Additional handling if needed, such as displaying an error message to the user
+        });
 });
+
 
 
     function createCard(cardData) {
