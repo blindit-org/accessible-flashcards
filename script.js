@@ -31,53 +31,50 @@ document.addEventListener('DOMContentLoaded', function() {
         });
 });
 
+function createCard(cardData) {
+    const container = document.createElement("div");
+    container.className = "card-container";
+    container.setAttribute("tabindex", "0");
 
+    const card = document.createElement("div");
+    card.className = "card";
 
-    function createCard(cardData) {
-        const container = document.createElement("div");
-        container.className = "card-container";
-        container.setAttribute("tabindex", "0");
+    const front = document.createElement("div");
+    front.className = "front";
+    front.setAttribute("role", "button");
+    front.innerHTML = `<p>${cardData.question}</p>`;
 
-        const card = document.createElement("div");
-        card.className = "card";
+    const back = document.createElement("div");
+    back.className = "back";
+    back.setAttribute("role", "button");
+    back.setAttribute("aria-hidden", "true");
+    back.innerHTML = `<p>${cardData.answer}</p>`;
 
-        const front = document.createElement("div");
-        front.className = "front";
-        front.setAttribute("role", "button");
-        front.innerHTML = `<p>${cardData.question}</p>`;
+    card.appendChild(front);
+    card.appendChild(back);
+    container.appendChild(card);
 
-        const back = document.createElement("div");
-        back.className = "back";
-        back.setAttribute("role", "button");
-        back.setAttribute("aria-hidden", "true");
-        back.innerHTML = `<p>${cardData.answer}</p>`;
+    container.addEventListener("click", () => toggleCard(card));
+    container.addEventListener("keydown", (e) => {
+        if (e.key === "Enter" || e.key === " ") {
+            e.preventDefault();
+            toggleCard(card);
+        }
+    });
 
-        card.appendChild(front);
-        card.appendChild(back);
-        container.appendChild(card);
+    return container;
+}
 
-        container.addEventListener("click", () => toggleCard(card));
-        container.addEventListener("keydown", (e) => {
-            if (e.key === "Enter" || e.key === " ") {
-                e.preventDefault();
-                toggleCard(card);
-            }
-        });
+function toggleCard(card) {
+    const isFlipped = card.classList.toggle('flipped');
+    const front = card.querySelector('.front');
+    const back = card.querySelector('.back');
+    front.setAttribute('aria-hidden', isFlipped);
+    back.setAttribute('aria-hidden', !isFlipped);
+}
 
-        return container;
-    }
-
-    function toggleCard(card) {
-        const isFlipped = card.classList.toggle('flipped');
-        const front = card.querySelector('.front');
-        const back = card.querySelector('.back');
-        front.setAttribute('aria-hidden', isFlipped);
-        back.setAttribute('aria-hidden', !isFlipped);
-    }
-
-    function createListItem(cardData) {
-        const listItem = document.createElement("li");
-        listItem.innerHTML = `<strong>Q:</strong> ${cardData.question}<br><strong>A:</strong> ${cardData.answer}`;
-        return listItem;
-    }
-});
+function createListItem(cardData) {
+    const listItem = document.createElement("li");
+    listItem.innerHTML = `<strong>Q:</strong> ${cardData.question}<br><strong>A:</strong> ${cardData.answer}`;
+    return listItem;
+}
