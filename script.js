@@ -10,6 +10,14 @@ document.addEventListener('DOMContentLoaded', function() {
     // Get the query parameter from the URL
     const urlParams = new URLSearchParams(window.location.search);
     const file = urlParams.get('file') || 'data1';  // Default to 'data1.json' if no parameter is provided
+    
+    // Extract and format the JSON filename for display
+    const filename = file + '.json';
+    const formattedFilename = filename.split('_').join(' ').replace('.json', ''); // Replace underscores with spaces and remove the .json extension
+    
+    // Display the JSON filename in the heading
+    const heading = document.getElementById('json-filename-heading');
+    heading.textContent = formattedFilename;
 
     // Fetch the appropriate JSON file
     fetch(`${file}.json`)
