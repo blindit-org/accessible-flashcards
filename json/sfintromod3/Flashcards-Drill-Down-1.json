@@ -1,0 +1,34 @@
+[
+    {
+        "question": "What is the purpose of selecting a report type in Step 1 of the BIT Report Framework?",
+        "answer": "Selecting a report type determines the objects and fields that are included in the report, setting the foundation for the analysis."
+    },
+    {
+        "question": "What is the main task in Step 2 of the BIT Report Framework?",
+        "answer": "To use filters to choose specific records for inclusion in the report, ensuring that the report focuses on relevant data."
+    },
+    {
+        "question": "What does Step 3, 'What\u2019s the Layout?', entail in the BIT Report Framework?",
+        "answer": "It involves customizing the presentation of the report, including layout adjustments and visual elements to enhance readability and insight."
+    },
+    {
+        "question": "What does Step 4 in the BIT Report Framework aim to achieve?",
+        "answer": "To refine the data displayed in the report by further specifying data criteria, achieving greater precision in the analysis."
+    },
+    {
+        "question": "How are report filters similar to List View filters?",
+        "answer": "Both types of filters help narrow down data based on specified criteria, focusing on the most pertinent information for the user's needs."
+    },
+    {
+        "question": "What is the function of the Filters tab in a report builder?",
+        "answer": "The Filters tab allows users to define criteria to filter the records displayed in the report, tailoring the data to specific requirements."
+    },
+    {
+        "question": "What is the purpose of the 'Close Date' filter in report building?",
+        "answer": "The 'Close Date' filter allows users to specify a date range for the data, enabling analysis of records within a specific time period."
+    },
+    {
+        "question": "How does changing the 'Opportunity Status' filter affect the report output?",
+        "answer": "Adjusting the 'Opportunity Status' filter enables the report to reflect data for specific stages of opportunities, such as only showing 'Closed Won' deals.  NOTE:  While the field itself is called STAGE, the filter in Report Builder is for the Opportunity Status, which is a value associated wiith each of the Stage picklist datavalues.  As an admin, when you look at these picklist values on the backend, you'll find them under the \"type\" column."
+    }
+]

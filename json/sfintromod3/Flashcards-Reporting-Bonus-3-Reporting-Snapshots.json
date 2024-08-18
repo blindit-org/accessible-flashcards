@@ -1,0 +1,46 @@
+[
+    {
+        "question": "What is the fundamental truth about reporting in Salesforce?",
+        "answer": "When you run a report in Salesforce, it displays the data currently in the system, reflecting the latest, most up-to-date information."
+    },
+    {
+        "question": "What fundamental problem does the nature of real-time reporting in Salesforce cause?",
+        "answer": "Real-time data overwrites old data with new updates, making it impossible to compare historical data changes on the same record over time without additional tools."
+    },
+    {
+        "question": "What are Reporting Snapshots in Salesforce and why are they valuable?",
+        "answer": "Reporting Snapshots are a feature in Salesforce that captures the \"state\" of a report at a specific point in time, allowing for historical data comparison and trend analysis."
+    },
+    {
+        "question": "How do you report on historical data from Reporting Snapshots in Salesforce?",
+        "answer": "Use the Report Builder to select the Report Type for the new Reporting Snapshot Custom Object and proceed as with other reports."
+    },
+    {
+        "question": "What are the limitations of Reporting Snapshots in Salesforce?",
+        "answer": "They are limited to tabular or summary reports, can only capture up to 2,000 rows per snapshot, and a maximum of 200 snapshot runs per organization."
+    },
+    {
+        "question": "Flashcard - Front",
+        "answer": "Flashcard - Back"
+    },
+    {
+        "question": "How do Reporting Snapshots differ from other reporting features like printing, exporting, subscribing, and scheduling reports in Salesforce?",
+        "answer": "Reporting Snapshots capture a report's state at a specific time and are not the same as printing, exporting, subscribing (email delivery), or scheduling (Classic). Dashboards cannot be snapshotted, only reported on."
+    },
+    {
+        "question": "Why is comparing historical data important in Salesforce reports?",
+        "answer": "Comparing historical data is crucial for identifying trends and changes over time in the same record, which can help understand business dynamics such as changes in sales opportunities or financial shifts."
+    },
+    {
+        "question": "What metaphor is used to explain the concept of Reporting Snapshots in Salesforce?",
+        "answer": "The concept of Reporting Snapshots is likened to taking a picture or a \"snapshot\" in real life, capturing a moment in time; similarly, Reporting Snapshots capture the \"state\" of a report at a specific time."
+    },
+    {
+        "question": "How does Salesforce's Reporting Snapshot feature solve the problem of data being overwritten?",
+        "answer": "Reporting Snapshots allow for the capture and storage of report states at different times, preserving historical data even if the current database values change."
+    },
+    {
+        "question": "What are the basic steps for setting up a Reporting Snapshot in Salesforce, as outlined in the script?",
+        "answer": "1) Create a report in Report Builder. 2) In Setup, create a custom object for the Reporting Snapshot and make sure to check \"Allow Reports\". 3) Map report columns to the custom object fields. 4) Schedule the snapshot to run on a regular basis."
+    }
+]

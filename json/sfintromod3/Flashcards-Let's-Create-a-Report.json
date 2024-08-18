@@ -1,0 +1,26 @@
+[
+    {
+        "question": "What are the three essential elements you need to start building reports in Salesforce?",
+        "answer": "Basic understanding of Salesforce Reports, knowledge of Report Types, and the use of Report Builder."
+    },
+    {
+        "question": "What is the primary purpose of Salesforce Reports?",
+        "answer": "To analyze company data, helping to understand metrics like bestselling products and top buyers."
+    },
+    {
+        "question": "What does selecting a Report Type affect in the creation of a report?",
+        "answer": "It determines what objects and fields you can add to the report."
+    },
+    {
+        "question": "What can you configure in the Report Builder interface?",
+        "answer": "You can choose fields to display, group them, and set filter criteria for the records that appear in the report."
+    },
+    {
+        "question": "What is the function of the \"Update Preview Automatically\" toggle in Report Builder?",
+        "answer": "It refreshes the report automatically as changes are made, facilitating the report customization process."
+    },
+    {
+        "question": "What should you do once your report is generated in the Report Builder?",
+        "answer": "Use options to Save and Run, Save, Close, or just Run the report."
+    }
+]

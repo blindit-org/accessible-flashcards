@@ -1,0 +1,38 @@
+[
+    {
+        "question": "Widget",
+        "answer": "A Dashboard Widget in Salesforce is a customizable component on a dashboard that displays data visualizations or metrics, such as charts, gauges, and tables, to provide insights at a glance.  NOTE:  Sometimes widgets are referred to as components."
+    },
+    {
+        "question": "Dashboard",
+        "answer": "\nA dashboard in Salesforce is a visual representation of data from multiple reports, designed to give users a real-time snapshot of key metrics and performance indicators."
+    },
+    {
+        "question": "How do we enter Dashboard Properties?",
+        "answer": "While viewing a dashboard, click on the Gear Icon for  Dashboard Properties (this is a different gear icon than Setup)."
+    },
+    {
+        "question": "Dashboard Builder",
+        "answer": "The Dashboard Builder in Salesforce is a tool that allows users to create and customize dashboards by arranging different types of widgets and selecting the source reports."
+    },
+    {
+        "question": "View Dashboard As",
+        "answer": "The \"View Dashboard As\" feature in Salesforce allows users to view a dashboard from the perspective of different users, which helps in understanding data visibility and access across different roles."
+    },
+    {
+        "question": "What is the default option for view a Dashboard?",
+        "answer": "Me"
+    },
+    {
+        "question": "Another User Dashbaord View",
+        "answer": "\nThe \"Another Person\" dashboard view in Salesforce allows users to view dashboards as if they were another specific user, useful for verifying data visibility and permissions settings from different user perspectives."
+    },
+    {
+        "question": "Dynamic Dashbaord View",
+        "answer": "A dynamic dashboard in Salesforce displays data tailored to the specific user viewing it, using the \"Run As\" feature to ensure the data shown is relevant based on the viewer's permissions and role."
+    },
+    {
+        "question": "Dashboard Theme",
+        "answer": "Dashboard themes in Salesforce allow users to customize the appearance of their dashboards by applying different color schemes and styles to better align with corporate branding or personal preferences."
+    }
+]

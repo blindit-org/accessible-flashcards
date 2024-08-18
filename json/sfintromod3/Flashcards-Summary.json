@@ -1,0 +1,86 @@
+[
+    {
+        "question": "What is the primary use of a Bar Chart in Salesforce Dashboards?",
+        "answer": "Bar Charts, whether vertical or horizontal, are used for comparing different categories of data, such as sales performance across various products."
+    },
+    {
+        "question": "When is a Stacked Bar Chart useful?",
+        "answer": "Stacked Bar Charts are useful for showing parts of a whole within different categories, like displaying sales distribution across product categories in various regions."
+    },
+    {
+        "question": "What is the advantage of using Line Charts in Dashboards?",
+        "answer": "Line Charts are ideal for tracking trends over time, such as quarterly sales performance of a product to identify seasonal trends and patterns."
+    },
+    {
+        "question": "How are Donut Charts utilized in business analytics?",
+        "answer": "Donut Charts are great for showing the percentage of a whole, such as visualizing the percentage of sales leads generated from different marketing channels."
+    },
+    {
+        "question": "What does a Funnel Chart represent?",
+        "answer": "Funnel Charts illustrate data through different stages of a process, such as the sales pipeline, from initial leads to closed-won opportunities."
+    },
+    {
+        "question": "When should you use Scatter Charts?",
+        "answer": "Scatter Charts are perfect for uncovering correlations between two variables, like analyzing the relationship between advertising expenditure and sales revenue."
+    },
+    {
+        "question": "What is the purpose of Gauge Charts?",
+        "answer": "Gauge Charts provide a visual representation of progress towards a goal, useful for tracking metrics like sales team progress towards monthly sales targets."
+    },
+    {
+        "question": "What information does a Lightning Table display?",
+        "answer": "Lightning Tables provide a detailed list of records in a table format, offering a clear view similar to a tabular report."
+    },
+    {
+        "question": "How are Metric Charts used in Salesforce Dashboards?",
+        "answer": "Metric Charts display a single, important metric, such as overall monthly sales revenue, simplifying the presentation of key data points."
+    },
+    {
+        "question": "What chart type would Max use to analyze sales performance across various products and account industries?",
+        "answer": "Max would use Bar Charts to easily identify top-selling products and key buyers by comparing different categories of data."
+    },
+    {
+        "question": "In what scenario would a Stacked Bar Chart be particularly useful for Max at AquaBliss Spas?",
+        "answer": "A Stacked Bar Chart would be useful for examining sales performance across different product categories in various regions, to understand each product's contribution to total sales revenue."
+    },
+    {
+        "question": "Flashcard - Front",
+        "answer": "Flashcard - Back"
+    },
+    {
+        "question": "What specific business insight can a Line Chart provide for Max regarding his products?",
+        "answer": "A Line Chart can help Max track quarterly sales performance of a particular product over the past year to identify seasonal trends and patterns."
+    },
+    {
+        "question": "How can the marketing team at AquaBliss Spas utilize Donut Charts?",
+        "answer": "The marketing team can use Donut Charts to visualize the percentage of sales leads generated from different marketing channels, such as social media, email campaigns, and online advertisements."
+    },
+    {
+        "question": "What business process can be illustrated using Funnel Charts at AquaBliss Spas?",
+        "answer": "Funnel Charts can illustrate the stages of the sales pipeline at AquaBliss Spas, from the wide top representing initial leads to the narrow bottom showing close-won opportunities."
+    },
+    {
+        "question": "How can Scatter Charts aid the managers at AquaBliss Spas?",
+        "answer": "Managers can use Scatter Charts to analyze the relationship between advertising expenditure and sales revenue, helping to assess the effectiveness of marketing campaigns."
+    },
+    {
+        "question": "What is the practical use of Gauge Charts for Max at AquaBliss Spas?",
+        "answer": "Gauge Charts can help Max track the sales team\u2019s progress towards their monthly sales targets, visually representing how close they are to achieving their goals."
+    },
+    {
+        "question": "What is the unique feature of Lightning Tables in Salesforce Dashboards?",
+        "answer": "Lightning Tables feature a detailed, list-based presentation of records, similar to a traditional tabular report, useful for detailed data reviews."
+    },
+    {
+        "question": "When is it appropriate to use Metric Charts in a Dashboard?",
+        "answer": "Metric Charts are appropriate when needing to display a single, critical metric clearly and prominently, such as tracking overall monthly sales revenue."
+    },
+    {
+        "question": "Why might Max prefer using various chart types in his Salesforce Dashboard?",
+        "answer": "Using different chart types allows Max to customize the Dashboard to present complex information in an easily understandable manner, catering to specific analytical needs for different data sets."
+    },
+    {
+        "question": "What is the benefit of diversifying chart types in a Salesforce Dashboard?",
+        "answer": "Diversifying chart types enhances the visual appeal and readability of the Dashboard, enabling users to quickly grasp significant patterns and insights"
+    }
+]

@@ -1,0 +1,22 @@
+[
+    {
+        "question": "Where should you navigate to create custom filters in the report builder?",
+        "answer": "Navigate to the Filters tab in the report builder to create custom filters."
+    },
+    {
+        "question": "What is filter logic in Salesforce reports?",
+        "answer": "Filter logic defines how multiple filters are combined using AND/OR conditions to ensure only records meeting specific conditions are included in the report."
+    },
+    {
+        "question": "How is filter logic in reports similar to another Salesforce feature?",
+        "answer": "Filter logic in reports is similar to filter logic used in List Views."
+    },
+    {
+        "question": "What tool is used throughout the lessons for creating and modifying reports?",
+        "answer": "The Report Builder tool."
+    },
+    {
+        "question": "When creating an Opportunity report, what does applying a filter by Product Name ensure?",
+        "answer": "Applying a filter by Product Name ensures that the report only shows Opportunity records related to the specified products."
+    }
+]

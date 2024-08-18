@@ -1,0 +1,66 @@
+[
+    {
+        "question": "What are the three main activities involved in the final step of creating a Salesforce report?",
+        "answer": "The final step involves saving, storing, and sharing the Salesforce report."
+    },
+    {
+        "question": "Where is the 'Save' button located in the Salesforce report builder?",
+        "answer": "The 'Save' button is located at the top-right corner of the report builder."
+    },
+    {
+        "question": "What should you do after clicking 'Save' in the report builder?",
+        "answer": "After clicking 'Save', name your report, and select the location where you want to save it."
+    },
+    {
+        "question": "How are report folders used in Salesforce?",
+        "answer": "Report folders are used like digital filing cabinets to organize and store reports, making them tidy and easy to find.  Report folders are how reports are shared and secured.  You give access to reports only by the report folder and not the individual report."
+    },
+    {
+        "question": "How do you select a folder to save a report in Salesforce?",
+        "answer": "Click on \"Select Folder\", choose \"public reports\" or the folder you prefer, and then select the folder again."
+    },
+    {
+        "question": "What is the process for creating a new report folder in Salesforce?",
+        "answer": "Navigate to the 'Reports' tab, click on the \"new folder\" button, name the folder, and then save it."
+    },
+    {
+        "question": "How do you share access to a report folder in Salesforce?",
+        "answer": "Click on the drop-down next to the new folder button, select Share, and choose who you want to share the folder with.  NOTE: Folder access is only shared through the top-level of the folders. If you create sub-folders (nested folders) you cannot share view these folders.  They're for organization only."
+    },
+    {
+        "question": "Flashcard - Front",
+        "answer": "Flashcard - Back"
+    },
+    {
+        "question": "What does the 'View' access level allow a user to do?",
+        "answer": "'View' access allows a user to view the reports in a folder but not make any changes to them."
+    },
+    {
+        "question": "What permissions does 'Edit' access provide in a report folder?",
+        "answer": "'Edit' access allows a user to modify the reports within the folder but not delete any reports or share the folder."
+    },
+    {
+        "question": "What can a user do with 'Manage' access in a report folder?",
+        "answer": "'Manage' access gives full control over the reports in the folder, allowing the user to edit, delete, share, move reports, and change access settings."
+    },
+    {
+        "question": "How do you move a report into a new folder in Salesforce?",
+        "answer": "Open the report from the 'Recent' section, click on edit, then 'properties', select the new folder, and save."
+    },
+    {
+        "question": "What must you not forget to do after setting sharing permissions for a report folder?",
+        "answer": "After setting sharing permissions, click on the Share button and then Done; otherwise, the changes won't be applied."
+    },
+    {
+        "question": "How is the 'Report Unique Name' handled when saving a new Salesforce report?",
+        "answer": "When naming a report, the 'Report Unique Name' is autopopulated when you tab from the report name field."
+    },
+    {
+        "question": "What happens if you share a folder with multiple reports to a user?",
+        "answer": "If a folder containing multiple reports is shared, the user gains access to all reports within that folder according to the access level provided."
+    },
+    {
+        "question": "What is the implication of not clicking the 'Share' button before 'Done' when sharing a report folder?",
+        "answer": "If you don't click 'Share' before 'Done', the changes to sharing settings will not be saved."
+    }
+]

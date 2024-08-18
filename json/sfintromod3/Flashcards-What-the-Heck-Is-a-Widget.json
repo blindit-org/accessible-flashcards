@@ -1,0 +1,42 @@
+[
+    {
+        "question": "What is a Dashboard in Salesforce?",
+        "answer": "A Dashboard in Salesforce is a visual display of key metrics and trends for your data. It is made up of Widgets that can display rich text, an image, charts, or data from reports."
+    },
+    {
+        "question": "What is a Widget in Salesforce?",
+        "answer": "Widgets are the building blocks of a Salesforce Dashboard. They function like small boxes displaying key information such as reports in various formats like charts or tables."
+    },
+    {
+        "question": "How do you add a Widget to a Dashboard?",
+        "answer": "To add a Widget, use the 'Add Widget' button in the Dashboard Builder, select 'Chart or Table', choose a report, customize the display settings, and update the Dashboard."
+    },
+    {
+        "question": "What are some customization options for Widgets?",
+        "answer": "Customization options include selecting the type of chart (e.g., Horizontal Bar Chart), modifying the X and Y axis, changing the title, subtitle, and theme, and resizing the Widget."
+    },
+    {
+        "question": "What does the 'Save' button do in the context of Dashboards?",
+        "answer": "The 'Save' button saves all changes made to the Dashboard, ensuring no progress is lost and the Dashboard can be viewed or edited later without issue."
+    },
+    {
+        "question": "How do you select a report for a Widget in Salesforce Dashboard?",
+        "answer": "In the Dashboard Builder, after clicking the 'Add Widget' button and selecting 'Chart or Table', a screen appears where you can choose a specific report to display within the Widget."
+    },
+    {
+        "question": "What is the purpose of selecting a chart type in a Widget?",
+        "answer": "Selecting a chart type for a Widget helps visualize the report data in a format (visual image or picture) that best suits the information's nature and the desired insight, like using a Horizontal Bar Chart to easily compare data points."
+    },
+    {
+        "question": "How can you modify the appearance of a Widget?",
+        "answer": "You can modify the appearance of a Widget by changing its title, adding a subtitle, adjusting the theme and colors, and customizing the display settings like the X and Y axes."
+    },
+    {
+        "question": "What is the significance of resizing a Widget in Salesforce Dashboards?",
+        "answer": "Resizing a Widget allows you to allocate appropriate space on the Dashboard, ensuring that the information is displayed clearly and effectively without overcrowding."
+    },
+    {
+        "question": "How do you manage the arrangement of Widgets on a Salesforce Dashboard?",
+        "answer": "Widgets can be moved and resized directly in the Dashboard layout, allowing users to organize them for optimal flow and visibility of the most important metrics."
+    }
+]
