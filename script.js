@@ -11,7 +11,7 @@ document.addEventListener('DOMContentLoaded', function() {
     heading.textContent = formattedFilename;
 
     // Fetch the appropriate JSON file
-    fetch(`${file}.json`)
+    fetch(`json/${file}.json`)
         .then(response => response.json())
         .then(flashcards => {
             const flashcardsContainer = document.getElementById("flashcards");

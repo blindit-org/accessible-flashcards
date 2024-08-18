@@ -1,11 +1,3 @@
-<!--
-Copyright (c) 2024 Dustin Lewis and Mark Opatow. All rights reserved.
-This work is licensed under the Creative Commons Attribution-NonCommercial 4.0 International License.
-To view a copy of this license, visit http://creativecommons.org/licenses/by-nc/4.0/
-or send a letter to Creative Commons, PO Box 1866, Mountain View, CA 94042, USA.
-You may not use this file except in compliance with this license. Commercial use is prohibited without prior authorization.
--->
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -20,12 +12,14 @@ You may not use this file except in compliance with this license. Commercial use
     <p>Welcome to Accessible Salesforce Flashcards. Use the Tab (or Arrow keys on NVDA or Jaws) to navigate through the cards. Use Shift-Tab to navigate to a previous card. Use the Enter key or Spacebar to flip a card and reveal the answer. On NVDA and Jaws, use the Read Current Line command (Insert+I or Insert+L, depending on which screen reader is being used) to read the text on a card. On Mac VoiceOver, use the right or left arrow to read the text on a card. This section is only visible to screen readers.</p>
 </div>
 
-<div class="cards-container" aria-label="Salesforce flashcards" role="region" id="flashcards">
-    <!-- Heading that will display the JSON filename -->
+<!-- Wrap the title in a div to apply styling more easily -->
+<div class="title-container">
     <h3 id="json-filename-heading"></h3>
-    <!-- Flashcards will be injected here -->
 </div>
 
+<div class="cards-container" aria-label="Salesforce flashcards" role="region" id="flashcards">
+    <!-- Flashcards will be injected here -->
+</div>
 
 <div class="accessible-view" aria-live="polite">
     <h3>All Questions and Answers</h3>
