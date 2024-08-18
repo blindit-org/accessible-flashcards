@@ -1,20 +1,11 @@
-/*
-Copyright (c) 2024 Dustin Lewis and Mark Opatow. All rights reserved.
-This work is licensed under the Creative Commons Attribution-NonCommercial 4.0 International License.
-To view a copy of this license, visit http://creativecommons.org/licenses/by-nc/4.0/
-or send a letter to Creative Commons, PO Box 1866, Mountain View, CA 94042, USA.
-You may not use this file except in compliance with this license. Commercial use is prohibited without prior authorization.
-*/
-
 document.addEventListener('DOMContentLoaded', function() {
     // Get the query parameter from the URL
     const urlParams = new URLSearchParams(window.location.search);
     const file = urlParams.get('file') || 'data1';  // Default to 'data1.json' if no parameter is provided
     
-    // Extract and format the JSON filename for display
-    const filename = file + '.json';
-    const formattedFilename = filename.split('_').join(' ').replace('.json', ''); // Replace underscores with spaces and remove the .json extension
-    
+    // Replace hyphens with spaces for display
+    const formattedFilename = file.replace(/-/g, ' ');  // Replace hyphens with spaces
+
     // Display the JSON filename in the heading
     const heading = document.getElementById('json-filename-heading');
     heading.textContent = formattedFilename;
@@ -23,10 +14,6 @@ document.addEventListener('DOMContentLoaded', function() {
     fetch(`${file}.json`)
         .then(response => response.json())
         .then(flashcards => {
-            // Move focus to the hidden instruction region
-            const instructionRegion = document.querySelector('.visually-hidden');
-            instructionRegion.focus();
-
             const flashcardsContainer = document.getElementById("flashcards");
             const accessibleList = document.querySelector('.accessible-view ul');
 
@@ -41,7 +28,7 @@ document.addEventListener('DOMContentLoaded', function() {
     function createCard(cardData) {
         const container = document.createElement("div");
         container.className = "card-container";
-        container.setAttribute("tabindex", "0"); // Make focusable
+        container.setAttribute("tabindex", "0");
 
         const card = document.createElement("div");
         card.className = "card";
@@ -49,13 +36,13 @@ document.addEventListener('DOMContentLoaded', function() {
         const front = document.createElement("div");
         front.className = "front";
         front.setAttribute("role", "button");
-        front.innerHTML = `<p>${cardData.question}</p>`; // Only question on front
+        front.innerHTML = `<p>${cardData.question}</p>`;
 
         const back = document.createElement("div");
         back.className = "back";
         back.setAttribute("role", "button");
         back.setAttribute("aria-hidden", "true");
-        back.innerHTML = `<p>${cardData.answer}</p>`; // Only answer on back
+        back.innerHTML = `<p>${cardData.answer}</p>`;
 
         card.appendChild(front);
         card.appendChild(back);
@@ -82,7 +69,7 @@ document.addEventListener('DOMContentLoaded', function() {
 
     function createListItem(cardData) {
         const listItem = document.createElement("li");
-        listItem.innerHTML = `<strong>Q:</strong> ${cardData.question}<br><strong>A:</strong> ${cardData.answer}`; // Adjusted format
+        listItem.innerHTML = `<strong>Q:</strong> ${cardData.question}<br><strong>A:</strong> ${cardData.answer}`;
         return listItem;
     }
 });
