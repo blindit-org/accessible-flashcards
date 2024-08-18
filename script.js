@@ -1,7 +1,8 @@
 document.addEventListener('DOMContentLoaded', function() {
-    // Get the query parameter from the URL
+    // Get the query parameters from the URL
     const urlParams = new URLSearchParams(window.location.search);
-    const file = urlParams.get('file') || 'data1';  // Default to 'data1.json' if no parameter is provided
+    const folder = urlParams.get('folder') || '';  // Default to an empty string if no folder is provided
+    const file = urlParams.get('file') || 'data1';  // Default to 'data1.json' if no file parameter is provided
     
     // Replace hyphens with spaces for display
     const formattedFilename = file.replace(/-/g, ' ');  // Replace hyphens with spaces
@@ -10,8 +11,11 @@ document.addEventListener('DOMContentLoaded', function() {
     const heading = document.getElementById('json-filename-heading');
     heading.textContent = formattedFilename;
 
+    // Construct the file path based on whether a folder is provided
+    const filePath = folder ? `json/${folder}/${file}.json` : `json/${file}.json`;
+
     // Fetch the appropriate JSON file
-    fetch(`json/${file}.json`)
+    fetch(filePath)
         .then(response => response.json())
         .then(flashcards => {
             const flashcardsContainer = document.getElementById("flashcards");
@@ -24,6 +28,8 @@ document.addEventListener('DOMContentLoaded', function() {
             });
         })
         .catch(error => console.error('Error fetching JSON:', error));
+});
+
 
     function createCard(cardData) {
         const container = document.createElement("div");
