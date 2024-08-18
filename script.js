@@ -2,9 +2,16 @@ document.addEventListener('DOMContentLoaded', function() {
     const urlParams = new URLSearchParams(window.location.search);
     const folder = urlParams.get('folder') || '';
     const file = urlParams.get('file') || 'data1';
-    
+
     // Construct the correct file path
     const filePath = folder ? `json/${folder}/${file}.json` : `json/${file}.json`;
+
+    // Replace hyphens with spaces for display
+    const formattedFilename = file.replace(/-/g, ' ');  // Replace hyphens with spaces
+
+    // Display the JSON filename in the heading
+    const heading = document.getElementById('json-filename-heading');
+    heading.textContent = formattedFilename;
 
     console.log('Fetching from:', filePath);
 
