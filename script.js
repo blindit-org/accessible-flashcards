@@ -7,32 +7,28 @@ You may not use this file except in compliance with this license. Commercial use
 */
 
 document.addEventListener('DOMContentLoaded', function() {
-    const flashcards = [
-        { question: "Why might users receive errors when populating a custom picklist field in Salesforce?", answer: "Due to contradicting validation rules." },
-        { question: "What allows quick access to auto-numbering system identifiers in Universal Containers?", answer: "Auto-response Rules and Self-service Portal." },
-        { question: "What happens to time-dependent actions if criteria are no longer met?", answer: "They are automatically removed from the queue." },
-        { question: "How can an administrator configure Salesforce for different sales teams?", answer: "Create specific Page Layouts, Sales Processes, and Record Types." },
-        { question: "What is the best practice for tracking user and customer issues?", answer: "Use Record Types and Support Processes." },
-        { question: "What type of access can sharing rules provide?", answer: "Read Only and Read/Write." },
-        { question: "How should a Salesforce Chatter user send a private message?", answer: "Use the 'Post Private Message' feature." },
-        { question: "What tool tracks configuration changes?", answer: "Setup Audit Trail." },
-        { question: "How should cases be assigned based on product category?", answer: "Use Assignment Rules based on picklist values." },
-        { question: "What considerations are there when setting product prices?", answer: "Consider different list prices in different price books." },
-        // Add additional flashcards as needed
-    ];
+    // Get the query parameter from the URL
+    const urlParams = new URLSearchParams(window.location.search);
+    const file = urlParams.get('file') || 'data1';  // Default to 'data1.json' if no parameter is provided
 
-    // Move focus to the hidden instruction region
-    const instructionRegion = document.querySelector('.visually-hidden');
-    instructionRegion.focus();
+    // Fetch the appropriate JSON file
+    fetch(`${file}.json`)
+        .then(response => response.json())
+        .then(flashcards => {
+            // Move focus to the hidden instruction region
+            const instructionRegion = document.querySelector('.visually-hidden');
+            instructionRegion.focus();
 
-    const flashcardsContainer = document.getElementById("flashcards");
-    const accessibleList = document.querySelector('.accessible-view ul');
+            const flashcardsContainer = document.getElementById("flashcards");
+            const accessibleList = document.querySelector('.accessible-view ul');
 
-    flashcards.forEach(cardData => {
-        const cardElement = createCard(cardData);
-        flashcardsContainer.appendChild(cardElement);
-        accessibleList.appendChild(createListItem(cardData));
-    });
+            flashcards.forEach(cardData => {
+                const cardElement = createCard(cardData);
+                flashcardsContainer.appendChild(cardElement);
+                accessibleList.appendChild(createListItem(cardData));
+            });
+        })
+        .catch(error => console.error('Error fetching JSON:', error));
 
     function createCard(cardData) {
         const container = document.createElement("div");
