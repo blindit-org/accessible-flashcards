@@ -1,0 +1,66 @@
+[
+    {
+        "question": "Is creating an Opportunity mandatory when converting a Lead in Salesforce?",
+        "answer": "No, creating an Opportunity when converting a Lead is optional. Users can check a box to skip creating an Opportunity."
+    },
+    {
+        "question": "What happens to converted Leads in terms of visibility and editability?",
+        "answer": "Converted Leads are not viewable or editable unless the user has the \"View and Edit a Converted Lead\" permission."
+    },
+    {
+        "question": "Are converted Leads searchable in Salesforce's Lightning Experience?",
+        "answer": "Yes, converted Leads are searchable in Lightning Experience, but they cannot be clicked on without the  \"View and Edit a Converted Lead\" permission."
+    },
+    {
+        "question": "Where is the Convert button exclusively found in Salesforce?",
+        "answer": "The Convert button is exclusively found on Leads and not on other objects."
+    },
+    {
+        "question": "How are standard fields from Leads mapped during conversion in Salesforce?",
+        "answer": "Standard Lead fields are automatically mapped to the corresponding standard fields on Accounts, Contacts, and Opportunities out of the box."
+    },
+    {
+        "question": "Can custom fields on Leads be mapped during conversion?",
+        "answer": "Yes, custom fields on Leads can be mapped to custom fields on Accounts, Contacts, and Opportunities by the System Admin in Setup under Object Manager."
+    },
+    {
+        "question": "Can you manually map standard fields from Leads during conversion in Salesforce?",
+        "answer": "No. Custom fields can be mapped to custom fields, but standard fields can only have the default mappings to other standard fields as defined by Salesforce."
+    },
+    {
+        "question": "What happens to Activities, Notes, and Files attached to a Lead when it is converted?",
+        "answer": "All Activities (Tasks and Events) and attached Notes or Files are transferred to the records created from the Lead (Accounts, Contacts, and Opportunities)."
+    },
+    {
+        "question": "Flashcard - Front",
+        "answer": "Flashcard - Back"
+    },
+    {
+        "question": "What is the system behavior regarding duplicate records during Lead conversion?",
+        "answer": "When converting Leads to contacts or accounts, by default Salesforce will warn you if the process creates duplicate records, but it will not prevent their creation."
+    },
+    {
+        "question": "Can Lead conversion be reversed in Salesforce?",
+        "answer": "No, once a Lead is converted, the conversion cannot be reversed."
+    },
+    {
+        "question": "What happens if you leave the company field blank on a Lead record during conversion with Person Accounts enabled?",
+        "answer": "If the company field is left blank during Lead conversion with Person Accounts enabled, Salesforce will convert the Lead into a Person Account."
+    },
+    {
+        "question": "What assumption does Salesforce make when updating existing Accounts and Contacts during Lead conversion?",
+        "answer": "Salesforce assumes that existing data in Accounts and Contacts is most current and does not overwrite it with Lead conversion data."
+    },
+    {
+        "question": "What are the settings available in Lead Settings that relate to Lead conversion?",
+        "answer": "Options include creating a task during Lead conversion when the subject is blank (not checked by default) and requiring validation for converted Leads (checked by default)."
+    },
+    {
+        "question": "What happens to the validation rules when converting leads?",
+        "answer": "By default, validation rules are enforced during Lead conversion to ensure the validity of data."
+    },
+    {
+        "question": "What additional options does Salesforce provide for managing Leads during conversion if Person Accounts are enabled?",
+        "answer": "If Person Accounts are enabled, admins can make the Company field non-required, allowing Leads to be converted into Person Accounts when the field has no value."
+    }
+]

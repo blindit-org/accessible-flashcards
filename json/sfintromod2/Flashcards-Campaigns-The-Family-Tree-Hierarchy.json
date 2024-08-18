@@ -1,0 +1,38 @@
+[
+    {
+        "question": "What is the purpose of using a Campaign Parent field in Salesforce?",
+        "answer": "To organize campaigns logically into a family tree by creating a Campaign Hierarchy."
+    },
+    {
+        "question": "How does Salesforce describe Campaign Hierarchies?",
+        "answer": "Metrics from child campaigns roll up to the parent campaign, allowing access to data for individual campaigns or in aggregate. A campaign hierarchy can support up to five levels."
+    },
+    {
+        "question": "What can a campaign hierarchy focus on in Salesforce?",
+        "answer": "Marketing channels, fiscal periods, long-term projects, or any other factor that makes sense for the business."
+    },
+    {
+        "question": "How do campaign hierarchies help track results by campaign type or campaign initiative?",
+        "answer": "By using built-in Salesforce fields to capture and roll up revenue at various campaign levels, helping to measure the effectiveness of each marketing effort."
+    },
+    {
+        "question": "What are the steps to setting up a new campaign hierarchy?",
+        "answer": "1.  Create a new campaign.  2.  Link existing campaigns as a parent or child through the Parent Campaign field.  3.  Create follow up campaigns and link them under the appropriate parent campaign up to 5 levels deep.  "
+    },
+    {
+        "question": "What questions might executives ask to evaluate the success of a marketing initiative (like trade shows)?",
+        "answer": "1.  How many sales resulted from our trade shows this year?  2.  What was the total revenue?  3.  How many sales came from one particular trade show?  4.  Should we do more webinars (for example) after a trade show?"
+    },
+    {
+        "question": "What organizational structure is used as an example for a tradeshow campaign hierarchy (3 levels)?",
+        "answer": "A Grandparent Campaign for all tradeshows, Parent Campaigns for each specific tradeshow attended, and Child Campaigns for each follow-on marketing effort."
+    },
+    {
+        "question": "How many levels can a campaign hierarchy have in Salesforce?",
+        "answer": "A campaign hierarchy can have up to five levels in Salesforce?"
+    },
+    {
+        "question": "What functionality does the Campaign Influence feature provide in Salesforce?",
+        "answer": "It tracks how different marketing efforts influence sales opportunities, providing insights into which campaigns are most effective.  It tracks the influence on your revenue pipeline."
+    }
+]

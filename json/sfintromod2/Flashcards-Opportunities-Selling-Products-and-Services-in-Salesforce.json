@@ -1,0 +1,34 @@
+[
+    {
+        "question": "What is the purpose of the Product object in Salesforce?",
+        "answer": "The Product object acts as a master catalog of all the products and services a company sells, without including prices."
+    },
+    {
+        "question": "Why does Salesforce separate prices from the Product object?",
+        "answer": "Prices are separated because companies may sell in different currencies, offer country-specific discounts, and have varying pricing cycles that affect product costs."
+    },
+    {
+        "question": "What are Price Books in Salesforce?",
+        "answer": "A price book is a list of products and their prices."
+    },
+    {
+        "question": "What is the Standard Price Book in Salesforce?",
+        "answer": "The Standard Price Book is the default Price Book in Salesforce that contains the base prices for Products."
+    },
+    {
+        "question": "What are Custom Price Books used for in Salesforce?",
+        "answer": "Custom Price Books are used to list Products at different prices based on specific pricing goals or scenarios, like offering a 50% discount."
+    },
+    {
+        "question": "What are the steps to sell a Product in Salesforce?",
+        "answer": "Step 1: Create the Product. Step 2: Create the Price Book entry, standard and potentially custom. Step 3: Sales reps can find and add the Product to an Opportunity."
+    },
+    {
+        "question": "Who decides what Products can be sold in Salesforce?",
+        "answer": "Product development, procurement, or various business units decide which products can be sold and communicate this to sales reps by setting up Products in Salesforce."
+    },
+    {
+        "question": "How do Products and Price Books relate to selling in Salesforce?",
+        "answer": "Products define what can be sold, and Price Books determine the prices at which these products can be sold, influencing how sales reps offer them in Opportunities.  An Opportunity can have only one Price Book assigned to it."
+    }
+]

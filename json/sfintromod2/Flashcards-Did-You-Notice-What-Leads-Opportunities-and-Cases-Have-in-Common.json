@@ -1,0 +1,66 @@
+[
+    {
+        "question": "How does a customer journey start in Salesforce?",
+        "answer": "The journey starts with a person identified as a Lead, a prospect with potential to become a customer.  This Lead likely became a lead due to a Marketing Campaign."
+    },
+    {
+        "question": "What happens to a Lead in Salesforce once it is qualified?",
+        "answer": "A Lead is converted into an Account, Contact, and optionally an Opportunity, and the original Lead record disappears."
+    },
+    {
+        "question": "What are the roles of Account and Contact records post-conversion?",
+        "answer": "Account and Contact are permanent data-of-record, representing the customer in ongoing interactions."
+    },
+    {
+        "question": "How is an Opportunity related to Account and Contact records?",
+        "answer": "The Opportunity, linked to an Account, represents potential sales revenue and is managed by the Sales team."
+    },
+    {
+        "question": "What happens when an Opportunity is closed as won?",
+        "answer": "The Opportunity stage field is closed-won, and  the Account and Contact records remain active for future engagements (no change to these records)."
+    },
+    {
+        "question": "What triggers the creation of a Case in Salesforce?",
+        "answer": "A Case is created when a customer (Contact) ask a question or needs help, initiating a customer service process."
+    },
+    {
+        "question": "What is the outcome of a Case in Salesforce?",
+        "answer": "Once customer issues are resolved or answered, the Case is closed, but the Contact and Account records persist."
+    },
+    {
+        "question": "Flashcard - Front",
+        "answer": "Flashcard - Back"
+    },
+    {
+        "question": "How do Salesforce records differ in their longevity and purpose?",
+        "answer": "Some records like Accounts and Contacts are long-term and fairly static, while others like Leads, Opportunities, and Cases are working records and meant to have a start and an official end to the work being done."
+    },
+    {
+        "question": "What fields track progress in Leads, Opportunities, and Cases?",
+        "answer": "Leads and Cases use a Status field, while Opportunities use a Stage field to track progress towards closure or conversion (in the case of Leads)."
+    },
+    {
+        "question": "What is the significance of the Status field in Salesforce?",
+        "answer": "The Status field in Leads and Cases indicates the current phase of working status.  This is a field that answers the question of where they are in progressing to a successful outcome."
+    },
+    {
+        "question": "What does the Stage field in Opportunities signify?",
+        "answer": "The Stage field indicates the current sales process progression, from initial contact to closing the deal."
+    },
+    {
+        "question": "How should Salesforce Admins view Accounts and Contacts in terms of data management?",
+        "answer": "Admins should view Accounts and Contacts as foundational records that require accurate and updated information as they are referenced over time."
+    },
+    {
+        "question": "Why is it important to understand the nature of different Salesforce records?",
+        "answer": "Understanding the nature of different records helps in effectively managing them and optimizing the Salesforce setup for business processes."
+    },
+    {
+        "question": "How do working records like Leads differ from permanent records like Contacts?",
+        "answer": "Working records are task-oriented and are closed or converted upon completion of their purpose, whereas permanent records store ongoing customer data for reference over time."
+    },
+    {
+        "question": "How does the conversion of Leads impact Salesforce data integrity?",
+        "answer": "Proper conversion ensures that accurate, relevant data is maintained across new records, supporting consistent customer experiences."
+    }
+]

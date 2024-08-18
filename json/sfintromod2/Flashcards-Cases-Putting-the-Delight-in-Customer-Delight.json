@@ -1,0 +1,82 @@
+[
+    {
+        "question": "What is the Service Cloud in Salesforce?",
+        "answer": "A system where customer service (aka support) interactions are tracked and documented, logging each query as a Case."
+    },
+    {
+        "question": "What is the difference between the Service and Service Console apps in Salesforce?",
+        "answer": "Service Console offers a unique navigation system allowing simultaneous display of multiple records, unlike the standard navigation in Service."
+    },
+    {
+        "question": "Describe the Console Navigation style in Salesforce.",
+        "answer": "It combines Split View and a unique way to display multiple records simultaneously without reloading."
+    },
+    {
+        "question": "What does one typically see by default upon first opening the Service Console in a new Hands-On Org?",
+        "answer": "The Recent Cases list view.  "
+    },
+    {
+        "question": "What is the Utility Bar in Salesforce and what can it include?",
+        "answer": "A customizable bar that can appear at the bottom of the screen, only on desktop, and can be customized to include items like history, macros, to-do lists, and flows."
+    },
+    {
+        "question": "What are the required fields when creating a case in Salesforce?",
+        "answer": "Status and Case Origin."
+    },
+    {
+        "question": "What does the default layout of the Service Console look like?",
+        "answer": "In addition to the Split View list of records, it consists of three columns with various components, designed for visual efficiency and quick access."
+    },
+    {
+        "question": "What is Split View in Salesforce Service Console?",
+        "answer": "A navigation option that displays a list of filtered cases on the left side of the screen, allowing easy access while working on other details."
+    },
+    {
+        "question": "How do you manage multiple cases simultaneously in the Service Console?",
+        "answer": "Cases are opened in tabs, allowing users to flip between them without reloading."
+    },
+    {
+        "question": "What happens when you click on related records in the Service Console?",
+        "answer": "Related records open in subtabs under the main case tab, allowing you to reference and work on and switch between multiple related record simultaneously."
+    },
+    {
+        "question": "Flashcard - Front",
+        "answer": "Flashcard - Back"
+    },
+    {
+        "question": "Can the columns in the Service Console be customized?",
+        "answer": "Yes, all three columns of the Service Console are customizable to fit the needs of Service Reps."
+    },
+    {
+        "question": "Why is minimizing clicks important in the Service Console?",
+        "answer": "Reducing clicks and load times helps Service Reps maintain a good Average Handle Time (AHT), which is crucial for performance ratings."
+    },
+    {
+        "question": "How is integrating accounts and contacts beneficial when using service console?",
+        "answer": "It allows reps to access key information about the customer relationship quickly, aiding in knowledgeable service delivery."
+    },
+    {
+        "question": "How can the Utility Bar benefit Salesforce users?",
+        "answer": "It provides quick access to frequently used tools and functions, like viewing recent tabs, adding macros, and more."
+    },
+    {
+        "question": "How are cases uniquely identified inside Salesforce?",
+        "answer": "Cases use system-generated Auto numbers instead of a text field as the record name for \"human\" identification."
+    },
+    {
+        "question": "What is one way to manage screen real estate in the Service Console?",
+        "answer": "The Split View can be fully collapsed to a narrow vertical ribbon, freeing up screen space."
+    },
+    {
+        "question": "Describe how the horizontal tab functionality works in the Service Console.",
+        "answer": "In Standard navigation, the horizontal row of tabs represents the Objects and Items assigned to a specific App.  In Console navigation, the hofizontal tabs represent a single objct, usually Cases, which can be opened simultaneously in separate tabs, enabling easy switching and multitasking between Cases."
+    },
+    {
+        "question": "Where are the Service Cloud Objects and Items located when viewing Service Console?",
+        "answer": "The Object and Item tabs are collapsed into a single dropdown menu next to the \"Service Console\" label for cleaner navigation."
+    },
+    {
+        "question": "What aspects of the Service Console can be customized by an Admin?",
+        "answer": "The three columns, all components, the Utility bar, and even the display of fields in the page can be tailored to specific user needs, enhancing functionality and user experience."
+    }
+]

@@ -1,0 +1,66 @@
+[
+    {
+        "question": "What are the two reasons the Contracts field might not be visible?",
+        "answer": "First, it\u2019s not visible to our specific profile. Second, it\u2019s hidden at the page-layout level."
+    },
+    {
+        "question": "What is the first step to make the Contracts field visible?",
+        "answer": "Click the button \u201cSet Field-Level Security\u201d and check the checkbox in the row with our profile."
+    },
+    {
+        "question": "How can you make the Contracts field visible for all profiles?",
+        "answer": "Click the visible checkbox in the header of the \"Set Field-Level Security\" section (this causes all profiles to have the checkbox checked.\""
+    },
+    {
+        "question": "How can you change the visibility settings of the Contract field on the Opportunity Layout page layout?",
+        "answer": "Use the checkboxes to change the page layout settings for the Contract field, then save."
+    },
+    {
+        "question": "How many contracts can be associated with an opportunity?",
+        "answer": "You can have only one contract per opportunity.  "
+    },
+    {
+        "question": "Who can make the Contracts field visible?",
+        "answer": "It takes an admin to make the field visible.  "
+    },
+    {
+        "question": "How can Sales Reps and Legal Team create Contracts on the Front End?",
+        "answer": "By using the Contracts object."
+    },
+    {
+        "question": "Flashcard - Front",
+        "answer": "Flashcard - Back"
+    },
+    {
+        "question": "How can Sales Reps associate the correct contract with a specific opportunity?",
+        "answer": "While viewing the Opportunity, you need to choose the correct contract in the Contract lookup field.  "
+    },
+    {
+        "question": "What action could signify that a sales rep has successfully gotten a contract signed?",
+        "answer": "The opportunity stage has been moved to \"Closed Won.\""
+    },
+    {
+        "question": "Where can you find the \"Set Field-Level Security\" button?",
+        "answer": "On the Contract field page in the Object Manager."
+    },
+    {
+        "question": "What is the purpose of clicking on the \"Field Accessibility\" button?",
+        "answer": "To ensure the Contract field is visible on the page layout."
+    },
+    {
+        "question": "After making the contract field visible at the profile and page layout level, what should you do?",
+        "answer": "Verify that the contract field is visible on the front end, for the user/user's profile who need visibility access. "
+    },
+    {
+        "question": "What is the implication of the Contract field being hidden at the page-layout level?",
+        "answer": "Even if a profile has permission to see this field (read access - not hidden), the page layout may prevent it from being visible."
+    },
+    {
+        "question": "How does the Contracts field facilitate Opportunity management?",
+        "answer": "By providing a structured way to manage contractual agreements within the context of Opportunities."
+    },
+    {
+        "question": "What can you do if a contract does not exist within the contract lookup field?",
+        "answer": "You can create a new contract to add to the opportunity.  "
+    }
+]

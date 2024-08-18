@@ -1,0 +1,62 @@
+[
+    {
+        "question": "What does CRED stand for in Salesforce admin context?",
+        "answer": "Create, Read, Edit, and Delete - This refers to Objects Settings, which is part of the broader topic of data security and access."
+    },
+    {
+        "question": "How can you determine if you have Read access to the Leads object in Salesforce?",
+        "answer": "You have Read access if you can see the Leads tab as part of the app or can find it via the App Launcher, indicating it's included in your permissions.  There are some nuances around tab visibility, but if you don't have Read, then you won't see the tab, even if the tab is set up to be visible."
+    },
+    {
+        "question": "What is seen first when clicking on an object tab in Salesforce?",
+        "answer": "A List View of records for that object, which may include different views like Standard List, Kanban, and Split View."
+    },
+    {
+        "question": "What permissions are necessary to create a new Lead record in Salesforce?",
+        "answer": "Create permission, indicated by the ability to see a \"New\" button on the tab dropdown or on the list view page."
+    },
+    {
+        "question": "What are the three required fields on a Salesforce Lead record out of the box?",
+        "answer": "Name (only Last Name is required), Company (the business that the lead works for), and Lead Status (a picklist field)."
+    },
+    {
+        "question": "What does field values does the Lead Status picklist field include OOB in Salesforce?",
+        "answer": "Options like \"Open - Not Contacted,\" \"Working - Contacted,\" \"Closed - Converted,\" and \"Closed - Not Converted.\""
+    },
+    {
+        "question": "How can a Salesforce record be updated?",
+        "answer": "By using the Edit button on the record navigation or by clicking the pencil icon next to any editable field to open the edit view for the entire record."
+    },
+    {
+        "question": "What happens when you delete a record?",
+        "answer": "Deleted records go to the recycle bin, where they remain for 15 days before being permanently removed, unless \"Extended Recycle Bin Retention\" is activated for up to 30 days."
+    },
+    {
+        "question": "Flashcard - Front",
+        "answer": "Flashcard - Back"
+    },
+    {
+        "question": "What is a \"temporary tab\" in Salesforce, and how is it accessed?",
+        "answer": "A temporary tab can be created by searching for an item like the Lead in the App Launcher, when the tab is not explicitly included in the app, provided you have read access on the Object or the correctg permissions for the functionality (like reports or dashboards)."
+    },
+    {
+        "question": "How does Salesforce visually indicate a field is required when creating a new record?",
+        "answer": "Required fields are marked with a red asterisk, and screen readers will announce them as \"required.\""
+    },
+    {
+        "question": "What is the significance of the \"Owner\" field when creating a new Lead?",
+        "answer": "The Owner field indicates responsibility for the Lead. When creating a record, it is auto-filled with the creator\u2019s name and cannot be anually mchanged during initial creation."
+    },
+    {
+        "question": "What does the Company field represent on a Lead record, and what is its significance?",
+        "answer": "The Company field represents the business that the prospect works for and will become an Account record if the Lead is converted."
+    },
+    {
+        "question": "What additional information that isn\u2019t necessarily required should be included on a Lead record to ensure the Lead can be effectively contacted?",
+        "answer": "At a minimum, contact details such as phone number, email, and company address should be included."
+    },
+    {
+        "question": "What should Admins consider regarding data storage and record deletion in Salesforce?",
+        "answer": "Admins should have a data archiving and deletion policy to manage storage costs, as storing large amounts of old, untouched data can increase Salesforce charges."
+    }
+]

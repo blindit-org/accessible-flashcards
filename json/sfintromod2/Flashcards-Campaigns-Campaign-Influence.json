@@ -1,0 +1,70 @@
+[
+    {
+        "question": "What is Campaign Influence in the context of Salesforce?",
+        "answer": "Campaign Influence is how your campaigns affect your opportunity pipeline."
+    },
+    {
+        "question": "What does campaign influence recognize and attribute?",
+        "answer": "It recognizes and attributes a percentage of success (revenue) to influential campaigns."
+    },
+    {
+        "question": "What is one thing campaign influence can identify?",
+        "answer": "It can identify revenue share.  "
+    },
+    {
+        "question": "What is the relationship between revenue, sales, and opportunities in Salesforce?",
+        "answer": "Revenue or sales are indicated by Opportunities. the amount field indicated the value of the Opportunity.  On Opportunities, the stage field correlates with a probability field that the sale will be won, allowing for Expected Revenue forecasting."
+    },
+    {
+        "question": "What is the Customizable Campaign Influence (CCI) feature in Salesforce?\u00a0",
+        "answer": "CCI is a tool that helps attribute a percentage of success to influential campaigns, considering that a single opportunity might be influenced by more than one campaign."
+    },
+    {
+        "question": "What are the two models used by CCI in Salesforce?\u00a0",
+        "answer": "Standard and custom attribution models, which can be updated manually or via automated processes."
+    },
+    {
+        "question": "What additional models can be enabled with CCI in Salesforce?\u00a0",
+        "answer": "First Touch, Even Distribution, and Last-Touch models."
+    },
+    {
+        "question": "Why is it important to learn the language of Campaign Influence?",
+        "answer": "Understanding the language of Campaign Influence is essential for interpreting exam questions and getting comfortable with business and sales terminology."
+    },
+    {
+        "question": "How are opportunities related to revenue forecasting in Campaign Influence?",
+        "answer": "Opportunities in the pipeline have a 'stage' field correlated with a 'probability' field that predicts the likelihood of the sale being won, helping managers to forecast revenue."
+    },
+    {
+        "question": "Flashcard - Front",
+        "answer": "Flashcard - Back"
+    },
+    {
+        "question": "What is the role of marketing campaigns in influencing opportunities?",
+        "answer": "Marketing campaigns aim to increase the number of opportunities in the pipeline, particularly those likely to be won, thus influencing the chances of revenue recognition."
+    },
+    {
+        "question": "What are the steps to enable and set up Customizable Campaign Influence?",
+        "answer": "Enable CCI in setup, choose a model (Standard or Custom), manually add CCI Related Lists to Campaigns, Opportunity, and Account page layouts, and ensure campaigns are active."
+    },
+    {
+        "question": "How does the Customizable Campaign Influence model handle multiple campaigns influencing one opportunity?",
+        "answer": "The model takes into account that a single opportunity might be influenced by more than one campaign, attributing success percentages accordingly."
+    },
+    {
+        "question": "How can Customizable Campaign Influence models be updated?",
+        "answer": "CCI models can be updated manually or via automated processes to ensure accurate attribution of campaign influence on opportunities."
+    },
+    {
+        "question": "Why is the 'Active' status important for campaigns in CCI?",
+        "answer": "Only ACTIVE campaigns are scanned by CCI models to create influence records and attribute success to campaigns with a contact role on open opportunities."
+    },
+    {
+        "question": "Describe the additional models available in Customizable Campaign Influence beyond the standard and custom models.",
+        "answer": "Beyond Standard and Custom models, CCI includes First Touch (100% influence attributed to the first campaign touched), Even Distribution (equal influence attributed to all touched campaigns), and Last-Touch (100% influence attributed to the last campaign touched)."
+    },
+    {
+        "question": "How does the probability field help in sales forecasting?",
+        "answer": "The probability field associated with each opportunity stage helps managers predict and forecast revenue based on the likelihood of winning sales."
+    }
+]

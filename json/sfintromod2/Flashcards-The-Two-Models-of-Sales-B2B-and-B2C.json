@@ -1,0 +1,34 @@
+[
+    {
+        "question": "What is B2B in the context of Salesforce?",
+        "answer": "B2B (Business-to-Business) refers to transactions where a company sells products or services to other businesses."
+    },
+    {
+        "question": "What is B2C in the context of Salesforce?",
+        "answer": "B2C (Business-to-Consumer) refers to transactions where a business sells products or services directly to individual consumers."
+    },
+    {
+        "question": "Can you give an example from the module of the difference between a B2B transaction and a B2C transaction?",
+        "answer": "A farm selling produce to grocery stores or restaurants is an example of a B2B transaction. A farm selling produce at a farmer's market is an example of a B2C transaction."
+    },
+    {
+        "question": "How does Salesforce typically support B2B sales?",
+        "answer": "Salesforce supports B2B sales out of the box with records for Opportunities, Accounts (businesses buying the products), and Contacts (people from these businesses)."
+    },
+    {
+        "question": "What is a common feature of B2B sales regarding decision-makers?",
+        "answer": "B2B sales often involve conversations with multiple decision-makers like managers, purchasing agents, legal teams, and engineers."
+    },
+    {
+        "question": "What are Person Accounts in Salesforce?",
+        "answer": "Person Accounts are a feature in Salesforce that combines Account and Contact fields into a single record, to replicate a B2C selling environment."
+    },
+    {
+        "question": "What are the three \"people objects\" mentioned in Salesforce? (Not counting Users!)",
+        "answer": "The three people objects are Leads, Contacts, and Person Accounts, which hold information about individuals involved in business transactions."
+    },
+    {
+        "question": "Why is it important for a Salesforce Admin to be aware of Person Accounts?",
+        "answer": "While the OOB focus is on B2B, knowing about Person Accounts is crucial for understanding the full capabilities of Salesforce, especially for potential B2C clients and for Admin exam preparation."
+    }
+]

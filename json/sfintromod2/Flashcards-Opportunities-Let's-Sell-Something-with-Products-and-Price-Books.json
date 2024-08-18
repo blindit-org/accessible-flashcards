@@ -1,0 +1,38 @@
+[
+    {
+        "question": "What does the Related List called 'Products' represent in the context of adding products to an opportunity?",
+        "answer": "It represents the Opportunity Product Line Item, not the general product catalog."
+    },
+    {
+        "question": "What are the steps to add a product to an opportunity once you are in the 'Products' Related List?",
+        "answer": "1. Select \u201cAdd Products.\u201d 2. Choose a Price Book. 3. Select a product. 4. Add a quantity and save."
+    },
+    {
+        "question": "What happens to the Opportunity Amount Field after adding a product with a specific quantity and price book?",
+        "answer": "The Amount Field changes to reflect the list price in the selected price book times the quantity. Expected Revenue is updated based on stage probability."
+    },
+    {
+        "question": "What is the relationship between a product, a price book, and an opportunity in Salesforce?",
+        "answer": "A product is linked to a price in a Price Book (Standard or Custom), and you list the products for a specific opportunity using the Product Related List by selecting the price book, the product, and the quantity.  This related list is technically called the \"Opportunity Product Line Item.\""
+    },
+    {
+        "question": "What updates automatically when products are added to an opportunity?",
+        "answer": "Amount and Expected Revenue fields are automatically updated based on the total opportunity product line items, quantity, and price."
+    },
+    {
+        "question": "What is an Opportunity Product Line Item in Salesforce?",
+        "answer": "It refers to the specific products linked to an opportunity, allowing users to specify which products from the catalog should be associated with that particular opportunity."
+    },
+    {
+        "question": "How many Price Books can be chosen for each Opportunity in Salesforce?",
+        "answer": "For every Opportunity, you can choose only one Price Book, either the Standard Price Book or one of the Custom Price Books that have been created."
+    },
+    {
+        "question": "How does adding a product affect the Expected Revenue field in an opportunity?",
+        "answer": "The Expected Revenue is updated based on the stage probability and the total amount calculated from the product price and quantity."
+    },
+    {
+        "question": "What can be found in the Product Related List after adding a product to an opportunity?",
+        "answer": "The Product Related List will show the quantity and details of the product that was added, under the Opportunity Product Line Item."
+    }
+]
