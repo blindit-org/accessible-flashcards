@@ -1,0 +1,62 @@
+[
+    {
+        "question": "Salesforce Org",
+        "answer": "The specific instanceof Salesforce that a company like Better Jobs uses; it is secure and can be customized for each company."
+    },
+    {
+        "question": "Org ID",
+        "answer": "A unique identifier for a Salesforce organization, found in the backend (setup) under Company Information."
+    },
+    {
+        "question": "User Interface (UI)",
+        "answer": "The layer of Salesforce that users interact with; it includes everything seen and experienced while in Salesforce application.  It's called Lightning Experience."
+    },
+    {
+        "question": "Frontend vs. Backend",
+        "answer": "Frontend refers to the user interface where end users do their work, and the backend refers to the configuration side of Salesforce (setup) where admins configure and customize Salesforce."
+    },
+    {
+        "question": "Global Navigation",
+        "answer": "The top level of navigation in Salesforce that includes features accessible from all applications."
+    },
+    {
+        "question": "App Level Navigation",
+        "answer": "The section just below the global navigation in Salesforce.  This level of navigation is specific to the application or cloud being used like Sales Cloud, and includes items that are accessed via a collection of tabs."
+    },
+    {
+        "question": "Record Level Navigation",
+        "answer": "The main content canvas in the Salesforce Lightning Experience UI.  When working with Record Pages, this is where a specific record is displayed and includes all the components on the record page (which can include highlighs panel, path, related lists, details, chatter, activities, and so on)."
+    },
+    {
+        "question": "Use Case",
+        "answer": "A scenario that describes a specific situation in which the system is used by end users to achieve a desired result."
+    },
+    {
+        "question": "Global Search",
+        "answer": "A Salesforce feature that allows users to search across all apps for specific records or information.  NOTE:  Objects and fields  must be set up with search enabled."
+    },
+    {
+        "question": "Highlight Pane",
+        "answer": "Highlight Pane is a record page component often found at the top of th page.  It displays key fields of a record for quick viewing."
+    },
+    {
+        "question": "Details Tab",
+        "answer": "Located within a record\u2019s interface, this tab gives access to view thebject's fields assigned to that page layout."
+    },
+    {
+        "question": "Favoriting a Record",
+        "answer": "A functionality in Salesforce that allows users to mark records for easy access later, similar to bookmarking a webpage.  Favorites are found in the Global Action Bar, with the Star icon."
+    },
+    {
+        "question": "Navigating to Sales Cloud",
+        "answer": "The process of using the App Launcher to find and switch to the Sales application within Salesforce."
+    },
+    {
+        "question": "Salesforce's Multitenant Environment",
+        "answer": "Refers to Salesforce's architecture where multiple customer organizations share the same resources and infrastructure"
+    },
+    {
+        "question": "Finding Org ID",
+        "answer": "To locate a Salesforce org ID, navigate to Setup and then to the Company Information page where the org ID is listed."
+    }
+]

@@ -1,0 +1,78 @@
+[
+    {
+        "question": "What is Kanban view in Salesforce?",
+        "answer": "Kanban view visually (graphically) organizes records into columns and cards, allowing users to see and physically move cards to different columns. Each kanban view is based on a list view, and kanban view settings are applied separately for each list view."
+    },
+    {
+        "question": "Who particularly benefits from Kanban view?",
+        "answer": "Sales reps find Kanban view particularly useful for tracking opportunities through different sales stages."
+    },
+    {
+        "question": "How do you switch to Kanban view in the Salesforce Sales app?",
+        "answer": "Click the 'Select list display' icon and choose Kanban from the options."
+    },
+    {
+        "question": "How does Kanban view assist sighted users specifically?",
+        "answer": "It provides a visual method to track progression, making it easier to understand workflows (like Opportunity stages) or categories (like owners or Industry types), while also getting summarized information (like total amounts)."
+    },
+    {
+        "question": "What remains the same when switching from Table view to Kanban view?",
+        "answer": "The header section including the list view name, number of records, search bar, and buttons remain unchanged."
+    },
+    {
+        "question": "Can you still filter records in Kanban view?",
+        "answer": "Yes, you can use the funnel icon to filter records just like in other views."
+    },
+    {
+        "question": "What unique aesthetic feature does Kanban view have?",
+        "answer": "Column headers in Kanban view are designed to look like a progression (chevron), with each pointing to the next."
+    },
+    {
+        "question": "What is the default setup for Opportunity Kanban view columns?",
+        "answer": "By default, the columns represent different sales stages from prospecting to closed won."
+    },
+    {
+        "question": "How does Kanban view handle opportunity amounts?",
+        "answer": "It sums up the amounts of all opportunities in each stage and displays the total in the column header."
+    },
+    {
+        "question": "Flashcard - Front",
+        "answer": "Flashcard - Back"
+    },
+    {
+        "question": "What happens when you move an Opportunity \"card\" from one column to another in the default Kanban view?",
+        "answer": "The stage field of the record updates automatically, and the amount totals in the column headers adjust accordingly."
+    },
+    {
+        "question": "How do you change the list view to Kanban for :All Active\" Campaigns?",
+        "answer": "Switch the list view to 'All Active Campaigns,' then change the display to Kanban."
+    },
+    {
+        "question": "What columns might you see in the Campaigns Kanban view?",
+        "answer": "Columns like Planned, In Progress, Completed, and Aborted show the progression of campaigns."
+    },
+    {
+        "question": "What are the editable elements on a Kanban card?",
+        "answer": "Each card typically includes fields, an action dropdown (edit, delete, change owner), and an activities icon."
+    },
+    {
+        "question": "How does the Kanban view aid in sales management?",
+        "answer": "It visually represents the status of various opportunities, helping managers and reps gauge progress of their Sales Pipeline (forecasted revenue) and prioritize efforts."
+    },
+    {
+        "question": "What is the significance of the Amount field in Kanban view?",
+        "answer": "It provides a quick summary of the total potential revenue for opportunities at each stage."
+    },
+    {
+        "question": "Can the Kanban view be customized?",
+        "answer": "Yes, you can customize the headers using different picklist fields for columns and various numeric fields for summaries."
+    },
+    {
+        "question": "What types of fields can be used for Kanban column headers?",
+        "answer": "Any picklist field on the record or the owner field can be used for the first-level column header.  "
+    },
+    {
+        "question": "How does Kanban view affect data entry and updates?",
+        "answer": "Moving cards between columns automatically updates the associated fields, reducing manual data entry."
+    }
+]

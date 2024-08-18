@@ -1,0 +1,30 @@
+[
+    {
+        "question": "What is the goal of Marketing Campaigns in Salesforce?",
+        "answer": "The goal is to directly influence (create) Sales, which are tracked in Salesforce as Opportunities."
+    },
+    {
+        "question": "Who makes the buying decision in a business?",
+        "answer": "It takes a human being to make a buying decision, not the business building itself. Salesforce has objects for these individuals, including Leads, Contacts, and Person Accounts (if enabled)."
+    },
+    {
+        "question": "What Salesforce objects are used to track Marketing Campaigns and their associated members?",
+        "answer": "Salesforce has a Campaign Object for the campaign itself and a Campaign Member Object for the associated people (leads, contacts, and person accounts)."
+    },
+    {
+        "question": "What is the significance of marking a Campaign as Active?",
+        "answer": "Marking a Campaign as Active is important for Campaign Influence and indicates that the campaign is currently active."
+    },
+    {
+        "question": "What is the purpose of the Parent Campaign field in Salesforce Campaign records?",
+        "answer": "The Parent Campaign field allows organizing campaigns into a hierarchy, similar to a family tree.  Metrics can then roll up from child to parent."
+    },
+    {
+        "question": "What is the required field when creating a Campaign record in Salesforce?",
+        "answer": "The required field is the Record Name, where you enter the name of the campaign."
+    },
+    {
+        "question": "What are the three people objects discussed in Salesforce?",
+        "answer": "Leads, Contacts, and Person Accounts (if enabled)"
+    }
+]

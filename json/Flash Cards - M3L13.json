@@ -1,0 +1,62 @@
+[
+    {
+        "question": "What is the purpose of Salesforce Dashboards?",
+        "answer": "Dashboards provide a visual representation of reports, presenting key metrics in an easy-to-understand format, suitable for quick decision-making."
+    },
+    {
+        "question": "How do Dashboards benefit someone like Max from AquaBliss Spas?",
+        "answer": "Dashboards allow Max to have an at-a-glance view of sales data, enabling quick assessment and decision-making without needing to sift through detailed reports."
+    },
+    {
+        "question": "Where can Dashboards be accessed in Salesforce?",
+        "answer": "Dashboards can be accessed through the navigation bar of an app or by searching for 'Dashboards' in the App Launcher."
+    },
+    {
+        "question": "Why is it important to create a folder for storing a Dashboard?",
+        "answer": "Creating a folder helps organize Dashboards, making them easy to manage and share with other users."
+    },
+    {
+        "question": "How do you share a Dashboard folder in Salesforce?",
+        "answer": "Click on the down arrow next to New Folder, select 'Share', choose the level of access (View, Edit, Manage), and confirm by clicking 'Share' then 'Done'.  NOTE:  You do not share dashboards, only the folders."
+    },
+    {
+        "question": "What should you do after naming your new Dashboard?",
+        "answer": "Provide a brief description, select a storage folder, and click the 'Create' button to finalize the Dashboard creation."
+    },
+    {
+        "question": "What are some key buttons in the Dashboard Builder interface?",
+        "answer": "Key buttons include Add Widget, Dashboard Properties, Save, and Done."
+    },
+    {
+        "question": "Flashcard - Front",
+        "answer": "Flashcard - Back"
+    },
+    {
+        "question": "What is the main function of the Dashboard Builder's canvas?",
+        "answer": "The canvas features a grid where you can place widgets that showcase various reports, allowing for customized data presentation."
+    },
+    {
+        "question": "What analogy is used to explain the utility of Dashboards for busy individuals like Max?",
+        "answer": "Dashboards are likened to a tool that saves time by providing a quick view of essential data, rather than requiring detailed study of lengthy reports."
+    },
+    {
+        "question": "What steps follow after accessing the 'Dashboards' tab in Salesforce?",
+        "answer": "After accessing the 'Dashboards' tab, you can view or create new Dashboards and folders for organization and sharing."
+    },
+    {
+        "question": "What is the process for setting up a new folder in the Dashboard tab?",
+        "answer": "In the Dashboard tab, click 'New Folder', choose a folder name, leave the Folder Unique Name as is, and click \"Save\"."
+    },
+    {
+        "question": "How does sharing Dashboard folders work in Salesforce?",
+        "answer": "Sharing Dashboard folders involves giving different levels of access (View, Edit, Manage) similar to Report folders, and ensuring to click 'Share' before 'Done'."
+    },
+    {
+        "question": "Describe the main canvas area in the Dashboard Builder.",
+        "answer": "The main canvas area in the Dashboard Builder contains a grid of rectangular blocks where you can place widgets to display and organize report data effectively.  The grid is the organizational mechanism.  Even when you resize widgets, you're widget is only taking up a certain number of blocks in the over all grid.  Because placement is in the set block locations, it stays organized and visually pleasing."
+    },
+    {
+        "question": "What are the next steps after the Dashboard is created?",
+        "answer": "After the Dashboard is created, customize it by adding widgets to the main canvas, then save and finalize the Dashboard settings."
+    }
+]

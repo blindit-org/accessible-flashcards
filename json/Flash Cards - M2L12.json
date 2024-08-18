@@ -1,0 +1,42 @@
+[
+    {
+        "question": "What is the purpose of a quote in Salesforce?",
+        "answer": "A quote is a proposal to the customer. It represents a potential agreement."
+    },
+    {
+        "question": "What is the role of generating multiple quotes for a customer?",
+        "answer": "It's often appropriate to generate several quotes (or proposals) for the customer to consider, providing different options."
+    },
+    {
+        "question": "What does quote syncing in Salesforce allow you to do?",
+        "answer": "Quote syncing links a quote to the opportunity it was created from and synchronizes updates between the two records, as well as with Product Line Items. Only one quote can be synced at a time."
+    },
+    {
+        "question": "How do you start syncing a quote with an opportunity in Salesforce?",
+        "answer": "Open the quote you want to sync, click the \u201cStart Syncing\u201d button in the Opportunity Record navigation.  It's often collapsed in the \"more\" drop-down arrow."
+    },
+    {
+        "question": "What happens when you sync a quote with an opportunity?",
+        "answer": "All opportunity products are replaced with the quote line items. Updates to products or quote line items sync between the opportunity and the quote."
+    },
+    {
+        "question": "What updates after syncing a quote with an opportunity?",
+        "answer": "The Opportunity's Amount and Expected Revenue are updated, and the Products Related List shows quantities and sales prices from the quote."
+    },
+    {
+        "question": "How does syncing affect the Products Related List after a quote is synced?",
+        "answer": "The Products Related List updates to show the quantity and sales price from the synced quote."
+    },
+    {
+        "question": "What should you check to confirm that a quote has been successfully synced to an opportunity?",
+        "answer": "Confirm that the Syncing checkbox is checked and check the Opportunity record for updated Amount and Expected Revenue."
+    },
+    {
+        "question": " How many quotes can an opportunity sync with at one time in Salesforce?",
+        "answer": "An opportunity can have multiple quotes but can only sync with one quote at a time."
+    },
+    {
+        "question": "How does a change in the quote related list affect the product related list when synced?",
+        "answer": "Any changes in the quote related list will automatically update the product related list in the synced opportunity, reflecting new quantities and prices."
+    }
+]

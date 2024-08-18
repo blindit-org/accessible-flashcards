@@ -1,0 +1,86 @@
+[
+    {
+        "question": "What is the App Launcher in Salesforce?",
+        "answer": "The App Launcher allows users to quickly access all available apps and individual objects within their Salesforce org."
+    },
+    {
+        "question": "What are the main components of app navigation in Salesforce?",
+        "answer": "App navigation includes the App Launcher and the navigation tabs associated with the current app."
+    },
+    {
+        "question": "How can users customize the order of apps in Salesforce?",
+        "answer": "Users can reorder apps using drag and drop within the App Launcher to personalize the order of their most frequently accessed apps."
+    },
+    {
+        "question": "What information is displayed under the search box in the App Launcher?",
+        "answer": "It displays a list of apps, a search box for finding apps and items, and a 'View All' hyperlink for accessing all apps and items."
+    },
+    {
+        "question": "What happens when you click 'View All' in the App Launcher?",
+        "answer": "It opens a modal showing all available apps and items beyond the initially visible seven apps.  NOTE:  Users only sees the Apps and Items they have permission to access (view)."
+    },
+    {
+        "question": "What does the 'items' refer to in the context of the App Launcher?",
+        "answer": "Items refer to objects and functionalities like Leads, Contacts, Reports, and Chatter available through the App Launcher."
+    },
+    {
+        "question": "What is the function of the search bar in the App Launcher modal?",
+        "answer": "The search bar allows users to quickly find specific apps or items that the User has permission to access."
+    },
+    {
+        "question": "How can users personalize the tabs within a specific Salesforce app?",
+        "answer": "Users can drag and drop to reorder tabs or use the customization icon to add, reorder, or remove tabs as needed."
+    },
+    {
+        "question": "What does the 'personalize your nav bar' feature allow users to do?",
+        "answer": "It allows users to reorder, add, or remove tabs within their app navigation bar for personalized access."
+    },
+    {
+        "question": "Flashcard - Front",
+        "answer": "Flashcard - Back"
+    },
+    {
+        "question": "How are new tabs added to Salesforce app navigation?",
+        "answer": "New tabs can be added through the 'Add More Items' option in the customization menu, allowing users to select from Favorites and from  All Items."
+    },
+    {
+        "question": "What are temporary tabs in Salesforce?",
+        "answer": "Temporary tabs appear in italics with an asterisk and are session-based, disappearing after the session ends unless made permanent."
+    },
+    {
+        "question": "How do permanent and temporary tabs differ in their addition to the nav bar?",
+        "answer": "Permanent tabs can be added by Users through customization settings and stay until manually removed, while temporary tabs are added for a single session."
+    },
+    {
+        "question": "What is the purpose of having both permanent and temporary tabs?",
+        "answer": "This flexibility allows users to tailor the navigation bar for long-term needs or temporary tasks without cluttering the interface."
+    },
+    {
+        "question": "What happens when the navigation bar reaches its limit of visible tabs?",
+        "answer": "Additional tabs are added to a 'More' dropdown at the end of the nav bar, keeping the interface clean and organized."
+    },
+    {
+        "question": "How can the order of tabs affect a user's efficiency in Salesforce?",
+        "answer": "By positioning frequently used tabs at the forefront, users can access important functions quicker, enhancing productivity."
+    },
+    {
+        "question": "What is the 'More' tab in Salesforce?",
+        "answer": "The 'More' tab houses additional tabs that do not fit within the main navigation bar due to device-specific space constraints, such as magnification/zoom settings, disply resolution, or screen widths."
+    },
+    {
+        "question": "Why should admins assist users with app navigation customization?",
+        "answer": "Admins can teach users how to personalize their navigation to streamline their workflows and enhance accessibility.  This makes their work faster and raises the rate of User Adoption."
+    },
+    {
+        "question": "Why might users want to personalize their Salesforce app navigation?",
+        "answer": "Personalizing navigation helps users prioritize access to frequently used apps and functionalities, improving their workflow efficiency."
+    },
+    {
+        "question": "How do customization options in Salesforce support user-specific needs?",
+        "answer": "They allow each user to tailor the interface to their role and preferences, improving navigation and usability."
+    },
+    {
+        "question": "What role does user feedback play in Salesforce app customization?",
+        "answer": "User feedback helps admins understand common customization needs and guide users in optimizing their Salesforce experience."
+    }
+]

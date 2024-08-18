@@ -1,0 +1,74 @@
+[
+    {
+        "question": "How do you enable Quotes in Salesforce?",
+        "answer": "Go to Setup, choose Quote Settings, and select Enable Quotes. Then update the Opportunity Page Layout and save."
+    },
+    {
+        "question": "What changes in the interface after enabling Quotes in Salesforce?",
+        "answer": "The Quotes Related list appears at the end of the Related Lists on the Opportunity Object, with \"Zero\"items initially showing."
+    },
+    {
+        "question": "What are the key fields to fill when creating a new Quote in Salesforce?",
+        "answer": "Quote name (required), Expiration Dates, Status, Tax, Shipping and Handling, Grand Total, Syncing (don't check yet), Account (auto-filled), and Contact Name."
+    },
+    {
+        "question": "How many Quotes can be associated with a single Opportunity in Salesforce?",
+        "answer": "There is no maximum limit; multiple quotes can be presented to a potential customer."
+    },
+    {
+        "question": "How is the Contact field in a Quote different in its relation compared to Opportunities?",
+        "answer": "Opportunities are linked to Accounts not Contacts. The Contact field in a Quote specifies which individual (Contact) will receive the quote (key point of contact for the quote)."
+    },
+    {
+        "question": "How do you add products to a Quote in Salesforce?",
+        "answer": "Navigate to the Quote and use the Quote Line Items Related List to add products representing the items from the Product Object."
+    },
+    {
+        "question": "How do you update a Quote with specific products and quantities in Salesforce?",
+        "answer": "Edit products in the Quote Line Items Related List, adjust Sales Price, Quantity, and Discount Percentage as necessary."
+    },
+    {
+        "question": "What is the significance of the Quote PDFs Related List in Salesforce?",
+        "answer": "Sales Reps can adjust products in the quote and generate a PDF to send to the key contact on the Account customer side."
+    },
+    {
+        "question": "What might indicate that things are \"Out of Sync\" in the quoting process in Salesforce?",
+        "answer": "If the Amount and Expected Revenue on the Opportunity are not updated despite changes in Quote Line Items, it means that no quote has yet been synced with the Opportunity."
+    },
+    {
+        "question": "Flashcard - Front",
+        "answer": "Flashcard - Back"
+    },
+    {
+        "question": "Why can't you enter anything into the Account field when creating a new Quote in Salesforce?",
+        "answer": "Because you accessed the Quote Related List from a specific Opportunity, the Account field automatically pulls in the information from the associated Opportunity Record."
+    },
+    {
+        "question": "What should you do if the Quotes Related list does not appear immediately after enabling it?",
+        "answer": "Check the page layout settings and ensure the list is included, then reload the page."
+    },
+    {
+        "question": "What is revealed in the Quote Line Items Related List after clicking on a Quote name in Salesforce?",
+        "answer": "It shows products already added to that specific quote, such as a previously entered product with a list price."
+    },
+    {
+        "question": "What are the actions available in the Quote Line Items Related List?",
+        "answer": "The actions include \"Add Products\", \"Edit Products\", and \"Sort\", which manage and organize the products in a quote."
+    },
+    {
+        "question": "What happens if you change the quantity of a product in a Quote Line Item?",
+        "answer": "The subtotal in the Quote Line Item is updated based on the new quantity and sales price, reflecting changes immediately."
+    },
+    {
+        "question": "Describe the relationship between Opportunities and Quotes in Salesforce.",
+        "answer": "Quotes are child records to Opportunities, meaning each Opportunity can have multiple Quotes associated with it, with no upper limit."
+    },
+    {
+        "question": "What could cause discrepancies in amounts and expected revenue in Salesforce?",
+        "answer": "Until a quote is synced with an Opportunity, any changes in a speicific quote will not be automatically reflected in the Opportunity Amount or synced to the Product Line Item related list."
+    },
+    {
+        "question": "How do Salesforce admins customize the quoting process?",
+        "answer": "By creating customized Quote Templates in Setup to tailor the appearance and data fields of quotes to business needs."
+    }
+]

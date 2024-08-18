@@ -1,0 +1,142 @@
+[
+    {
+        "question": "Trust Site Home Page",
+        "answer": "The initial page of trust.salesforce.com featuring an overview of Status by Product and various resources for Salesforce users."
+    },
+    {
+        "question": "Status Page",
+        "answer": "Accessed from the home page or directly via status.salesforce.com, this page provides detailed status updates for Salesforce services and instances."
+    },
+    {
+        "question": "Status by Product",
+        "answer": "Section on the Trust Site Home Page that displays the current operational status of various Salesforce products like Sales Cloud and Service Cloud."
+    },
+    {
+        "question": "Status Button",
+        "answer": "A clickable button on the Trust Site that redirects to detailed status information about specific Salesforce services."
+    },
+    {
+        "question": "Salesforce Services",
+        "answer": "A subsection within the Status page that focuses on services like Sales Cloud and Service Cloud."
+    },
+    {
+        "question": "Instance",
+        "answer": "Refers to the specific server cluster hosting a version of Salesforce, shared among various companies."
+    },
+    {
+        "question": "Navigation in Trust Site",
+        "answer": "Involves using main menus and direct URLs to access different sections like Home, Status, and specific service statuses."
+    },
+    {
+        "question": "Maintenance Tab",
+        "answer": "A section on the Status page that lists upcoming, ongoing, and past maintenance activities along with detailed information."
+    },
+    {
+        "question": "Emergency Maintenance",
+        "answer": "Unplanned, urgent maintenance work necessary to address immediate issues, detailed on the Maintenance tab."
+    },
+    {
+        "question": "Instance Search",
+        "answer": "A feature allowing users to enter their org\u2019s instance number to pull up specific data about its status and maintenance."
+    },
+    {
+        "question": "Subscribe Button",
+        "answer": "Found on the instance detail page, it allows users to sign up for email notifications regarding updates to their Salesforce instance."
+    },
+    {
+        "question": "Status Indicators",
+        "answer": "On the Trust Site, status indicators such as 'Available' or 'Ongoing Events' give immediate insights into the operational state of Salesforce services."
+    },
+    {
+        "question": "Understanding 'Sales and Service'",
+        "answer": "On the Trust Site, Sales and Service combines the status of Sales Cloud and Service Cloud because they share core features and infrastructure."
+    },
+    {
+        "question": "Tooltips on Trust Site",
+        "answer": "Hovering over tooltips, like the gray circle with the letter 'I', provides additional information about various services under the 'Sales and Service' category."
+    },
+    {
+        "question": "Salesforce Services Section",
+        "answer": "This section on the Status Page provides detailed status updates specific to Salesforce Services including Sales Cloud and Service Cloud."
+    },
+    {
+        "question": "Visual Status Icons",
+        "answer": "Icons used on the Trust Site to quickly convey the status of services: green checkmark for 'Available', orange exclamation for 'Performance Degradation', red 'X' for 'Service Disruption', and purple wrench for 'Maintenance'."
+    },
+    {
+        "question": "Flashcard - Front",
+        "answer": "Flashcard - Back"
+    },
+    {
+        "question": "Detailed Status View",
+        "answer": "Clicking on a specific instance number allows users to access more detailed information about the status and health of that instance."
+    },
+    {
+        "question": "Financial and Health Cloud Status",
+        "answer": "Found under the 'Sales and Service' tooltip, indicating that statuses of these clouds are also included in the overall Sales and Service status updates."
+    },
+    {
+        "question": "Detailed Status Information",
+        "answer": "Available by clicking on an instance number, providing in-depth details about ongoing events, system performance, and resolution updates."
+    },
+    {
+        "question": "Collapsible Maintenance Sections",
+        "answer": "Features on the Maintenances tab that allow users to view detailed information about past, present, and future maintenance by expanding specific date ranges."
+    },
+    {
+        "question": "Status History and Maintenance Tabs",
+        "answer": "Sections on the instance-specific page that provide historical data and upcoming scheduled maintenances for a particular instance."
+    },
+    {
+        "question": "Instance \"USA876\" Monitoring",
+        "answer": "Example used to demonstrate how to monitor the status of a specific Salesforce instance through the Trust Site."
+    },
+    {
+        "question": "\"Available\" Status",
+        "answer": "Indicated by a green box with a checkmark, it signifies that the Salesforce service is fully operational without any issues."
+    },
+    {
+        "question": "\"Performance Degradation\" Status",
+        "answer": "Shown as an exclamation mark in an orange box, it indicates that the Salesforce service is experiencing issues that may slow down performance."
+    },
+    {
+        "question": "\"Service Disruption\" Status",
+        "answer": "Represented by an X in a red box, it indicates that the Salesforce service is currently unavailable or experiencing significant problems."
+    },
+    {
+        "question": "\"Maintenance\" Status",
+        "answer": "Displayed as a wrench in a purple (periwinkle) box, it indicates scheduled maintenance activities are currently underway."
+    },
+    {
+        "question": "Tooltips for Additional Information",
+        "answer": "Small informational icons that provide extra details about specific services or statuses on the Trust Site."
+    },
+    {
+        "question": "Navigation to Submenus",
+        "answer": "The process of clicking through different sections or clouds listed in the vertical navigation column on the Salesforce Services page."
+    },
+    {
+        "question": "Detailed View of Instances",
+        "answer": "A feature that allows users to click on an instance number to get more detailed information about current statuses and historical data."
+    },
+    {
+        "question": "Current Status Tab",
+        "answer": "A section within the instance detail page that provides the current operational status of the Salesforce instance."
+    },
+    {
+        "question": "History Tab",
+        "answer": "Provides a historical record of past issues and resolutions related to the specific Salesforce instance."
+    },
+    {
+        "question": "Monitoring Instance Health",
+        "answer": "The practice of regularly checking the status of a Salesforce instance to ensure it is functioning properly and to prepare for any scheduled maintenances."
+    },
+    {
+        "question": "Vertical Navigation Column",
+        "answer": "Found on the Status Page, this navigation aid lists all Salesforce clouds and products, helping users quickly navigate to specific services."
+    },
+    {
+        "question": "Instance vs. Org",
+        "answer": "The instance is the server cluster, while the org (organization) refers to the individual company's Salesforce environment hosted on that instance."
+    }
+]

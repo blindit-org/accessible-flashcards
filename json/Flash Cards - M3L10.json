@@ -1,0 +1,30 @@
+[
+    {
+        "question": "What are Bucket Fields in Salesforce reports?",
+        "answer": "Bucket Fields, or 'Bucketing', is a feature that allows you to group similar data values into categories or 'buckets' to simplify data organization and analysis."
+    },
+    {
+        "question": "How does bucketing help in data analysis?",
+        "answer": "Bucketing categorizes data into custom groups based on specific criteria, helping to organize and simplify analysis by creating meaningful groups."
+    },
+    {
+        "question": "What analogy can be used to describe the concept of bucketing in Salesforce?",
+        "answer": "Bucketing is like sorting laundry into baskets for whites, colors, and delicates, where each basket represents a group of similar items."
+    },
+    {
+        "question": "How might the Marketing Team at AquaBliss Spas utilize bucket fields?",
+        "answer": "The Marketing Team could use bucket fields to group customers into age ranges like 18-25, 26-35, 36-45, etc., to analyze preferences and improve marketing strategies."
+    },
+    {
+        "question": "What is the practical benefit of using bucket fields in business analysis?",
+        "answer": "Bucket fields help quickly gain insights from data by organizing it into meaningful groups, facilitating targeted analysis and decision-making."
+    },
+    {
+        "question": "What is the function of bucketing in Salesforce reports?",
+        "answer": "Bucketing functions to group similar data values into custom categories or 'buckets' for easier organization and analysis."
+    },
+    {
+        "question": "How does bucketing compare to traditional sorting?",
+        "answer": "Unlike traditional sorting that organizes data linearly, bucketing groups data into categories based on set criteria across field values, which can vary widely, making it more flexible for analytical purposes."
+    }
+]

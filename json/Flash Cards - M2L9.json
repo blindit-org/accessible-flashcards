@@ -1,0 +1,30 @@
+[
+    {
+        "question": "What are the initial steps to add a new Product in Salesforce?",
+        "answer": "1. Use the App Launcher to navigate to Products. 2. Select \"Create New Product\". 3. Enter the Product Name, mark it as Active, and save."
+    },
+    {
+        "question": "How do you add a standard price to a new Product in Salesforce?",
+        "answer": "In the Product's Related List, click the \"Add Standard Price\" button, fill out the prepopulated \"New Price Book Entry\" record form with a list price (e.g., $20,000), and save."
+    },
+    {
+        "question": "What does the related list show after adding a standard price to a Product?",
+        "answer": "The related list under Price Books will show the Product associated with one Price Book \u2013 the Standard Price Book."
+    },
+    {
+        "question": "How do you create a custom Price Book for a discount in Salesforce?",
+        "answer": "1. Use the App Launcher to navigate to Price Books. 2. Select \"New\", enter a name for the Price Book, mark it as Active, and save."
+    },
+    {
+        "question": "What are the steps to add a Product to a custom Price Book at a discounted rate?",
+        "answer": "While viewing the Custom Pricebook, navigate to the related \"Price Book Entries\", click \"Add Products\", find and select the new Product, enter a discounted price, and save."
+    },
+    {
+        "question": "What should you see in the custom Price Book's entries after adding a discounted Product?",
+        "answer": "The \"Price Book Entries\" will list your Product with the new discounted price."
+    },
+    {
+        "question": "What role does Product Development play in setting up Products and Price Books in Salesforce?",
+        "answer": "Product Development communicates what products are sold and their prices by setting up Products and corresponding Price Books in Salesforce."
+    }
+]

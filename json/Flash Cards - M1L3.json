@@ -1,0 +1,58 @@
+[
+    {
+        "question": "What are the two key questions every Admin should be able to answer about Salesforce?",
+        "answer": "What is Salesforce? and \"Why Salesforce?\""
+    },
+    {
+        "question": "What is the significance of data in Salesforce?",
+        "answer": "Data is transformed into actionable information and intelligence, aiding in business decisions and understanding customers."
+    },
+    {
+        "question": "What does the term \"legacy\" refer to in the context of software and hardware systems?",
+        "answer": "It refers to old, outdated software and hardware systems."
+    },
+    {
+        "question": "What is the official definition of Salesforce?",
+        "answer": "Salesforce is the #1 cloud-based CRM software."
+    },
+    {
+        "question": "What does \"cloud-based\" mean in the context of Salesforce?",
+        "answer": "It means the software is hosted on Salesforce's servers, accessible anywhere via the cloud."
+    },
+    {
+        "question": "What is SAAS?",
+        "answer": "Software As A Service, a model where companies buy licenses to access software hosted by another company (like Salesforce)."
+    },
+    {
+        "question": "What does CRM stand for?",
+        "answer": "Customer Relationship Management."
+    },
+    {
+        "question": "What are the main clouds of CRM ",
+        "answer": "Sales Cloud, Service Cloud, and Marketing Cloud."
+    },
+    {
+        "question": "What is the \"Salesforce ecosystem\" ",
+        "answer": "It refers to the extensive range of clouds and services provided by Salesforce, continually expanding beyond just CRM."
+    },
+    {
+        "question": "What does the customer 360-degree view mean in Salesforce?",
+        "answer": "It is a comprehensive understanding of customers across all licensed clouds and data, enhancing interaction and fulfillment of business promises."
+    },
+    {
+        "question": "What notable improvement was mentioned due to Salesforce's impact?",
+        "answer": "The improvement of the CSAT score, which indicates enhanced customer satisfaction."
+    },
+    {
+        "question": "How does Salesforce help address the issue of siloed data?",
+        "answer": "By consolidating data from multiple systems into a single platform, Salesforce provides a unified source of truth."
+    },
+    {
+        "question": "What does it mean when data becomes \"actionable information\" in the context of Salesforce?",
+        "answer": "It means that data is utilized to make informed business decisions, understand customers, and drive company growth."
+    },
+    {
+        "question": "What role does automation play in Salesforce ",
+        "answer": "Automation in Salesforce helps save time by simplifying and speeding up repetitive tasks, thus making jobs easier."
+    }
+]

@@ -1,0 +1,70 @@
+[
+    {
+        "question": "How can users quickly access specific records like Bertha Boxer's?",
+        "answer": "Users can quickly find records using Global Search or by accessing Favorites if the record has been saved there earlier."
+    },
+    {
+        "question": "What is the purpose of customizing Record Pages in Salesforce?",
+        "answer": "Customization aims to make crucial information easily accessible and improve the logical organization of data on the page."
+    },
+    {
+        "question": "What are some key considerations when customizing Record Pages?",
+        "answer": "Considerations include the location of information, grouping related information logically, and optimizing the data entry process."
+    },
+    {
+        "question": "What is the Highlights Panel on a Salesforce Record Page?",
+        "answer": "The Highlights Panel is often found at the top of the Record Page and displays a limited number of key fields, sucha as address and phone number."
+    },
+    {
+        "question": "What is the Path Component in Salesforce?",
+        "answer": "The Path Component visually represents the values in a picklist field.  The default Path found on the Opportunity Record Page shows the Opportunity Stage picklist values."
+    },
+    {
+        "question": "Where is a lead's phone number typically found on a Record Page?",
+        "answer": "The phone number is usually located in the Highlights Panel for immediate access."
+    },
+    {
+        "question": "How can users log information after a call on a Record Page?",
+        "answer": "Users can log call details using the 'Log a Call' feature under the Activity tab, which is readily accessible on the page."
+    },
+    {
+        "question": "Where might users find specific details like a lead's product interest?",
+        "answer": "This information might require navigating to the Details Tab and scrolling to locate specific fields such as 'Product Interest'."
+    },
+    {
+        "question": "How can the default open tab be adjusted on a Record Page?",
+        "answer": "If users frequently need certain information, admins can set that tab, such as the Details Tab, to open by default.  This is done in Lightning App builder in Setup."
+    },
+    {
+        "question": "What is the advantage of adjusting the placement of fields on a Record Page?",
+        "answer": "Adjusting field placement, like including important fields to the Highlights Panel or moving important fields to the top of the Details area, enhances accessibility and efficiency."
+    },
+    {
+        "question": "How can List Views assist users in accessing common fields like 'Product Interest'?",
+        "answer": "Creating custom List Views that include frequently accessed fields can save time in viewing data across multiple records and streamline workflows."
+    },
+    {
+        "question": "What are the options for sharing List Views in Salesforce?",
+        "answer": "List Views can be personalized for individual users or shared among teams or the entire organization as needed."
+    },
+    {
+        "question": "What is the significance of customizing the Highlights Panel?",
+        "answer": "Customizing the Highlights Panel ensures that essential information is the first thing users see, improving their interaction with the record."
+    },
+    {
+        "question": "How can record customization impact team performance?",
+        "answer": "Effective customization of record pages can lead to quicker access to necessary information, reducing time spent searching and increasing productivity."
+    },
+    {
+        "question": "What should admins focus on when training users about Record Pages?",
+        "answer": "Admins should focus on the most used components and features and how users interact with them to tailor training effectively."
+    },
+    {
+        "question": "Why is it important for admins to how Users work with Record Pages?",
+        "answer": "Understanding user interaction helps admins make informed decisions about customizations that enhance usability and user satisfaction."
+    },
+    {
+        "question": "What role does user feedback play in customizing Record Pages?",
+        "answer": "User feedback is crucial in identifying which aspects of the page layout and information organization need improvement."
+    }
+]

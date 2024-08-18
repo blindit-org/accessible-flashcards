@@ -1,0 +1,46 @@
+[
+    {
+        "question": "How do you add a grouping to a Salesforce report?",
+        "answer": "In the report builder, Click the Outline tab and use the \"Groups\" section to choose and add fields you want to group by within the report."
+    },
+    {
+        "question": "What is a Tabular report in Salesforce?",
+        "answer": "A Tabular report is a basic format that resembles a table or a spreadsheet, showing data in rows (records) and columns (fields) without any groupings or totals."
+    },
+    {
+        "question": "What changes in the report when you add your first grouping to a report?",
+        "answer": "Adding a grouping, such as by 'Product Name', changes the report format from Tabular to Summary, categorizing records under the grouped field and enabling total calculations."
+    },
+    {
+        "question": "What options become available when you enable row count in a grouped report?",
+        "answer": "The row count shows the total number of records in the report and the number of records in each grouping."
+    },
+    {
+        "question": "What are the benefits of Subtotals and Grand Totals in Salesforce reports?",
+        "answer": "Subtotals provide a breakdown of data within each group, while Grand Totals show the sum of all values across all records, offering an overview of the report-specific dataset."
+    },
+    {
+        "question": "What are the different report formats available in Salesforce besides Tabular?",
+        "answer": "Besides Tabular, there are Summary, Matrix, and Joined reports, each providing different ways of viewing and analyzing data."
+    },
+    {
+        "question": "What happens when you enable 'Detail Rows' in a Salesforce report?",
+        "answer": "Enabling 'Detail Rows' allows you to view detailed information about each record in the report. When disabled, it shows only the number of records without their details."
+    },
+    {
+        "question": "What is the function of 'Subtotals' in a Salesforce report?",
+        "answer": "'Subtotals' calculate and display the sum or total for each group within the report, providing a detailed breakdown of data per category."
+    },
+    {
+        "question": "What is the purpose of 'Grand Totals' in a Salesforce report?",
+        "answer": "Grand Totals calculate and display the combined sum of all values across all records in the report, offering a comprehensive overview of the data."
+    },
+    {
+        "question": "What are Matrix reports in Salesforce?",
+        "answer": "Matrix reports allow grouping by both rows and columns, providing a detailed, grid-like view of data that helps in deeper analysis."
+    },
+    {
+        "question": "Describe Joined reports in Salesforce.",
+        "answer": "Joined reports combine data from multiple report types into one view, with each report displayed as blocks, and can contain up to five blocks for comprehensive data presentation."
+    }
+]

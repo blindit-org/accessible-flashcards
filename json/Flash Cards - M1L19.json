@@ -1,0 +1,62 @@
+[
+    {
+        "question": "What are the three views covered before Intelligence View in Salesforce?",
+        "answer": "Table, Split, and Kanban views."
+    },
+    {
+        "question": "What is the purpose of Salesforce's Intelligence View?",
+        "answer": "To identify where intelligent action can be taken."
+    },
+    {
+        "question": "Which Salesforce objects have an Intelligence View as of the Winter '24 release?",
+        "answer": "Lead, Contact, and Account objects."
+    },
+    {
+        "question": "How do you access the Intelligence View for Leads in Salesforce?",
+        "answer": "Click the Leads Tab, then select the Intelligence View button."
+    },
+    {
+        "question": "What does the Intelligence View provide at the top of the screen?",
+        "answer": "A row of pre-built, single-number metrics."
+    },
+    {
+        "question": "What is the advantage of single-number metrics in Intelligence View?",
+        "answer": "They provide clear, immediate insights without needing to sift through many records."
+    },
+    {
+        "question": "How does bookmarking differ from adding to favorites in Salesforce?",
+        "answer": "Bookmarks are for quick access within the Intelligence view only, while favorites are a more general collection of frequently accessed items, found in the Global Action Bar."
+    },
+    {
+        "question": "What function do the bookmark icons serve in Salesforce's list views?",
+        "answer": "They allow users to quickly access important records by creating a personal bookmark list view."
+    },
+    {
+        "question": "How is the Account Intelligence View different from the Leads and Contacts Intelligence Views?",
+        "answer": "It focuses on tracking activity and opportunities related to sales potential."
+    },
+    {
+        "question": "What common goal do the Leads and Contacts Intelligence Views share?",
+        "answer": "To engage with people (leads and contacts) and encourage interaction."
+    },
+    {
+        "question": "Why is it important to keep leads from growing cold, according to the Leads Intelligence View?",
+        "answer": "To ensure continuous engagement and progression towards becoming customers."
+    },
+    {
+        "question": "What actions can be taken directly from the Leads Intelligence View?",
+        "answer": "Sending an email and logging a call."
+    },
+    {
+        "question": "What is emphasized in the Accounts Intelligence View?",
+        "answer": "Nurturing long-term relationships and tracking all current sales opportunities for specific Accounts."
+    },
+    {
+        "question": "What does the Intelligence View help users to do?",
+        "answer": "It helps users identify intelligent actions to enhance engagement and opportunities."
+    },
+    {
+        "question": "How does the Intelligence View enhance user efficiency?",
+        "answer": "By providing clear metrics and easy navigation between important records."
+    }
+]

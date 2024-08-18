@@ -1,0 +1,54 @@
+[
+    {
+        "question": "What are the three levels of organization on a Salesforce screen?",
+        "answer": "The three levels are Global Level, App Level, and Record Level."
+    },
+    {
+        "question": "What is a list view in Salesforce?",
+        "answer": "A list view in Salesforce is a filtered list of records for a specific object, showing up to 2,000 records at a time, which can be sorted and filtered but cannot display totals, subtotals, or groupings."
+    },
+    {
+        "question": "How is a list view different from a report in Salesforce?",
+        "answer": "Unlike list views, reports in Salesforce can include data from more than one object and offer advanced features like totals, subtotals, groupings, and cross-filters. Reports are designed for deeper data analysis and can include more than 2,000 records."
+    },
+    {
+        "question": "What can users do with a list view that they cannot do with reports?",
+        "answer": "Users can create their own list views, use simple filters, and edit multiple records at once through in-line editing, which is not possible directly within reports."
+    },
+    {
+        "question": "What are the four types of list views available as of the Spring \u201924 Salesforce release?",
+        "answer": "The four types of list views are the standard table list view, Split View, Kanban, and the new Intelligence View."
+    },
+    {
+        "question": "What is the purpose of the new Intelligence View in Salesforce?",
+        "answer": "The Intelligence View in Salesforce shows metrics about the records of the object you are viewing, enhancing visibility and understanding of data trends."
+    },
+    {
+        "question": "What is the Split View in Salesforce?",
+        "answer": "In Split View, the list views are displayed on the left and the selected record appears on the right, facilitating easier navigation between list and record details."
+    },
+    {
+        "question": "What is the Kanban view in Salesforce?",
+        "answer": "The Kanban view displays records as cards in columns, which can be dragged around to other columns, helping visualize and manage workflows."
+    },
+    {
+        "question": "What is the primary function of the Record Level in Salesforce?",
+        "answer": "The Record Level is where users interact with specific data records, making it a crucial interface for daily operations."
+    },
+    {
+        "question": "What is the main distinction between a list view and a report in terms of data display?",
+        "answer": "List views show a filtered list of up to 2,000 records from one object without aggregation, while reports can analyze extensive data across multiple objects with advanced features like totals and groupings."
+    },
+    {
+        "question": "What feature allows users to edit multiple records directly from a list view?",
+        "answer": "In-line editing enables users to modify multiple records directly within a list view."
+    },
+    {
+        "question": "How does the Change Owner button affect records in Salesforce?",
+        "answer": "The Change Owner button allows users to reassign the ownership of records, if available."
+    },
+    {
+        "question": "What is the purpose of the standard table list view in Salesforce?",
+        "answer": "The standard table list view primarily displays records in a straightforward spreadsheet-like format for easy viewing."
+    }
+]

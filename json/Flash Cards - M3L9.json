@@ -1,0 +1,50 @@
+[
+    {
+        "question": "What is the first step to export a report in Salesforce?",
+        "answer": "Open the report you want to export and click on the 'More' dropdown at the top-right corner, then select 'Export.'"
+    },
+    {
+        "question": "What are the two views available when exporting a report in Salesforce?",
+        "answer": "The two views are 'formatted report view' which includes headers and any groupings or filters, and 'details only view' which includes only the records."
+    },
+    {
+        "question": "What file formats can Salesforce reports be exported in?",
+        "answer": "Reports can be exported in XLS, XLSX, or CSV formats."
+    },
+    {
+        "question": "How can exporting a report be useful outside of Salesforce?",
+        "answer": "Exporting a report allows for further data manipulation in programs like Excel and sharing with others who do not use Salesforce."
+    },
+    {
+        "question": "What feature allows you to receive Salesforce reports automatically?",
+        "answer": "Subscribing to a report allows you to schedule automatic deliveries to your inbox at regular intervals."
+    },
+    {
+        "question": "What steps should you follow to subscribe to a Salesforce report?",
+        "answer": "Open the report, click on the 'More' dropdown, then select 'Subscribe' and configure the subscription settings such as frequency, recipients' email addresses, and file format."
+    },
+    {
+        "question": "What is the benefit of subscribing to a report in Salesforce?",
+        "answer": "Subscribing to a report ensures that you regularly receive updates and insights without having to manually export the report each time."
+    },
+    {
+        "question": "What is the advantage of the 'formatted report view' when exporting a Salesforce report?",
+        "answer": "The formatted report view includes a header and any applied groupings or filters, making it ready for presentation or review."
+    },
+    {
+        "question": "What should you consider when choosing the 'details only view' for exporting a report?",
+        "answer": "The 'details only view' is useful when you need to manipulate the data outside of Salesforce, as it only includes the records."
+    },
+    {
+        "question": "Where is the 'Export' option located in the Salesforce report interface?",
+        "answer": "The 'Export' option is located under the 'More' dropdown at the top-right corner of the report interface."
+    },
+    {
+        "question": "What options are you given when you click 'Export' for a Salesforce report?",
+        "answer": "When exporting, you can choose the view (formatted or details only) and the format (XLS, XLSX, CSV) of the report."
+    },
+    {
+        "question": "What happens after you choose your preferred report format and view when exporting?",
+        "answer": "After selecting the format and view, the report is downloaded to your device."
+    }
+]

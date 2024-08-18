@@ -1,0 +1,38 @@
+[
+    {
+        "question": "List View",
+        "answer": "View a filtered list of records for a specific object, like leads, in a list that can be sorted. List views are a great way to sort, prioritize, and analyze the records that are most important to you."
+    },
+    {
+        "question": "Recently Viewed List View",
+        "answer": "The default \"pinned\" list view that shows records recently accessed by the user."
+    },
+    {
+        "question": "Intelligence View",
+        "answer": "View lead activity and engagement metrics, see insights, take action, and update records all in one place in the new Lead, Account, Contact or Intelligence View, currently available as of Spring '24."
+    },
+    {
+        "question": "Creating a New List View",
+        "answer": "Users can create customized views of data for a specific Object by defining specific criteria and filters."
+    },
+    {
+        "question": "List View Filters",
+        "answer": "Refine which records appear in a list view based on specified criteria."
+    },
+    {
+        "question": "Pinning a List View",
+        "answer": "The User's ability to set a specific list view as the default view when accessing an object like Leads in Salesforce."
+    },
+    {
+        "question": "Record Limit in List Views",
+        "answer": "The maximum number of records that can be displayed in a Salesforce list view, which is 2,000 records."
+    },
+    {
+        "question": "Standard vs. Custom List Views",
+        "answer": "Differentiates between pre-defined list views provided by Salesforce and user-created views that are tailored to specific needs.  The Standard List Views available varies by Object."
+    },
+    {
+        "question": "Filter By Owner",
+        "answer": "A specific filter in list views that enables users to display only those records that are assigned to them, based on the 'Owner' field."
+    }
+]

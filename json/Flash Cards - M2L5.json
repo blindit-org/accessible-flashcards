@@ -1,0 +1,38 @@
+[
+    {
+        "question": "What happens when you convert a Lead in Salesforce?",
+        "answer": "The Lead record is mapped to an Account and a Contact, and optionally, if the deal is promising, an Opportunity."
+    },
+    {
+        "question": "What alternative does Salesforce offer when converting a Lead is an Account, Contact, and/or Opportunity record already exists",
+        "answer": "You can convert a Lead into an existing Account, Contact, and/or Opportunity, which is useful for managing repeat customers or duplicated efforts across teams."
+    },
+    {
+        "question": "What happens to the data entered on a Lead when it is converted?",
+        "answer": "Salesforce maps the standard Lead fields to their corresponding standard fields on the Account, Contact, and Opportunity records (if the fields are currently blank), preventing the need to re-enter data."
+    },
+    {
+        "question": "How are custom fields on a Lead record handled during conversion?",
+        "answer": "Custom fields are not automatically mapped; Salesforce admins must manually map these to custom fields on the Account, Contact, and Opportunity records in Setup."
+    },
+    {
+        "question": "What becomes of the Lead record after it is converted?",
+        "answer": "The Lead record still exists in the database as a Converted Lead, but it is no longer visible or editable unless a user has specific permissions to view and edit converted Leads."
+    },
+    {
+        "question": "How do you convert a Lead in Salesforce?",
+        "answer": "You can convert a Lead by clicking the Convert button, by editing the record to change the Lead Status to \"Closed \u2013 Converted,\" or by using the Lead Path component to select \"Closed - Converted\" and then click the button that says, \"mark the status as complete.\""
+    },
+    {
+        "question": "What options are available on the Convert Lead form in Salesforce?",
+        "answer": "The form allows you to create new records or select existing records for Account, Contact, and Opportunity. It includes options to personalize or accept suggested names for these records."
+    },
+    {
+        "question": "What does the checkbox \"Don\u2019t create an opportunity upon conversion\" signify?",
+        "answer": "This option can be selected if you do not want to create an Opportunity during the Lead conversion, possibly due to timing or funding issues with the prospect."
+    },
+    {
+        "question": "What details can you edit on the Convert Lead form regarding the ownership of the new records?",
+        "answer": "You can change the Record Owner Name if different from the default (the person converting the Lead), ensuring the right person owns the Account, Contact, and Opportunity post-conversion."
+    }
+]

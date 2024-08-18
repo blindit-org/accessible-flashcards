@@ -1,0 +1,38 @@
+[
+    {
+        "question": "What can you notice when reviewing the fields of an Opportunity record  that was created as a byproduct of converting a Lead?",
+        "answer": "Notice which fields mapped from the Lead to the Opportunity and which fields on the Opportunity are filled with  default values."
+    },
+    {
+        "question": "How do the fields 'Expected Revenue' and 'Close Date' help Sales teams?",
+        "answer": "These fields help Sales people and their managers understand the value of the Opportunity, forecast likely revenue, and track its progress to ensure it doesn't stall."
+    },
+    {
+        "question": "What does changing the stage of an Opportunity affect in Salesforce?",
+        "answer": "It changes the value in the Probability field, reflecting the likelihood of closing based on the stage of the sale.  When creating picklist values for the Stage Fields, a probability value is entered for each picklist value."
+    },
+    {
+        "question": "What is the concept of a Sales pipeline?",
+        "answer": "It's a mental image where all sales go into a pipeline, flowing towards a successful close, similar to how water flows in a pipeline."
+    },
+    {
+        "question": "What is the relationship between an Opportunity record and an Account record in Salesforce?",
+        "answer": "An Opportunity has a relationship with an Account but not directly with a Contact."
+    },
+    {
+        "question": "How can you view related Contacts to an Account in Salesforce?",
+        "answer": "Go to the Account, view the Related List, and you will find Contacts like the Contact record for Emma in the example."
+    },
+    {
+        "question": "What is the relationship between Opportunities and Contacts in Salesforce?",
+        "answer": "Opportunities are related to Accounts but not directly to Contacts; however, the related Account can show child Contacts in the Contacts Related List."
+    },
+    {
+        "question": "How are relationships between Salesforce objects depicted in terms of parent and child?",
+        "answer": "n a one-to-many relationship ,the parent is on the side of \"one\" and the chid object is on the side of the zero-to-many. In using a family tree as a metaphor, the child looks up to the parent, and the parent looks down to the child. In our Lesson example, the Account acts as a parent to multiple Opportunities and Contacts, each of which can have a relationship back to one Account field on their records."
+    },
+    {
+        "question": "What are the implications of the Salesforce setup feature \"Enable Contacts to Multiple Accounts\"?",
+        "answer": "This feature allows for more flexible connections between a single Contact record and multiple Accounts. "
+    }
+]

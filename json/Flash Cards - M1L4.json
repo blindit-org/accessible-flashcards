@@ -1,0 +1,54 @@
+[
+    {
+        "question": "What is Salesforce known for in terms of its architecture?",
+        "answer": "Salesforce is known for its 3-layer, multi-tenant architecture which is secure and always up-to-date."
+    },
+    {
+        "question": "What are the three layers of Salesforce architecture?",
+        "answer": "1. Applications (Clouds, e.g., Sales Cloud) 2. Platform (Lightning Platform, includes data services, AI, APIs) 3. Salesforce itself (the trusted multi-tenant cloud where data, authentication, and security access reside)"
+    },
+    {
+        "question": "What is Multi-Tenant Architecture?",
+        "answer": "A single instance of software serves multiple customers, known as tenants. Each tenant\u2019s data and configuration are separate, ensuring privacy and security, while sharing resources like the building infrastructure in an apartment."
+    },
+    {
+        "question": "How does Salesforce ensure data security in a multi-tenant environment?",
+        "answer": "Salesforce uses unique org IDs and record IDs for each organization, maintains high standards of transparency, security, compliance, privacy, and performance."
+    },
+    {
+        "question": "What does it mean when Salesforce is described as \"up-to-date\"?",
+        "answer": "Salesforce is always running the most current version because it has three major releases per year that are automatically rolled out to all users globally."
+    },
+    {
+        "question": "How many releases does Salesforce have per year and when are they?",
+        "answer": "Salesforce has three releases per year, corresponding to the seasons: Spring, Summer, and Winter."
+    },
+    {
+        "question": "Where can you find information about Salesforce's service availability and performance?",
+        "answer": "Information can be found at trust.salesforce.com, a site that demonstrates Salesforce\u2019s transparency."
+    },
+    {
+        "question": "What does an Admin need to do with Salesforce releases?",
+        "answer": "An Admin should read the release notes and follow the release readiness strategies recommended by Salesforce."
+    },
+    {
+        "question": "What is the top layer of Salesforce's three-layer architecture and what does it include?",
+        "answer": "The top layer is composed of applications, referred to as Clouds (e.g., Sales Cloud), including the application user interface (UI) which is either the Lightning Experience or Classic."
+    },
+    {
+        "question": "What comprises the middle layer of Salesforce's architecture?",
+        "answer": "The middle layer is the Platform, known as the Lightning Platform, which includes data services, artificial intelligence (AI), and APIs."
+    },
+    {
+        "question": "What is included in the bottom layer of Salesforce's three-layer architecture?",
+        "answer": "The bottom layer is Salesforce itself, known as \"the trusted, multi-tenant cloud,\" where data lives along with authentication and security access."
+    },
+    {
+        "question": "How does Salesforce ensure that its system remains secure and private for each tenant?",
+        "answer": "Through its unique architectural setup where each tenant\u2019s data and configuration are isolated, supported by security measures like unique org IDs and record IDs, and a robust approach to security, compliance, and privacy."
+    },
+    {
+        "question": "What humorous mnemonic does Mark suggest for remembering the timing of Salesforce releases?",
+        "answer": "Mark suggests remembering the Salesforce releases with a mnemonic that involves the seasons: Spring, Summer, and Winter, noting that \"Salesforce never falls\" to explain why there is no release in Autumn."
+    }
+]

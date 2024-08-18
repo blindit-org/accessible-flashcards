@@ -1,0 +1,22 @@
+[
+    {
+        "question": "Service Console",
+        "answer": "A specialized user interface in Salesforce designed for customer service reps to handle cases efficiently.  Console navigation is one of two styles of navigation (Standard and Console) found in Salesforce.  Use Lightning console apps to view multiple records and their related records on the same screen. Quickly work through records from a list using split view"
+    },
+    {
+        "question": "Split View",
+        "answer": "A list view configuration that displays a list of records and stays open and available when viewing a single selected record."
+    },
+    {
+        "question": "Details Tab",
+        "answer": "Record fields comprise the Detail area of a Record Page and are customarily found in the Details tab."
+    },
+    {
+        "question": "How are Console Apps different from Standard Apps?",
+        "answer": "Apps with standard navigation let you open a single record at a time. However, apps with console navigation let you open multiple records at a time, and related records open in subtabs under the original record."
+    },
+    {
+        "question": "Who benefits from Console Apps?",
+        "answer": "The console is perfect for Sales and Service folks. Support agents can use multiple applications at once and keep the context of cases as priorities change. Sales reps have all the tools at their fingertips to cultivate leads, close deals, and manage relationships."
+    }
+]

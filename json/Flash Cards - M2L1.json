@@ -1,0 +1,50 @@
+[
+    {
+        "question": "What acronym helps remember the core Standard Objects in Salesforce introduced in Module #1?",
+        "answer": "COAL \u2013 C-O-A-L, standing for Contacts, Cases, Opportunities, Accounts, and Leads."
+    },
+    {
+        "question": "What are Salesforce Admins expected to master?",
+        "answer": "Salesforce Admins need to master configuring, customizing, building, and automating functionality, as well as training End Users."
+    },
+    {
+        "question": "What does \"Lead to Loyal\" refer to in the context of sales and marketing?",
+        "answer": "It refers to the Customer Relationship Management process of finding and nurturing customers from initial leads to loyal customers."
+    },
+    {
+        "question": "What is Lead Conversion in Salesforce?",
+        "answer": "Lead Conversion is the process where a single, qualified lead record is converted into an Account and a Contact with an optional Opportunity record."
+    },
+    {
+        "question": "What does a successful closure of an Opportunity represent in Salesforce?",
+        "answer": "A successful closure, called Closed Won, represents the point when the sale is made, and the Contact and Account become a customer (if they weren't one already!)"
+    },
+    {
+        "question": "How does Salesforce define 'Loyal' in the sales process?",
+        "answer": "Loyal refers to current customers who have a positive relationship with the company and are seen as potential future customers."
+    },
+    {
+        "question": "What role do Customer Service Reps play in the Lead to Loyal customer lifecycle?",
+        "answer": "Customer Service Reps, often termed as Customer Care or Customer Success reps or agents, are pivotal in maintaining customer satisfaction and support, tracked with a Case in Salesforce.  They answer questions, solve problems, and service warrenty claims."
+    },
+    {
+        "question": "What does the Lead to Loyal lifecycle begin with in the marketing context?",
+        "answer": "It starts with a marketing Campaign that captures the attention of potential customers, turning them into Leads."
+    },
+    {
+        "question": "What initially defines a Lead in the context of Salesforce?",
+        "answer": "A Lead is defined as a potential customer who responds to a marketing campaign expressing interest in the business's products or services."
+    },
+    {
+        "question": "Who are Leads handled by before possibly becoming a Sales Opportunity?",
+        "answer": "Leads are initially handled by marketers or a Pre-Sale team who assess whether the Lead is serious about making a purchase."
+    },
+    {
+        "question": "What is the Salesforce terminology used to describe the change from a Lead to an qualified Opportunity?",
+        "answer": "The change from a Lead to an Opportunity is termed \"Lead Conversion\" in Salesforce.  Keep in mind that the Lead is convered into an Account and Contact record, and optionally an Opportunity."
+    },
+    {
+        "question": "What does the module suggest about the nature of Leads in terms of potential?",
+        "answer": "Leads are considered untapped potential, indicating they have not yet committed but show promise for conversion into actual sales."
+    }
+]

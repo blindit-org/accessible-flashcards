@@ -1,0 +1,34 @@
+[
+    {
+        "question": "What does the \"Refresh\" button do in a Salesforce Dashboard?",
+        "answer": "The \"Refresh\" button instantly updates the Dashboard to show the most current information.  Click the Refresh button allows for real-time data updates."
+    },
+    {
+        "question": "How often can you refresh a Salesforce Dashboard?",
+        "answer": "You can refresh a Salesforce Dashboard once every minute."
+    },
+    {
+        "question": "What feature allows you to receive Dashboard updates without manually refreshing?",
+        "answer": "Subscribing to a Dashboard allows you to receive updates directly in your inbox without needing to manually refresh.  NOTE:  This feature sends a report to your EMAIL only."
+    },
+    {
+        "question": "How do you start subscribing to a Salesforce Dashboard?",
+        "answer": "Click on the \"Subscribe\" button on the Dashboard to begin setting up your subscription preferences."
+    },
+    {
+        "question": "What subscription frequency options are available for Salesforce Dashboards?",
+        "answer": "You can choose to receive Dashboard updates daily, weekly, or monthly, depending on your needs."
+    },
+    {
+        "question": "Can you include others in your Dashboard subscription?",
+        "answer": "Yes, you can include team members in your Dashboard subscription to ensure everyone is informed and stays in the loop."
+    },
+    {
+        "question": "What problem does subscribing to a Dashboard solve for users like Max?",
+        "answer": "Subscribing provides automatic updates without the need for manually accessing the report, ideal for busy individuals like Max who require timely information for decision-making."
+    },
+    {
+        "question": "How does the ability to refresh and subscribe to Dashboards impact business decision-making?",
+        "answer": "These features ensure decision-makers have access to the latest data at all times, enabling more accurate and timely business decisions."
+    }
+]

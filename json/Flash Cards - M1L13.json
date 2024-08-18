@@ -1,0 +1,126 @@
+[
+    {
+        "question": "Global Header",
+        "answer": "The top area of the Salesforce interface, containing elements that are accessible across different Salesforce apps. Known as the global level."
+    },
+    {
+        "question": "App Level",
+        "answer": "Just below the global header, this area changes based on the Salesforce app you are in, showing relevant tabs and options."
+    },
+    {
+        "question": "Record or Content Level",
+        "answer": "The main part of the screen that displays the specific content of the selected record or app function."
+    },
+    {
+        "question": "Global Search",
+        "answer": "A feature that allows users to search across all records in Salesforce, including custom objects created by admins."
+    },
+    {
+        "question": "Global Action Bar",
+        "answer": "Located on the right-hand side of the global header, contains icons and shortcuts like Favorites, Global Actions, and Setup."
+    },
+    {
+        "question": "Custom Object",
+        "answer": "An object created by an admin to meet specific business needs, which can be included in global search results."
+    },
+    {
+        "question": "Split View",
+        "answer": "A viewing option that allows users to see a list view alongside the details of a selected item, enhancing multitasking."
+    },
+    {
+        "question": "Table View",
+        "answer": "A list display format that organizes data into columns and rows, often used for reviewing multiple records simultaneously."
+    },
+    {
+        "question": "Salesforce Blue Cloud Logo",
+        "answer": "The default logo in the global header, which can be customized to display a company's logo instead."
+    },
+    {
+        "question": "Global Actions",
+        "answer": "Quick actions available in the Global Action Bar that facilitate common tasks like logging a call or creating new records directly."
+    },
+    {
+        "question": "Guidance Center",
+        "answer": "A feature in the Global Action Bar offering tailored content and learning paths to users based on their role and usage."
+    },
+    {
+        "question": "Salesforce Help",
+        "answer": "Provides access to Salesforce's comprehensive help resources, context-specific assistance, and additional learning materials."
+    },
+    {
+        "question": "Setup Access",
+        "answer": "An option in the Global Action Bar that allows admins to configure and manage the Salesforce environment from the backend."
+    },
+    {
+        "question": "Notifications",
+        "answer": "Alerts and updates that appear in the global header, informing users of new activities or changes relevant to their tasks."
+    },
+    {
+        "question": "Flashcard - Front",
+        "answer": "Flashcard - Back"
+    },
+    {
+        "question": "Profile Management",
+        "answer": "The section accessed via the avatar in the global header, where users can adjust settings like language, time zone, and personal details."
+    },
+    {
+        "question": "3 Levels of functionality in the Salesforce UI",
+        "answer": "The three main levels are: global level, app level, and record or content level."
+    },
+    {
+        "question": "Mnemonic for Global Action Bar",
+        "answer": "\"Friendly Gorillas Gather Serious Snacks, Nibbling Peanuts\" represents Favorites, Global Actions, Guidance Center, Salesforce Help, Setup, Notifications, and Profile respectively."
+    },
+    {
+        "question": "Favorites",
+        "answer": "The star icon used to bookmark records, list views, reports, dashboards, and Chatter Groups with a limit of 200 favorites."
+    },
+    {
+        "question": "Salesforce Help",
+        "answer": "Accessible via the question mark icon, providing help directly within the org."
+    },
+    {
+        "question": "Setup",
+        "answer": "Accessed via the cog icon, used by admins to access backend settings."
+    },
+    {
+        "question": "Salesforce Classic vs. Lightning Experience",
+        "answer": "Users can switch between the two interfaces; Classic is the older version, and Lightning is the newer, current platform."
+    },
+    {
+        "question": "How to exit Split View in Salesforce?",
+        "answer": "Click on \"Select List Display\" and then choose \"Table\" to switch out of Split View."
+    },
+    {
+        "question": "What is the mnemonic to remember items in the Global Action Bar?",
+        "answer": "\"Friendly Gorillas Gather Serious Snacks, Nibbling Peanuts\" stands for Favorites, Global Actions, Guidance Center, Salesforce Help, Setup, Notifications, and Profile."
+    },
+    {
+        "question": "How to access Salesforce Setup?",
+        "answer": "Click on the cog icon to enter the backend Setup Menu of Salesforce."
+    },
+    {
+        "question": "Functionality of the Notifications feature in Salesforce",
+        "answer": "Shows in-app notifications, which can be standard or admin-generated, custom messages, with a clickable bell icon."
+    },
+    {
+        "question": "How can a user manage their personal settings in Salesforce?",
+        "answer": "Click on their profile avatar to access settings like language, timezone, display density, and switch between Salesforce Classic and Lightning Experience."
+    },
+    {
+        "question": "Difference between Settings and Setup in Salesforce",
+        "answer": "Settings allow individual users to manage their personal information and preferences, while Setup is used by admins for organizational configurations."
+    },
+    {
+        "question": "What does the Favorites icon do?",
+        "answer": "It bookmarks records, list views, reports, dashboards, folders, and Chatter Groups, allowing users to access these frequently used resources quickly."
+    },
+    {
+        "question": "Function of Salesforce Help",
+        "answer": "Offers immediate access to help articles, support resources, and page-specific assistance directly within the Salesforce interface."
+    },
+    {
+        "question": "Explanation of Display Density options",
+        "answer": "\"Comfy\" and \"Compact\" are two display density settings available in Salesforce. Comfy is a spacious view with labels on the top of fields and more space between page elements. Compact is a denser view with labels to the left of fields and less space between page elements."
+    }
+]

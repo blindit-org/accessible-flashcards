@@ -1,0 +1,66 @@
+[
+    {
+        "question": "How do you create a new List View in Salesforce?",
+        "answer": "Navigate to the List View Controls, click the cog icon, select New, name the List View, and set visibility settings."
+    },
+    {
+        "question": "What is the purpose of using filters in a List View?",
+        "answer": "Filters in a List View help narrow down the records displayed to those that meet specific criteria, making it easier to manage and view relevant data."
+    },
+    {
+        "question": "How do you add or remove columns in a List View?",
+        "answer": "Use the List View Controls cog icon, click on 'select fields to display,' and then add or remove fields using the move arrows between Available and Visible Fields lists."
+    },
+    {
+        "question": "What is the function of the refresh button in a List View?",
+        "answer": "The refresh button reloads the List View with the most up-to-date data, reflecting any changes made by other users."
+    },
+    {
+        "question": "How can users edit multiple records directly from a List View?",
+        "answer": "Users can use in-line editing to modify fields directly from the List View; for multiple records, select the records, edit the field, apply the change to all selected, and save."
+    },
+    {
+        "question": "What chart types are available for a List View in Salesforce?",
+        "answer": "Only three chart types are available for List Views in Salesforce: Donut, Horizontal Bar, and Vertical Bar."
+    },
+    {
+        "question": "How do you set up a chart for a List View?",
+        "answer": "Click the pie icon to 'show chart,' select the chart type, and configure it to display data based on fields like Industry."
+    },
+    {
+        "question": "What are common user questions about List Views and how do you address them?",
+        "answer": "Users commonly ask about the refresh button, in-line editing, and the purpose of various control buttons; provide explanations and demonstrations to clarify these functionalities."
+    },
+    {
+        "question": "Flashcard - Front",
+        "answer": "Flashcard - Back"
+    },
+    {
+        "question": "What does the 'Only I can see the List View' option do when creating a new List View in Salesforce?",
+        "answer": "This option sets the visibility of the List View to private, meaning only the creator can view it."
+    },
+    {
+        "question": "What is the significance of the API name when creating a new List View?",
+        "answer": "The API name is a unique identifier used in the backend for integrations and customizations, automatically generated based on the List View's name."
+    },
+    {
+        "question": "How do you filter for specific account types in a List View?",
+        "answer": "Click the funnel icon to show filters, add a filter for the 'Type' field, and select the specific account type from the picklist."
+    },
+    {
+        "question": "What is the maximum number of records a List View can display at one time?",
+        "answer": "A List View can display up to 2,000 records at a time, even if there are more records available."
+    },
+    {
+        "question": "How does Salesforce ensure data security and access within List Views?",
+        "answer": "Salesforce uses access permissions and data security settings to control which records a user can view and interact with within a List View."
+    },
+    {
+        "question": "What is the purpose of the Industry donut chart in a List View?",
+        "answer": "The Industry donut chart visually summarizes the distribution of accounts across different industries, providing quick insights at a glance."
+    },
+    {
+        "question": "What is the difference between the 'New' button in the List View and the 'New' button in the object tab?",
+        "answer": "The 'New' button in the List View typically creates a new record, while the 'New' button in the object tab might be used to create a new view or other object-specific actions, depending on context and permissions."
+    }
+]

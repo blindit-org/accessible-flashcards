@@ -1,0 +1,190 @@
+[
+    {
+        "question": "Build vs Buy",
+        "answer": "A decision-making process in Salesforce to determine whether to create custom solutions or purchase existing ones from the AppExchange."
+    },
+    {
+        "question": "AppExchange",
+        "answer": "Salesforce's marketplace for ready-made applications and custom solutions that can be integrated with Salesforce."
+    },
+    {
+        "question": "Standard vs Custom Functionality",
+        "answer": "Standard functionality refers to Salesforce's out-of-the-box features, while custom functionality involves adjustments made to cater to specific business needs."
+    },
+    {
+        "question": "Declarative Customization",
+        "answer": "Salesforce customization done through configuration using clicks instead of code, suitable for administrators."
+    },
+    {
+        "question": "Boundaries of Customization",
+        "answer": "The limits of what can be done through declarative customization before needing to switch to programmatic solutions, such as coding by developers."
+    },
+    {
+        "question": "Salesforce Licenses",
+        "answer": "What companies purchase to provide user access to various Salesforce clouds and capabilities like Sales Cloud."
+    },
+    {
+        "question": "Customization, Buy, Build Order",
+        "answer": "The recommended sequence in making extensions to Salesforce: first try to customize, then consider buying from the AppExchange, and finally contemplate building a custom solution."
+    },
+    {
+        "question": "Complexity and Requirements Considerations",
+        "answer": "Factors influencing whether to customize, buy, or build, including the complexity of the needed solution and specific business requirements."
+    },
+    {
+        "question": "Salesforce Labs",
+        "answer": "A developer group within Salesforce that creates free apps and solutions, available on the AppExchange, to extend Salesforce functionality."
+    },
+    {
+        "question": "Flow Solutions on AppExchange",
+        "answer": "Pre-built automation templates available on the AppExchange that solve common business problems using Salesforce's Flow Builder."
+    },
+    {
+        "question": "PayPal Transaction Connector",
+        "answer": "An example of an AppExchange product that integrates PayPal transaction data into Salesforce without needing custom development."
+    },
+    {
+        "question": "Advanced Search Filters on AppExchange",
+        "answer": "Features that help users narrow down the search for solutions on the AppExchange by criteria such as pricing, ratings, and specific business needs."
+    },
+    {
+        "question": "Person and Business Accounts in Salesforce",
+        "answer": "Salesforce differentiates between accounts for companies (Business Accounts) and individuals (Person Accounts) for tailored customer relationship management."
+    },
+    {
+        "question": "Orca Flow: Convert Person Account to Business Account",
+        "answer": "A specific Flow Solution found on the AppExchange that converts Person Accounts into Business Accounts in Salesforce."
+    },
+    {
+        "question": "Standard Functionality",
+        "answer": "The default features and capabilities available in Salesforce right after purchase, designed to meet general needs without customization."
+    },
+    {
+        "question": "Customization Importance",
+        "answer": "The ability to tailor Salesforce through clicks, not code, to meet specific business requirements, emphasizing Salesforce\u2019s flexibility."
+    },
+    {
+        "question": "Admin vs. Developer Roles",
+        "answer": "Differentiates the roles where Admins primarily use declarative tools (clicks) for customization, and Developers use code for more complex customizations."
+    },
+    {
+        "question": "Programmatic Customization",
+        "answer": "Involves coding to extend or enhance Salesforce beyond the capabilities of declarative customization, typically handled by developers."
+    },
+    {
+        "question": "AppExchange for Buying Solutions",
+        "answer": "The recommended first stop for finding extensions, apps, or solutions tested and approved by Salesforce, available directly through the marketplace."
+    },
+    {
+        "question": "Factors Influencing Build vs. Buy",
+        "answer": "Complexity, requirements, existing solutions compatibility, and budget constraints that dictate whether to build new custom solutions or buy from the AppExchange."
+    },
+    {
+        "question": "Maintenance and Updates Responsibility",
+        "answer": "When buying from the AppExchange, the original developers handle updates and maintenance, unlike custom-built solutions where the organization is responsible."
+    },
+    {
+        "question": "Understanding AppExchange Listings",
+        "answer": "Learning to navigate and utilize the AppExchange effectively to find solutions that fit business needs, including using filters and reading detailed descriptions."
+    },
+    {
+        "question": "Flashcard - Front",
+        "answer": "Flashcard - Back"
+    },
+    {
+        "question": "Salesforce Release Compatibility",
+        "answer": "The necessity to ensure that custom-built solutions or third-party applications are compatible with triannual Salesforce updates."
+    },
+    {
+        "question": "Ready Out of the Box (O-O-B)",
+        "answer": "Salesforce's initial setup that includes standard functionality, allowing it to be used effectively from day one without customizations."
+    },
+    {
+        "question": "Customization Sequence",
+        "answer": "The recommended approach starting with customization by admins, then purchasing from the AppExchange, and finally building custom solutions if needed."
+    },
+    {
+        "question": "Risks of External Third-Party Solutions",
+        "answer": "Solutions not found on the AppExchange may not meet Salesforce standards, posing risks in compatibility and support."
+    },
+    {
+        "question": "Managed Packages on AppExchange",
+        "answer": "Pre-built solutions available on the AppExchange that include ongoing updates and support from the developers."
+    },
+    {
+        "question": "Customization vs. New Development in Salesforce",
+        "answer": "Weighing the options between using existing Salesforce features and interfaces for customization and developing new functionalities from scratch."
+    },
+    {
+        "question": "Impact of Salesforce Updates on Custom Builds",
+        "answer": "The need to ensure that custom developments or third-party apps from the AppExchange remain functional after Salesforce's regular updates."
+    },
+    {
+        "question": "Decision Factors in Build vs. Buy",
+        "answer": "Complexity, specific business requirements, available solutions, and budget considerations that influence whether to customize, buy, or build solutions."
+    },
+    {
+        "question": "Salesforce Customization Hierarchy",
+        "answer": "Suggests customizing existing Salesforce functionalities first, then considering purchasing from the AppExchange, and finally building custom code if necessary."
+    },
+    {
+        "question": "Flow Builder",
+        "answer": "A declarative tool in Salesforce that allows admins to build complex automated workflows without needing to write code."
+    },
+    {
+        "question": "Declarative Automation Tool",
+        "answer": "Tools like Salesforce's Flow Builder that enable admins to automate processes within Salesforce using a graphical interface instead of coding."
+    },
+    {
+        "question": "Custom vs. Managed Package",
+        "answer": "Custom packages are created in-house or by third-party developers specifically for a business, while managed packages are pre-built solutions maintained by the original developers available on the AppExchange."
+    },
+    {
+        "question": "Admin Role in Extending Salesforce",
+        "answer": "Admins are key decision-makers in determining whether to extend Salesforce capabilities through custom development or AppExchange purchases."
+    },
+    {
+        "question": "Programmatic vs. Declarative Solutions",
+        "answer": "Programmatic solutions require coding and are usually more flexible but complex, whereas declarative solutions involve configuration through the Salesforce interface."
+    },
+    {
+        "question": "Significance of AppExchange",
+        "answer": "The AppExchange is crucial as it provides tested and Salesforce-approved applications that can extend the functionality of the Salesforce platform safely and effectively."
+    },
+    {
+        "question": "Third-Party Software Risks",
+        "answer": "Using software not vetted by Salesforce or available on the AppExchange may pose integration, support, and maintenance risks."
+    },
+    {
+        "question": "Managed Package Updates",
+        "answer": "Managed packages from the AppExchange come with the assurance that they will be updated by the developer to remain compatible with Salesforce updates."
+    },
+    {
+        "question": "AppExchange Marketplace Accessibility",
+        "answer": "Accessible through Salesforce's setup menu or directly by navigating to the AppExchange website to find and install applications."
+    },
+    {
+        "question": "Advanced Search on AppExchange",
+        "answer": "Enables users to refine their search for solutions based on specific criteria like pricing, ratings, or business needs, helping to pinpoint the most suitable applications."
+    },
+    {
+        "question": "Declarative Tools",
+        "answer": "Tools used by Salesforce Admins for customization that require no coding, such as the Salesforce Setup interface."
+    },
+    {
+        "question": "Factors Influencing Build vs. Buy",
+        "answer": "Considerations such as solution complexity, specific business requirements, available solutions, and budget that affect the decision to build custom solutions or buy from the AppExchange."
+    },
+    {
+        "question": "AppExchange Benefits",
+        "answer": "Offers tested, Salesforce-approved applications that integrate smoothly with Salesforce, reducing risk compared to third-party software."
+    },
+    {
+        "question": "Managed vs. Unmanaged Packages",
+        "answer": "Different types of packages on the AppExchange, with managed packages offering ongoing support and updates from the developers."
+    },
+    {
+        "question": "AppExchange Solution Types",
+        "answer": "Various types of solutions available on the AppExchange, including apps, components, Bolt solutions, Lightning data, and Flow solutions."
+    }
+]

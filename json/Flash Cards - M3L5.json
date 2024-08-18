@@ -1,0 +1,30 @@
+[
+    {
+        "question": "What is the purpose of selecting specific fields in a report?",
+        "answer": "The purpose is to display only those fields (columns) that are relevant to the user's needs, helping them analyze data that is pertinent to their specific requirements."
+    },
+    {
+        "question": "How is a report similar to an Excel spreadsheet?",
+        "answer": "Both reports and Excel spreadsheets organize data into columns, allowing users to decide which data fields to display for analysis."
+    },
+    {
+        "question": "What is the function of the \"add columns\" feature in the Report Builder?",
+        "answer": "It allows users to search for and add specific data fields (columnd) to a report, thereby customizing which fields (columns) are displayed."
+    },
+    {
+        "question": "How can you rearrange the order of columns in a report?",
+        "answer": "You can rearrange columns by clicking and dragging them to a new position within the report layout."
+    },
+    {
+        "question": "What should you do if you want to add a field that is currently added to the Report Preview.",
+        "answer": "Expand the Fields tab in the Report Builder to browse and select from all available fields that can be added to the report."
+    },
+    {
+        "question": "How do you remove an unwanted field from a report?",
+        "answer": "Remove a field by clicking the \u201cX\u201d next to the field's name in the report layout, which deletes it from the view."
+    },
+    {
+        "question": "What type of insights can be gained by refining and tailoring columns in a report?",
+        "answer": "Adding key columns helps provide valuable insights into specific areas such as sales performance, helping identify best-selling products or key trends."
+    }
+]

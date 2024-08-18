@@ -1,0 +1,42 @@
+[
+    {
+        "question": "What is Conditional Formatting in Salesforce?",
+        "answer": "Conditional Formatting in Salesforce is a feature that highlights data in reports with colors to draw attention. It's used in summary or matrix reports that are grouped by rows or both rows and columns."
+    },
+    {
+        "question": "When can you use Conditional Formatting in Salesforce reports?",
+        "answer": "Conditional Formatting can be used when the report is grouped by rows (summary reports) or by both rows and columns (matrix reports), and there must be a Summary Column or a Summary Formula present."
+    },
+    {
+        "question": "What are the basic concepts behind Conditional Formatting?",
+        "answer": "Conditional Formatting is like highlighting text with a color to draw the eye. For example, using red for negative values and green for positive values in financial contexts."
+    },
+    {
+        "question": "What are the two main requirements for setting up Conditional Formatting in Salesforce?",
+        "answer": "1. The report must be grouped by rows or both rows and columns. 2. There must be a Summary Column or a Summary Formula in the report."
+    },
+    {
+        "question": "What is a Row-Level Formula in Salesforce reports?",
+        "answer": "A Row-Level Formula in Salesforce reports uses data from a single record to calculate new information for each row, like a birthday countdown for each record."
+    },
+    {
+        "question": "What is a Summary Formula in Salesforce reports?",
+        "answer": "A Summary Formula in Salesforce calculates values across multiple records. It only displays data at subtotal levels and not for individual rows."
+    },
+    {
+        "question": "How do you set up Conditional Formatting in Salesforce's Lightning Experience?",
+        "answer": "Edit your report, use the paint roller icon for \"Conditional Formatting,\" add rules with the \u201cAdd Conditional Formatting Rules\u201d button, select the appropriate summary column/formula, and define the color rules."
+    },
+    {
+        "question": "How do you summarize data in a Salesforce report column?",
+        "answer": "In a Salesforce report, go to the column heads and click on the dropdown menu of a number, amount, currency, or percent field, and select \"Summarize.\" Options include Sum, Average, Max, Min, Median."
+    },
+    {
+        "question": "How many rules can you set up for Conditional Formatting in Salesforce's Lightning Experience, and what can they define?",
+        "answer": "In Salesforce's Lightning Experience, you can set up to five Conditional Formatting rules. Each rule can define custom colors for each range."
+    },
+    {
+        "question": "What does the \"Subtotals\" toggle in Salesforce Report Builder do?",
+        "answer": "The \"Subtotals\" toggle in Salesforce Report Builder shows or hides subtotal rows in the report, which are calculated based on the grouping and summarization settings."
+    }
+]
