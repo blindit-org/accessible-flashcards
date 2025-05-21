@@ -1,0 +1,38 @@
+[
+    {
+        "question": "Which type of metadata component must be included in a deployment to deploy the topics associated with an agent?",
+        "answer": "GenAiPlugin"
+    },
+    {
+        "question": "Which component must be added to an Experience Cloud site to deploy a service agent?",
+        "answer": "Embedded Messaging"
+    },
+    {
+        "question": "Where can an agent be activated after deploying all associated metadata components?",
+        "answer": "Agent Builder"
+    },
+    {
+        "question": "Which Einstein Generative AI feature allows users to generate personalized emails for customers by submitting requests?",
+        "answer": "Agentforce"
+    },
+    {
+        "question": "How can Agentforce help Service Cloud users?",
+        "answer": "Agentforce can streamline the company's customer support process and improve response times"
+    },
+    {
+        "question": "How does an agent identify a user's intent who submits a request?",
+        "answer": "It sends a prompt to the LLM"
+    },
+    {
+        "question": "Which standard agent action can generate a summary of an account record using an invocable action?",
+        "answer": "Summarize Record"
+    },
+    {
+        "question": "Which standard agent action can help sales reps generate a personalized close plan for an opportunity to help them close sales deals faster?",
+        "answer": "Create Close Plan"
+    },
+    {
+        "question": "How does the LLM help generate a plan based on a user's request?",
+        "answer": "The LLM identifies the best matching action in the right order"
+    }
+]
