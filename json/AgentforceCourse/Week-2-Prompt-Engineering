@@ -1,0 +1,38 @@
+[
+{
+        "question": "How should instructions be included in a prompt template to differentiate between context and instructions?",
+        "answer": "Instructions should be in a separate section and surrounded by triple quotes (\"\"\" \"\"\")"
+    },
+    {
+        "question": "Which related list merge field is not supported for the Account Object?",
+        "answer": "Activates"
+    },
+    {
+        "question": "Which feature enables the use of a field generation prompt template on a Lightning record page?",
+        "answer": "Dynamic Forms"
+    },
+    {
+        "question": "Which type of flow can be used to bring data from unified Data Cloud objects into a prompted template?",
+        "answer": "Template-Triggered Prompt Flow"
+    },
+    {
+        "question": "Which grounding technique can be used to ground a template with data stored in a lead record?",
+        "answer": "Grounding with record merge fields"
+    },
+    {
+        "question": "Which type of merge field can be used to ground a prompt template with the most recent opportunities related to an account?",
+        "answer": "Flow Merge Field"
+    },
+    {
+        "question": "Which flow element can be used to pass data from a flow to a prompted template?",
+        "answer": "Add Prompted Instructions"
+    },
+    {
+        "question": "Which workspace can be used to write prompts in Prompt Builder?",
+        "answer": "Prompt Template Workplace"
+    },
+    {
+        "question": "Which button is grayed out if the records related to the prompt have not been selected in Prompt Builder?",
+        "answer": "Preview"
+    }
+]
