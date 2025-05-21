@@ -1,0 +1,50 @@
+[
+    {
+        "question": "What should be created and configured to deploy a Service Agent to a customer-facing Experience Cloud site?",
+        "answer": "Embedded Service Deployment"
+    },
+    {
+        "question": "Which component allows exposing a Service Agent on an Experience Cloud site?",
+        "answer": "Embedded Messaging"
+    },
+    {
+        "question": "Which generative AI feature can be set up to generate AI-driven responses in chat conversations?",
+        "answer": "Einstein Service Replies for Chat"
+    },
+    {
+        "question": "Which feature can be enabled to ensure that AI-generated email and chat responses are generated from defined data sources?",
+        "answer": "Service AI Grounding"
+    },
+    {
+        "question": "Which feature can be set up to redact and file a case summary, issue, and resolution at the end of a conversation between an agent and a customer?",
+        "answer": "Einstein Work Summaries"
+    },
+    {
+        "question": "Which generative AI feature recommends relevant replies during chat and messaging conversations by analyzing the org's closed chat transcripts?",
+        "answer": "Einstein Reply Recommendations"
+    },
+    {
+        "question": "Which Agentforce Sales Agent focuses on the beginning of the sales cycle with the main goal of nurturing leads?",
+        "answer": "Agentforce Sales Development Representative (ASDR)"
+    },
+    {
+        "question": "Which Agentforce Sales Agent provides deal-specific, personalized feedback to sales reps?",
+        "answer": "Agentforce Sales Coach"
+    },
+    {
+        "question": "Which object is supported by Agentforce SDR for assigning prospects?",
+        "answer": "Standard Lead Object"
+    },
+    {
+        "question": "Which opportunity stages are supported by Agentforce Sales Coach?",
+        "answer": "Qualification, Needs Analysis, Proposal/Price Quote, and Negotiations/Review"
+    },
+    {
+        "question": "Which AI-powered assistant can summarize opportunities automatically?",
+        "answer": "Agentforce (Default)"
+    },
+    {
+        "question": "Which feature allows users to create editable summaries of sales calls that include next steps and customer feedback?",
+        "answer": "Call Summaries"
+    }
+]
