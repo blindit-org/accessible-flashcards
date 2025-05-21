@@ -1,0 +1,38 @@
+[
+    {
+        "question": "What can be accessed to monitor user interactions with an agent?",
+        "answer": "\"Event Logs\" in the Agent Builder"
+    },
+    {
+        "question": "What can be assigned to an Agentforce agent to improve accuracy, add personalization, and build trust in generative AI responses?",
+        "answer": "Agentforce Data Library"
+    },
+    {
+        "question": "What can be embedded in a prompt template to search for, and return, relevant information from a data library?",
+        "answer": "Retriever"
+    },
+    {
+        "question": "Which standard action is used by an agent to answer queries based on data in the corresponding Agentforce Data Library?",
+        "answer": "Answer Questions with Knowledge"
+    },
+    {
+        "question": "What can be used to assign a data library to an Agentforce Agent?",
+        "answer": "Agent Builder"
+    },
+    {
+        "question": "Which configuration needs to be created to chunk and vectorize unstructured data in Data Cloud?",
+        "answer": "Search Index Configuration"
+    },
+    {
+        "question": "Which two search types are available in Data Cloud?",
+        "answer": "Vector Search and Hybrid Search"
+    },
+    {
+        "question": "Which types of Einstein Search retrievers can be added to a custom prompt template?",
+        "answer": "Default and Custom Retrievers"
+    },
+    {
+        "question": "Which settings are available for configuring a retriever in Prompt Builder?",
+        "answer": "Search Text, Output Fields, and Number of Results"
+    }
+]
