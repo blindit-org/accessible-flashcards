@@ -1,0 +1,38 @@
+[
+    {
+        "question": "Which permission set allows creating an Agentforce Sales Coach?",
+        "answer": "Manager Sales Coach"
+    },
+    {
+        "question": "Which permission set group can be assigned to users who need to interact with the Agentforce (Default) agent in Salesforce?",
+        "answer": "Access Agentforce Default Agent"
+    },
+    {
+        "question": "Which permission set allows setting up and managing Agentforce Service Planner?",
+        "answer": "Service Planner Builder"
+    },
+    {
+        "question": "Which principle should be followed to grant object permissions to an Agentforce Service Agent?",
+        "answer": "Principle of least privilege"
+    },
+    {
+        "question": "What can be utilized to test a large number of utterances for an agent in a single test?",
+        "answer": "Testing Center"
+    },
+    {
+        "question": "Which type of file is used to create and run tests in the Testing Center?",
+        "answer": "CSV file with Test Cases"
+    },
+    {
+        "question": "What do the test results show after running a test for an agent in the Testing Center?",
+        "answer": "Pass and Failed test cases"
+    },
+    {
+        "question": "How many tests and test cases per test can be run in a 10-hour timeframe in the Agentforce Testing Center?",
+        "answer": "10 tests and 1000 test cases per test"
+    },
+    {
+        "question": "Which tuple of change set should be created in a sandbox to deploy an agent?",
+        "answer": "Outbound change set"
+    }
+]
