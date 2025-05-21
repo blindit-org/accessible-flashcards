@@ -1,1 +1,82 @@
-
+[
+    {
+        "question": "Which tool can be used to define standardized prompts for quick and consistent AI-Generated Responses?",
+        "answer": "Prompt Builder"
+    },
+    {
+        "question": "Which type of prompt template can utilize data from multiple unrelated objects?",
+        "answer": "Flex Prompt Template"
+    },
+    {
+        "question": "Which type of prompt template can be created to define a reusable prompt that automatically populates a dynamic form field?",
+        "answer": "Field Generation Prompt Template"
+    },
+    {
+        "question": "Which type of prompt template can be created to allow users to draft personalized emails for customers?",
+        "answer": "Sales Emails Prompt Templates"
+    },
+    {
+        "question": "Which permission set can be assigned to a user who needs to access and run prompt templates?",
+        "answer": "Prompt Template User"
+    },
+    {
+        "question": "Which permission set can be assigned to users who need to create and manage prompt templates?",
+        "answer": "Prompt Template Manager"
+    },
+    {
+        "question": "Which permission set must be assigned to a user who needs to draft emails using Einstein Generative AI?",
+        "answer": "Einstein Sales Emails"
+    },
+    {
+        "question": "If a user cannot see the generative AI-enabled icon next to a field that uses a field generation template, what is the most likely cause?",
+        "answer": "The prompt user permission set is not assigned to the user"
+    },
+    {
+        "question": "How can contextual information be provided to the LLM in a prompt template?",
+        "answer": "By asking it to role play as a character, such as a sales representative"
+    },
+    {
+        "question": "How should instructions be included in a prompt template to differentiate between context and instructions?",
+        "answer": "Instructions should be in a separate section and surrounded by triple quotes (\"\"\" \"\"\")"
+    },
+    {
+        "question": "Which related list merge field is not supported for the Account Object?",
+        "answer": "Activates"
+    },
+    {
+        "question": "Which feature enables the use of a field generation prompt template on a Lightning record page?",
+        "answer": "Dynamic Forms"
+    },
+    {
+        "question": "Which type of flow can be used to bring data from unified Data Cloud objects into a prompted template?",
+        "answer": "Template-Triggered Prompt Flow"
+    },
+    {
+        "question": "Which grounding technique can be used to ground a template with data stored in a lead record?",
+        "answer": "Grounding with record merge fields"
+    },
+    {
+        "question": "Which type of merge field can be used to ground a prompt template with the most recent opportunities related to an account?",
+        "answer": "Flow Merge Field"
+    },
+    {
+        "question": "Which flow element can be used to pass data from a flow to a prompted template?",
+        "answer": "Add Prompted Instructions"
+    },
+    {
+        "question": "Which workspace can be used to write prompts in Prompt Builder?",
+        "answer": "Prompt Template Workplace"
+    },
+    {
+        "question": "Which button is grayed out if the records related to the prompt have not been selected in Prompt Builder?",
+        "answer": "Preview"
+    },
+    {
+        "question": "Where can a custom model configuration be created for a prompt template?",
+        "answer": "Model Playground in Einstein Studio"
+    },
+    {
+        "question": "Which predefined adjustment choice can be selected for an AI-generated sales email to make it more casual?",
+        "answer": "Make Less Formal"
+    }
+]
