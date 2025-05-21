@@ -1,0 +1,38 @@
+[
+    {
+        "question": "Which tool can be used to define standardized prompts for quick and consistent AI-Generated Responses?",
+        "answer": "Prompt Builder"
+    },
+    {
+        "question": "Which type of prompt template can utilize data from multiple unrelated objects?",
+        "answer": "Flex Prompt Template"
+    },
+    {
+        "question": "Which type of prompt template can be created to define a reusable prompt that automatically populates a dynamic form field?",
+        "answer": "Field Generation Prompt Template"
+    },
+    {
+        "question": "Which type of prompt template can be created to allow users to draft personalized emails for customers?",
+        "answer": "Sales Emails Prompt Templates"
+    },
+    {
+        "question": "Which permission set can be assigned to a user who needs to access and run prompt templates?",
+        "answer": "Prompt Template User"
+    },
+    {
+        "question": "Which permission set can be assigned to users who need to create and manage prompt templates?",
+        "answer": "Prompt Template Manager"
+    },
+    {
+        "question": "Which permission set must be assigned to a user who needs to draft emails using Einstein Generative AI?",
+        "answer": "Einstein Sales Emails"
+    },
+    {
+        "question": "If a user cannot see the generative AI-enabled icon next to a field that uses a field generation template, what is the most likely cause?",
+        "answer": "The prompt user permission set is not assigned to the user"
+    },
+    {
+        "question": "How can contextual information be provided to the LLM in a prompt template?",
+        "answer": "By asking it to role play as a character, such as a sales representative"
+    }
+]
