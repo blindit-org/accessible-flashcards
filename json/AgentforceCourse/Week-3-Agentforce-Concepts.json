@@ -32,7 +32,7 @@
         "answer": "10 tests and 1000 test cases per test"
     },
     {
-        "question": "Which tuple of change set should be created in a sandbox to deploy an agent?",
+        "question": "Which type of change set should be created in a sandbox to deploy an agent?",
         "answer": "Outbound change set"
     }
 ]
