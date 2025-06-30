@@ -5,7 +5,7 @@
     },
     {
         "question": "Which related list merge field is not supported for the Account Object?",
-        "answer": "Activates"
+        "answer": "Activities"
     },
     {
         "question": "Which feature enables the use of a field generation prompt template on a Lightning record page?",
