@@ -1,0 +1,62 @@
+[
+    {
+        "question": "How are Salesforce records defined in relation to objects?",
+        "answer": "They are data organized into entries and stored in objects with similar records."
+    },
+    {
+        "question": "Besides Global Search, which feature allows a user to quickly access a record they recently marked for easy retrieval?",
+        "answer": "Favorites"
+    },
+    {
+        "question": "Which UI customization principle focuses on placing important information where users do not have to hunt or scroll?",
+        "answer": "Location"
+    },
+    {
+        "question": "Which UI customization principle focuses on organizing information so users intuitively know where to find it?",
+        "answer": "Grouping"
+    },
+    {
+        "question": "Which UI customization principle aims to prevent users from moving up and down the page to update fields?",
+        "answer": "Data entry"
+    },
+    {
+        "question": "What diagnostic question should an admin ask users to begin simplifying a record page?",
+        "answer": "What's the first thing you're looking for on this page?"
+    },
+    {
+        "question": "In the Bertha Boxer scenario, where is the phone number located to provide immediate access for callers?",
+        "answer": "Highlights panel"
+    },
+    {
+        "question": "Which record page tab is open by default to allow users to immediately use the 'Log a Call' feature?",
+        "answer": "Activity tab"
+    },
+    {
+        "question": "If a whole team frequently needs to see the Details tab first, what action should an admin take regarding tab settings?",
+        "answer": "Make the Details tab the default instead of Activity."
+    },
+    {
+        "question": "To ensure a field like 'Product Interest' is seen without scrolling within the Details tab, where should it be positioned?",
+        "answer": "At the top of the Details section"
+    },
+    {
+        "question": "What feature can be used to help users view specific fields, such as 'Product Interest,' across multiple records at once?",
+        "answer": "Custom list view"
+    },
+    {
+        "question": "True or False: Custom list views can be shared across an entire team.",
+        "answer": "TRUE"
+    },
+    {
+        "question": "Salesforce records are stored in _____ with other records of a similar type.",
+        "answer": "objects"
+    },
+    {
+        "question": "What is the primary goal of learning record page customization for a BIT Admin student?",
+        "answer": "To understand how back-end changes impact the user's front-end experience."
+    },
+    {
+        "question": "If a user needs to review details to make notes, but the field is at the bottom of the page, which UX principle is being violated?",
+        "answer": "Location"
+    }
+]
