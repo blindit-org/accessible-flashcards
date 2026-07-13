@@ -1,0 +1,102 @@
+[
+    {
+        "question": "What is the primary purpose of using the BIT Report Framework in Salesforce?",
+        "answer": "It provides a simple and repeatable approach to building effective and organized reports."
+    },
+    {
+        "question": "In Step One of the BIT Report Framework, what is the significance of selecting a report type?",
+        "answer": "It determines which specific objects and fields are available for use in the report."
+    },
+    {
+        "question": "What is the primary focus of Step Two (Drill Down Number One) in the BIT Report Framework?",
+        "answer": "Identifying which records should appear in the report by using filters."
+    },
+    {
+        "question": "What elements of a report are configured during Step Three: What's the Layout?",
+        "answer": "Columns, groupings, summaries, and the overall visual structure of the final report."
+    },
+    {
+        "question": "What is the purpose of Step Four (Drill Down Number Two) in the BIT Report Framework?",
+        "answer": "Adding custom filters and advanced precision to return exactly the records needed."
+    },
+    {
+        "question": "Why are filters considered essential components of a Salesforce report?",
+        "answer": "They help users focus only on relevant data rather than reviewing every record in the system."
+    },
+    {
+        "question": "Where are all report filtering criteria managed within the Salesforce Report Builder?",
+        "answer": "The Filters tab located on the left side of the screen."
+    },
+    {
+        "question": "What determines which standard filters are automatically included in a new report?",
+        "answer": "The specific report type selected at the beginning of the creation process."
+    },
+    {
+        "question": "In an Opportunity report, which standard filter determines the visibility of records based on qualifying sales criteria or ownership?",
+        "answer": "The Show Me filter."
+    },
+    {
+        "question": "What are the two main configuration options available within the Close Date standard filter?",
+        "answer": "The specific date field to be used and the designated date range."
+    },
+    {
+        "question": "If a stakeholder requests data from the most recently completed quarter, which range should be applied to the Close Date filter?",
+        "answer": "Previous Fiscal Quarter."
+    },
+    {
+        "question": "To narrow a report to only completed sales results, what should the Opportunity Status filter be set to?",
+        "answer": "Closed Won."
+    },
+    {
+        "question": "Why is additional probability filtering often unnecessary when an Opportunity Status is set to 'Closed Won'?",
+        "answer": "The 'Closed Won' status already narrows the results to completed deals by default."
+    },
+    {
+        "question": "Concept: Custom Report Filters",
+        "answer": "User-defined filters that allow administrators to narrow a dataset with greater precision than standard filters."
+    },
+    {
+        "question": "How does a user add a non-standard field as a filter in the Report Builder?",
+        "answer": "Select Add Filter and search for the specific field name, such as Product Name."
+    },
+    {
+        "question": "What is the function of 'Filter Logic' in Salesforce reporting?",
+        "answer": "It determines how multiple filters interact using conditions such as AND and OR."
+    },
+    {
+        "question": "In filter logic, which condition requires a record to meet every specified filter to be included in the report?",
+        "answer": "The AND condition."
+    },
+    {
+        "question": "In filter logic, which condition allows a record to be included if it meets at least one of the specified criteria?",
+        "answer": "The OR condition."
+    },
+    {
+        "question": "What is the expected result in the Report Builder after a new custom filter is applied?",
+        "answer": "The report preview updates to display only the records that align with the new stakeholder priorities."
+    },
+    {
+        "question": "The BIT Report Framework helps ensure reports are organized, accurate, and useful for _____.",
+        "answer": "business decision-making"
+    },
+    {
+        "question": "Which standard filter in an Opportunity report is typically used to separate deals in progress from completed deals?",
+        "answer": "Opportunity Status."
+    },
+    {
+        "question": "Report filters work very similarly to _____ filters.",
+        "answer": "list view"
+    },
+    {
+        "question": "What is the first step in creating a custom filter for specific products in a report?",
+        "answer": "Selecting Add Filter and searching for the Product Name field."
+    },
+    {
+        "question": "According to the BIT framework, which step involves choosing columns and summaries?",
+        "answer": "Step Three: What's the Layout?"
+    },
+    {
+        "question": "If a report needs to show records for two different industries simultaneously, which filter logic operator should be used?",
+        "answer": "The OR operator."
+    }
+]
