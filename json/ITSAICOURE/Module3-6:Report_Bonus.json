@@ -1,0 +1,122 @@
+[
+    {
+        "question": "How does a bucket column differ from a standard report grouping in Salesforce?",
+        "answer": "Bucketing categorizes data into custom segments without creating new fields or summary subtotals."
+    },
+    {
+        "question": "Which three field types are eligible for use when creating a bucket column?",
+        "answer": "Number, Text, and Picklist fields are the types compatible with bucketing."
+    },
+    {
+        "question": "In Salesforce reporting, what is the maximum number of bucket values allowed within a single bucket column?",
+        "answer": "A single bucket column can contain up to 20 bucket values."
+    },
+    {
+        "question": "What is the total limit for the number of bucket columns that can be added to a single report?",
+        "answer": "Each report can contain a maximum of 5 bucket columns."
+    },
+    {
+        "question": "Why might a business use bucket columns to analyze Account industries?",
+        "answer": "Bucketing allows an administrator to combine numerous fragmented picklist values into broad market sectors."
+    },
+    {
+        "question": "Concept: Bucket Column",
+        "answer": "A reporting feature used to segment data into custom labels on the fly without adding fields to the object."
+    },
+    {
+        "question": "To create a bucket column, an administrator selects the 'Bucket This Column' option from the _____.",
+        "answer": "column header menu"
+    },
+    {
+        "question": "What visual enhancement allows administrators to apply color cues to report totals based on specific rules?",
+        "answer": "Conditional Formatting is used to apply automatic color indicators to totals and subtotals."
+    },
+    {
+        "question": "Why is conditional formatting unavailable for Tabular reports?",
+        "answer": "Tabular reports do not support conditional formatting because they lack subtotal and total summary lines."
+    },
+    {
+        "question": "Which two report formats are compatible with conditional formatting?",
+        "answer": "Summary reports and Matrix reports are the two formats that support this feature."
+    },
+    {
+        "question": "Besides grouping, what is the primary technical requirement for applying conditional formatting to a report?",
+        "answer": "The report must contain a summarized numeric value, such as a summary column or a summary formula."
+    },
+    {
+        "question": "What is the primary difference between a Row-Level Formula and a Summary Formula?",
+        "answer": "Row-level formulas calculate values for individual records, while summary formulas calculate across groups of records."
+    },
+    {
+        "question": "In Lightning Experience, how many conditional formatting rules can be created per report?",
+        "answer": "A report can have a maximum of 5 conditional formatting rules."
+    },
+    {
+        "question": "What is the maximum number of colors (breakpoints) allowed within a single conditional formatting rule?",
+        "answer": "Each rule supports the use of up to 3 different colors."
+    },
+    {
+        "question": "Which icon in the Report Builder is used to access the conditional formatting setup window?",
+        "answer": "The paint roller icon is used to configure conditional formatting."
+    },
+    {
+        "question": "What is the primary business problem solved by using Reporting Snapshots?",
+        "answer": "Snapshots solve the inability of standard reports to display historical data as it existed in the past."
+    },
+    {
+        "question": "Where must an administrator go within Salesforce to configure a Reporting Snapshot?",
+        "answer": "Reporting Snapshots must be configured within the Salesforce Setup menu rather than the Report Builder."
+    },
+    {
+        "question": "Where does Salesforce store the data captured by a Reporting Snapshot?",
+        "answer": "The data is stored in a custom object specifically created to hold the captured report results."
+    },
+    {
+        "question": "Identify the three core steps in the administrator setup process for Reporting Snapshots.",
+        "answer": "The steps are creating a custom object, configuring the snapshot mapping, and scheduling the snapshot."
+    },
+    {
+        "question": "Which two source report types are permitted for use with Reporting Snapshots?",
+        "answer": "Only Tabular and Summary reports can be used as source reports for snapshots."
+    },
+    {
+        "question": "What are the two report types that CANNOT be used as a source for Reporting Snapshots?",
+        "answer": "Matrix and Joined reports are not supported as source reports for snapshots."
+    },
+    {
+        "question": "What is the maximum number of rows a single Reporting Snapshot can capture at one time?",
+        "answer": "Each snapshot execution is limited to capturing 2,000 rows of data."
+    },
+    {
+        "question": "What is the maximum number of Reporting Snapshots allowed per Salesforce organization?",
+        "answer": "An organization is limited to a total of 200 reporting snapshots."
+    },
+    {
+        "question": "How does a Reporting Snapshot differ from a Report Subscription?",
+        "answer": "Snapshots store historical data in custom objects for trend analysis, while subscriptions merely email current results to users."
+    },
+    {
+        "question": "When evaluating opportunity pipeline changes over several months, which feature should an administrator recommend?",
+        "answer": "Reporting Snapshots are the correct tool for analyzing trends and changes in data over time."
+    },
+    {
+        "question": "A _____ formula is required to see a result on every individual row of a report.",
+        "answer": "row-level"
+    },
+    {
+        "question": "Which reporting feature is most appropriate for a manager who needs to see 'Red' for underperforming sales totals?",
+        "answer": "Conditional Formatting is the most appropriate feature for this visual requirement."
+    },
+    {
+        "question": "In the context of Reporting Snapshots, what action must be taken during setup to ensure data flows from the report to the custom object?",
+        "answer": "The administrator must map the report columns to the specific fields on the custom object."
+    },
+    {
+        "question": "Which advanced reporting tool allows for marketing segmentation based on age ranges without creating a new age category field on the record?",
+        "answer": "Bucket columns allow for this type of segmentation based on existing numeric fields like Age."
+    },
+    {
+        "question": "What determines the frequency at which a Reporting Snapshot captures data?",
+        "answer": "The frequency is determined by the snapshot schedule, which can be daily, weekly, or monthly."
+    }
+]
