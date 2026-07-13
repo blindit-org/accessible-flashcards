@@ -1,0 +1,90 @@
+[
+    {
+        "question": "What is the primary function of a Salesforce report?",
+        "answer": "To view, organize, filter, and analyze data stored within the Salesforce platform."
+    },
+    {
+        "question": "How do reports assist organizations beyond simply displaying data records?",
+        "answer": "They identify patterns, trends, totals, and business activity to tell the story behind the data."
+    },
+    {
+        "question": "In the utility bill analogy, what does a Salesforce report provide beyond a simple 'balance due'?",
+        "answer": "Consumption trends and usage details that help users make informed decisions."
+    },
+    {
+        "question": "Which icon in the upper-left corner is used to search for and access the Reports area?",
+        "answer": "The App Launcher (also known as the waffle icon)."
+    },
+    {
+        "question": "Besides the App Launcher, what is another common way to access Reports in the Salesforce UI?",
+        "answer": "Selecting the Reports tab from the navigation bar."
+    },
+    {
+        "question": "What is the specific function of a 'Report Type' in Salesforce?",
+        "answer": "It acts as a framework that determines which objects and fields are available for analysis."
+    },
+    {
+        "question": "Why is it impossible for a single report to automatically access every object in Salesforce?",
+        "answer": "The report's data access is strictly defined by the relationships established in its report type."
+    },
+    {
+        "question": "What term is used for report types that Salesforce provides 'out of the box'?",
+        "answer": "Standard report types."
+    },
+    {
+        "question": "Which specific report type should be used when leadership wants to see which items are selling the most?",
+        "answer": "Opportunities with Products."
+    },
+    {
+        "question": "What is the name of the Salesforce tool used to configure columns, filters, and groupings?",
+        "answer": "Report Builder."
+    },
+    {
+        "question": "In the Report Builder's Outline panel, what do 'Columns' represent?",
+        "answer": "The specific fields displayed in the report."
+    },
+    {
+        "question": "Which feature in the Outline panel is used to organize records into distinct categories or sections?",
+        "answer": "Groups."
+    },
+    {
+        "question": "What is the primary purpose of the 'Filters' tab in Report Builder?",
+        "answer": "To control which records appear in the report based on criteria like date ranges or status."
+    },
+    {
+        "question": "Why does the center canvas in Report Builder show only a limited number of records?",
+        "answer": "It is a preview mode meant for quick review rather than a full dataset execution."
+    },
+    {
+        "question": "Which action button in the Report Builder executes the report using the full, live dataset?",
+        "answer": "Run."
+    },
+    {
+        "question": "What is the benefit of enabling the 'Update Preview Automatically' toggle?",
+        "answer": "It instantly refreshes the preview canvas whenever a user modifies columns, filters, or groupings."
+    },
+    {
+        "question": "Where is the 'New Report' button located within the Reports home page?",
+        "answer": "In the upper-right corner."
+    },
+    {
+        "question": "The _____ defines the data relationships available for analysis within a specific report.",
+        "answer": "Report Type"
+    },
+    {
+        "question": "Which button should a user select to store their configuration changes and immediately view the live report results?",
+        "answer": "Save & Run"
+    },
+    {
+        "question": "How do filters help users manage very large datasets in Salesforce?",
+        "answer": "They narrow the data down into useful, specific business views based on field criteria."
+    },
+    {
+        "question": "What is the first step a user must take after clicking 'New Report' before entering the Report Builder?",
+        "answer": "Select a Report Type."
+    },
+    {
+        "question": "In the Report Builder, which workspace area allows you to see the immediate impact of your configuration settings?",
+        "answer": "The report preview canvas."
+    }
+]
