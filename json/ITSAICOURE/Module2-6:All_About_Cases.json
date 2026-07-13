@@ -1,0 +1,122 @@
+[
+    {
+        "question": "Which Salesforce object represents a customer issue, question, or request?",
+        "answer": "Cases"
+    },
+    {
+        "question": "What is the result of excellent service and consistent follow-through in the Salesforce service model?",
+        "answer": "Customer loyalty"
+    },
+    {
+        "question": "Which navigation style in Sales Cloud gives each object its own separate horizontal tab?",
+        "answer": "Standard navigation"
+    },
+    {
+        "question": "What is the primary disadvantage of standard navigation for a high-volume service representative?",
+        "answer": "Increased page load times and reduced efficiency due to frequent clicking."
+    },
+    {
+        "question": "Which Salesforce interface is specifically designed to reduce clicks and allow multitasking without losing context?",
+        "answer": "Salesforce Console"
+    },
+    {
+        "question": "Where in Salesforce do you go to switch from 'Service' to 'Service Console'?",
+        "answer": "App Launcher"
+    },
+    {
+        "question": "Which Console view displays a list of multiple records simultaneously on the left side of the screen?",
+        "answer": "Split View"
+    },
+    {
+        "question": "The Salesforce Console organizes the interface into _____ vertical columns.",
+        "answer": "four"
+    },
+    {
+        "question": "What visual analogy describes the Console's ability to keep critical information immediately visible?",
+        "answer": "An airplane cockpit"
+    },
+    {
+        "question": "Term: Average Handle Time (AHT)",
+        "answer": "A metric measuring the total time it takes to resolve a customer issue."
+    },
+    {
+        "question": "How does the Salesforce Console impact a representative's Average Handle Time (AHT)?",
+        "answer": "It lowers AHT by providing faster access to information."
+    },
+    {
+        "question": "Which Salesforce feature displays every interaction related to a case, such as calls, emails, and chats?",
+        "answer": "Case Feed"
+    },
+    {
+        "question": "Which internal collaboration tool is integrated into the Case Feed?",
+        "answer": "Chatter"
+    },
+    {
+        "question": "What is the purpose of Milestones in the Salesforce Console?",
+        "answer": "To track service-level agreements (SLAs) and resolution deadlines."
+    },
+    {
+        "question": "In the Console, clicking a link to a related contact record opens it as a _____.",
+        "answer": "sub-tab"
+    },
+    {
+        "question": "What is the primary benefit of using sub-tabs for related records in the Console?",
+        "answer": "They allow users to switch between records without waiting for full pages to reload."
+    },
+    {
+        "question": "Where is the Utility Bar located in the Salesforce Console interface?",
+        "answer": "At the bottom of the page"
+    },
+    {
+        "question": "The Utility Bar is a feature available only on the _____ version of Salesforce.",
+        "answer": "desktop"
+    },
+    {
+        "question": "Which Utility Bar component allows a representative to quickly return to a previously viewed case?",
+        "answer": "History"
+    },
+    {
+        "question": "When a Case is identified by a number like '1002', it is using an _____ format.",
+        "answer": "auto-number"
+    },
+    {
+        "question": "Which tool is used to customize the components and cards displayed within the Salesforce Console?",
+        "answer": "Lightning App Builder"
+    },
+    {
+        "question": "In the four-column Console layout, which column typically displays the main record and Case Feed?",
+        "answer": "The center column"
+    },
+    {
+        "question": "In the four-column Console layout, what information is generally found in the right-hand column?",
+        "answer": "Milestones and Related Lists"
+    },
+    {
+        "question": "Why is reducing 'clicks' a primary focus when configuring Salesforce for service reps?",
+        "answer": "To drive user adoption, efficiency, and higher service quality."
+    },
+    {
+        "question": "In the 'lead to loyal' story, which part of Salesforce typically follows the closing of an opportunity?",
+        "answer": "Service (Cases)"
+    },
+    {
+        "question": "Which specific Console view options are available besides Split View?",
+        "answer": "Table and Kanban"
+    },
+    {
+        "question": "How does the navigation area change when moving from standard Sales Cloud to the Service Console?",
+        "answer": "Horizontal object tabs are replaced by a streamlined, single tab area with a drop-down."
+    },
+    {
+        "question": "What is the business impact of a lower Average Handle Time (AHT) for a service rep?",
+        "answer": "Better performance ratings and potentially higher compensation."
+    },
+    {
+        "question": "Which column in the Split View layout displays key fields like Case Owner, Status, and Priority?",
+        "answer": "The left column"
+    },
+    {
+        "question": "What is the relationship between Salesforce Campaigns and the service process described in the text?",
+        "answer": "Campaigns generate the initial leads that eventually require service after becoming customers."
+    }
+]
