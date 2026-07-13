@@ -1,0 +1,98 @@
+[
+    {
+        "question": "What does a lead record represent in the Salesforce data model before it is qualified?",
+        "answer": "An unqualified person or company that may be interested in doing business with the organization."
+    },
+    {
+        "question": "Why is the Lead object considered \"temporary by design\" in Salesforce?",
+        "answer": "Leads act as a holding area for prospects until they are converted into permanent business relationships."
+    },
+    {
+        "question": "Which standard Salesforce object is the only one that includes the \"Convert\" button?",
+        "answer": "Leads."
+    },
+    {
+        "question": "What three core Salesforce objects can be created or updated during the lead conversion process?",
+        "answer": "Account, Contact, and Opportunity."
+    },
+    {
+        "question": "Concept: Account (in the context of lead conversion)",
+        "answer": "A record representing the business or organization involved in the relationship."
+    },
+    {
+        "question": "Concept: Contact (in the context of lead conversion)",
+        "answer": "A record representing the specific person who works at the associated account."
+    },
+    {
+        "question": "Concept: Opportunity (in the context of lead conversion)",
+        "answer": "A record representing potential revenue or a specific deal that could generate money."
+    },
+    {
+        "question": "During lead conversion, which Lead field is used by Salesforce to suggest the Account Name?",
+        "answer": "The Company field."
+    },
+    {
+        "question": "During lead conversion, which Lead fields are used by Salesforce to suggest the Contact Name?",
+        "answer": "The First Name and Last Name fields."
+    },
+    {
+        "question": "What action should a user take during conversion if the lead's company already exists as a record in Salesforce?",
+        "answer": "Associate the lead with the existing account instead of creating a new one."
+    },
+    {
+        "question": "Which specific record creation is optional for a user during the lead conversion process?",
+        "answer": "The Opportunity record."
+    },
+    {
+        "question": "In what scenario would a user convert a lead but choose not to create an opportunity?",
+        "answer": "When the person is qualified but there is no immediate sales deal, budget, or timeline identified."
+    },
+    {
+        "question": "By default, which user is assigned ownership of the Account, Contact, and Opportunity created during conversion?",
+        "answer": "The user who is performing the conversion."
+    },
+    {
+        "question": "The _____ field must have at least one value designated as \"Converted\" in Setup to allow the conversion process to complete.",
+        "answer": "Lead Status"
+    },
+    {
+        "question": "What is the status of a lead record after it has been successfully converted?",
+        "answer": "It becomes a read-only historical artifact that is no longer editable."
+    },
+    {
+        "question": "Which specific permission is typically required for a user to view leads after they have been converted?",
+        "answer": "\"View and Edit Converted Leads.\""
+    },
+    {
+        "question": "How does Salesforce handle mapping for standard fields, such as Email or Phone, during lead conversion?",
+        "answer": "Standard fields are automatically mapped to their corresponding fields on the Account or Contact and cannot be changed."
+    },
+    {
+        "question": "What must an administrator configure to ensure data from custom lead fields is transferred during conversion?",
+        "answer": "Lead Field Mapping in the Lead object settings."
+    },
+    {
+        "question": "What is the consequence of failing to map a custom lead field to a destination field on another object?",
+        "answer": "The data entered into that custom field will be lost upon conversion."
+    },
+    {
+        "question": "Besides the \"Convert\" button, what is another way a user can initiate the conversion process if the feature is enabled?",
+        "answer": "Moving a lead to a converted status using the Path component."
+    },
+    {
+        "question": "Salesforce suggests a default Opportunity name by combining the Account name with the phrase \"_____.\"",
+        "answer": "New Business"
+    },
+    {
+        "question": "What role does lead conversion play in performance tracking for a sales team?",
+        "answer": "It provides metrics for conversion rates, pipeline generation, and revenue attribution."
+    },
+    {
+        "question": "Why does Salesforce hide converted leads from standard list views by default?",
+        "answer": "To keep users focused on active records that drive current business forward."
+    },
+    {
+        "question": "True or False: A single lead record can be converted into three identical records for Account, Contact, and Opportunity.",
+        "answer": "False (Data is distributed appropriately across the different objects rather than duplicated)."
+    }
+]
