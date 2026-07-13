@@ -1,0 +1,182 @@
+[
+    {
+        "question": "What are the three core levels of the Salesforce user interface?",
+        "answer": "The global level, the app level, and the record level."
+    },
+    {
+        "question": "What is the alternative name for the 'record level' in Salesforce?",
+        "answer": "The content level."
+    },
+    {
+        "question": "Which Salesforce UI level remains visible and available regardless of the app or record being used?",
+        "answer": "The global level (Global Header)."
+    },
+    {
+        "question": "Where is the Global Search tool specifically located in the Salesforce interface?",
+        "answer": "Near the center of the top of the screen in the global header."
+    },
+    {
+        "question": "What is the scope of Global Search within a Salesforce organization?",
+        "answer": "It looks across the entire org, including both standard and custom objects."
+    },
+    {
+        "question": "Which section of the Global Header contains the Global Search bar?",
+        "answer": "The center section."
+    },
+    {
+        "question": "Name the seven items contained within the Global Action Bar.",
+        "answer": "Favorites, Global Actions, Guidance Center, Salesforce Help, Setup, Notifications, and the Profile Menu."
+    },
+    {
+        "question": "What mnemonic is used to remember the items in the Global Action Bar?",
+        "answer": "Friendly Gorillas Gather Serious Snacks Nibbling Peanuts."
+    },
+    {
+        "question": "In the Global Action Bar mnemonic, which tool corresponds to the word 'Friendly'?",
+        "answer": "Favorites."
+    },
+    {
+        "question": "In the Global Action Bar mnemonic, which tool corresponds to the word 'Gorillas'?",
+        "answer": "Global Actions."
+    },
+    {
+        "question": "In the Global Action Bar mnemonic, which tool corresponds to the word 'Gather'?",
+        "answer": "Guidance Center."
+    },
+    {
+        "question": "In the Global Action Bar mnemonic, which tool corresponds to the word 'Serious'?",
+        "answer": "Salesforce Help."
+    },
+    {
+        "question": "In the Global Action Bar mnemonic, which tool corresponds to the word 'Snacks'?",
+        "answer": "Setup."
+    },
+    {
+        "question": "In the Global Action Bar mnemonic, which tool corresponds to the word 'Nibbling'?",
+        "answer": "Notifications."
+    },
+    {
+        "question": "In the Global Action Bar mnemonic, which tool corresponds to the word 'Peanuts'?",
+        "answer": "Profile Menu."
+    },
+    {
+        "question": "Which tool in the global header allows users to bookmark important records or reports?",
+        "answer": "Favorites."
+    },
+    {
+        "question": "Which tool in the global header provides shortcuts for tasks like logging calls or creating records?",
+        "answer": "Global Actions."
+    },
+    {
+        "question": "What does the Guidance Center display to a Salesforce user?",
+        "answer": "Assigned or recommended learning content."
+    },
+    {
+        "question": "How does Salesforce Help assist users without forcing them to navigate away from their work?",
+        "answer": "It opens context-sensitive help directly within the org."
+    },
+    {
+        "question": "What is the primary function of the 'Setup' tool in the global header?",
+        "answer": "It opens the backend configuration area in a new tab or window."
+    },
+    {
+        "question": "Where are unread alerts, such as record updates or approvals, displayed?",
+        "answer": "In the Notifications section of the global header."
+    },
+    {
+        "question": "Which menu provides access to personal preferences and accessibility settings?",
+        "answer": "The Profile Menu."
+    },
+    {
+        "question": "What characterizes the Salesforce 'Record Level' (Content Level)?",
+        "answer": "It is the main content area where data lives and where users perform most of their work."
+    },
+    {
+        "question": "What is the maximum number of records a Salesforce List View can display?",
+        "answer": "2,000 records."
+    },
+    {
+        "question": "What feature allows users to edit record data directly within a list view?",
+        "answer": "Inline editing."
+    },
+    {
+        "question": "List the four display formats available for Salesforce List Views.",
+        "answer": "Table view, Split view, Kanban, and Intelligence View."
+    },
+    {
+        "question": "Which list view format provides additional metrics specifically for leads, contacts, and accounts?",
+        "answer": "Intelligence View."
+    },
+    {
+        "question": "According to the training module, what specific question is answered by a List View?",
+        "answer": "\"What do I need to work on right now?\""
+    },
+    {
+        "question": "According to the training module, what specific question is answered by a Report?",
+        "answer": "\"What patterns or insights exist in my data?\""
+    },
+    {
+        "question": "Which Salesforce tool is recommended for performing trend analysis and forecasting?",
+        "answer": "Reports."
+    },
+    {
+        "question": "Which Salesforce UI level is responsible for navigating between different apps and object tabs?",
+        "answer": "The App Level."
+    },
+    {
+        "question": "What is the name and icon used to access the App Launcher?",
+        "answer": "The App Launcher is accessed via the 'waffle' icon."
+    },
+    {
+        "question": "How can a user customize the order of apps in their App Launcher?",
+        "answer": "By dragging the app cards to reorder them."
+    },
+    {
+        "question": "What do the tabs within a Salesforce app primarily represent?",
+        "answer": "Objects (like Leads or Accounts) and features (like Reports or Home)."
+    },
+    {
+        "question": "Which icon allows a user to personalize their navigation bar by adding or removing tabs?",
+        "answer": "The pencil icon."
+    },
+    {
+        "question": "Where do additional tabs appear if they cannot all fit on the primary navigation row?",
+        "answer": "Under the 'More' menu."
+    },
+    {
+        "question": "What is the visual indicator and behavior of a 'temporary' tab in Salesforce?",
+        "answer": "It appears italicized with an asterisk and disappears when the session ends."
+    },
+    {
+        "question": "In Profile Settings, what is the functional difference between the Language and Locale settings?",
+        "answer": "Language controls interface text, while Locale controls formatting for dates, numbers, and addresses."
+    },
+    {
+        "question": "How can a user change their profile photo in Salesforce?",
+        "answer": "By selecting their avatar in the profile menu and choosing an image from their computer."
+    },
+    {
+        "question": "To reduce visual complexity for new learners, which list view layout is recommended?",
+        "answer": "Table view."
+    },
+    {
+        "question": "What is the primary function of the App Level in the Salesforce mental map?",
+        "answer": "Organizing work by function."
+    },
+    {
+        "question": "What specific user action allows a temporary tab to become a permanent part of the navigation bar?",
+        "answer": "Adding it through the pencil icon (Personalize Your Navigation Bar)."
+    },
+    {
+        "question": "Which Salesforce tool supports grouping, totals, buckets, and formulas for data analysis?",
+        "answer": "Reports."
+    },
+    {
+        "question": "Which physical section of the Global Header contains the Salesforce or company logo?",
+        "answer": "The left section."
+    },
+    {
+        "question": "Within Profile Settings, what determines the formatting of names and addresses?",
+        "answer": "The Locale setting."
+    }
+]
