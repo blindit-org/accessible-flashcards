@@ -1,0 +1,102 @@
+[
+    {
+        "question": "In Salesforce marketing, what is the definition of a marketing campaign?",
+        "answer": "The first point of contact or 'Hello' that initiates engagement with a customer."
+    },
+    {
+        "question": "What is the ultimate goal of all marketing campaigns within Salesforce?",
+        "answer": "To directly influence revenue by creating qualified leads that convert into sales opportunities."
+    },
+    {
+        "question": "List the three 'human objects' in Salesforce that marketing campaigns are designed to influence.",
+        "answer": "Leads, Contacts, and Person Accounts."
+    },
+    {
+        "question": "Term: Person Account",
+        "answer": "An individual consumer record treated as both a lead and an account within Salesforce."
+    },
+    {
+        "question": "Which Salesforce object is the foundation for creating, managing, and measuring marketing effectiveness?",
+        "answer": "The Campaign object."
+    },
+    {
+        "question": "In which Salesforce app can an administrator typically find the Campaigns tab?",
+        "answer": "The Sales Cloud app."
+    },
+    {
+        "question": "What must be checked on a Campaign record to ensure it is considered currently operational?",
+        "answer": "The Active checkbox."
+    },
+    {
+        "question": "Name three standard currency fields used to track the financial aspects of a Salesforce campaign.",
+        "answer": "Expected Revenue, Budgeted Cost, and Actual Cost."
+    },
+    {
+        "question": "How are metrics like 'Leads in Campaign' or 'Value of Won Opportunities' updated on a campaign record?",
+        "answer": "They are calculated fields that update automatically as campaign members and opportunities are processed."
+    },
+    {
+        "question": "Term: Campaign Member",
+        "answer": "The specific lead, contact, or Person Account targeted by a marketing campaign."
+    },
+    {
+        "question": "Where in the Salesforce UI can a user access the list of Campaign Members for a specific campaign?",
+        "answer": "In the Campaign Members related list on the specific campaign record."
+    },
+    {
+        "question": "What happens to a Campaign Member record when a lead is converted into a contact?",
+        "answer": "Salesforce automatically updates the member type to Contact without losing the campaign association."
+    },
+    {
+        "question": "What is the primary purpose of Campaign Hierarchies?",
+        "answer": "To group related campaigns in a parent-child structure for aggregate data reporting."
+    },
+    {
+        "question": "What is the maximum number of levels allowed in a Salesforce Campaign Hierarchy?",
+        "answer": "Five levels."
+    },
+    {
+        "question": "Which field on a campaign record is used to link a child campaign to its parent?",
+        "answer": "The Parent Campaign field."
+    },
+    {
+        "question": "How do child campaigns contribute to the reporting of a parent campaign in a hierarchy?",
+        "answer": "Metrics from child campaigns roll up to provide aggregate data at the parent level."
+    },
+    {
+        "question": "Term: Campaign Influence",
+        "answer": "A tool that measures and attributes opportunity pipeline success to specific marketing campaigns."
+    },
+    {
+        "question": "In the standard Campaign Influence model, which field on the opportunity ties it to a campaign?",
+        "answer": "The Primary Campaign Source field."
+    },
+    {
+        "question": "How does the custom Campaign Influence model differ from the standard model?",
+        "answer": "It allows credit for an opportunity to be shared across multiple campaigns based on defined rules."
+    },
+    {
+        "question": "Which custom influence model attributes 100% of the revenue credit to the very first campaign a prospect encountered?",
+        "answer": "The First Touch model."
+    },
+    {
+        "question": "Which custom influence model attributes 100% of the revenue credit to the final campaign a prospect interacted with before a sale?",
+        "answer": "The Last Touch model."
+    },
+    {
+        "question": "How is credit distributed in the 'Even Distribution' custom influence model?",
+        "answer": "The credit is spread equally across all campaigns that influenced the opportunity."
+    },
+    {
+        "question": "What administrative action is required before Campaign Influence can be used in a Salesforce org?",
+        "answer": "The administrator must manually enable Campaign Influence within the Setup menu."
+    },
+    {
+        "question": "The visual structure of a campaign hierarchy is best compared to a(n) _____.",
+        "answer": "File folder hierarchy"
+    },
+    {
+        "question": "Why are campaigns aimed at people rather than businesses in Salesforce?",
+        "answer": "Businesses are legal entities that cannot make decisions, respond to emails, or attend events."
+    }
+]
