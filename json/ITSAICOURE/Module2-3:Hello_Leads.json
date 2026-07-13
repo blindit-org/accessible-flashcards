@@ -1,0 +1,86 @@
+[
+    {
+        "question": "Which specific Salesforce object is the primary focus of Module 2-3?",
+        "answer": "Leads"
+    },
+    {
+        "question": "What does the acronym 'CRED' represent regarding Salesforce object access?",
+        "answer": "Create, Read, Edit, and Delete"
+    },
+    {
+        "question": "What is the primary indicator on the front end that a user has 'Read' access to a Salesforce object?",
+        "answer": "The object's tab is visible in the navigation bar."
+    },
+    {
+        "question": "If an object's tab is not visible, which tool can be used to search for the object by name to verify access?",
+        "answer": "App Launcher"
+    },
+    {
+        "question": "What is the Salesforce term for the display of records shown when an object tab is opened?",
+        "answer": "List view"
+    },
+    {
+        "question": "Which specific Lead view includes summary metrics along with the standard list of records?",
+        "answer": "Intelligence View"
+    },
+    {
+        "question": "Which list view should be selected to display the sample data preloaded by Salesforce in a Trailhead org?",
+        "answer": "All Open Leads"
+    },
+    {
+        "question": "The presence of the 'New' button on a list view confirms that a user has _____ access for that object.",
+        "answer": "Create"
+    },
+    {
+        "question": "How are required fields visually denoted in the Salesforce record creation modal?",
+        "answer": "With a red asterisk"
+    },
+    {
+        "question": "Who is automatically assigned as the 'Lead Owner' when a new record is created?",
+        "answer": "The user who creates the record"
+    },
+    {
+        "question": "The 'Name' field on a Lead is a _____ field, meaning it contains multiple components like First Name and Last Name.",
+        "answer": "Compound"
+    },
+    {
+        "question": "Which component of the Lead 'Name' compound field is the only one required by default?",
+        "answer": "Last Name"
+    },
+    {
+        "question": "Which required Lead field represents the organization the lead works for?",
+        "answer": "Company"
+    },
+    {
+        "question": "What type of Salesforce record is a Lead's 'Company' converted into during the conversion process?",
+        "answer": "Account"
+    },
+    {
+        "question": "Concept: Picklist",
+        "answer": "The Salesforce term for a dropdown menu selection field."
+    },
+    {
+        "question": "What is the default value for the 'Lead Status' picklist in a fresh Trailhead org?",
+        "answer": "Open – Not Contacted"
+    },
+    {
+        "question": "Where should a user look on a record page to determine if they have 'Edit' access?",
+        "answer": "The action bar"
+    },
+    {
+        "question": "Which icon indicates that a specific field can be edited directly from the record's details page?",
+        "answer": "A pencil icon"
+    },
+    {
+        "question": "If the 'Delete' button is not visible in the action bar, it can often be found under the _____ dropdown.",
+        "answer": "More"
+    },
+    {
+        "question": "Which unique action button on a Lead record is central to moving it through the 'Lead to Loyal' lifecycle?",
+        "answer": "Convert"
+    },
+    {
+        "question": "In the BIT Academy training scenario, which Salesforce app is used to work with Leads?",
+        "answer": "Sales Cloud"
+    }
+]
