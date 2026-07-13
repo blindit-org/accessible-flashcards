@@ -1,0 +1,122 @@
+[
+    {
+        "question": "What is considered the most effective method for a Junior Admin to train a new Salesforce user?",
+        "answer": "Scheduling a Zoom meeting where the new user shares their screen for step-by-step guidance."
+    },
+    {
+        "question": "In the context of Salesforce training, what does the internal team phrase 'train grog' represent?",
+        "answer": "Approaching technology training with patience, empathy, and simplicity for absolute beginners."
+    },
+    {
+        "question": "Why is a Junior Admin uniquely positioned to teach Salesforce to true beginners?",
+        "answer": "They are learning the system themselves and can naturally identify where a beginner might get stuck."
+    },
+    {
+        "question": "What is the primary goal of training users who feel unsure about Salesforce technology?",
+        "answer": "To make the users feel supported, confident, and capable in the system."
+    },
+    {
+        "question": "According to the Junior Admin module, what central element does everything in Salesforce revolve around for the user?",
+        "answer": "Data"
+    },
+    {
+        "question": "Why should Salesforce training be tailored specifically to the individual user's job role?",
+        "answer": "Users only care about the specific data that affects their daily tasks and responsibilities."
+    },
+    {
+        "question": "Which specific data points are highlighted as the primary concern for Sales Representatives during training?",
+        "answer": "Leads, opportunities, and commissions."
+    },
+    {
+        "question": "Which specific data points are the focus for Service Representatives during training?",
+        "answer": "Cases, statuses, and response times."
+    },
+    {
+        "question": "Term: Org (Organization)",
+        "answer": "A private instance of Salesforce identified by a unique ID within a shared multi-tenant system."
+    },
+    {
+        "question": "Term: UI (User Interface)",
+        "answer": "Everything a user sees and interacts with after logging in, also known as the front end."
+    },
+    {
+        "question": "In Salesforce terminology, what is an 'End User'?",
+        "answer": "A person using Salesforce to perform business tasks, such as sales reps or service agents."
+    },
+    {
+        "question": "What does the term 'Happy Path' describe in a Salesforce use case?",
+        "answer": "The ideal scenario where a user accomplishes a goal without errors or interruptions."
+    },
+    {
+        "question": "Which Salesforce tool is represented by a grid icon in the top-left corner and used to switch between apps?",
+        "answer": "The App Launcher"
+    },
+    {
+        "question": "Which level of Salesforce navigation includes tools like global search that are available from any screen?",
+        "answer": "Global level"
+    },
+    {
+        "question": "Which level of Salesforce navigation contains tabs for specific objects like Leads, Contacts, and Accounts?",
+        "answer": "App level"
+    },
+    {
+        "question": "Which area of the Salesforce UI is dedicated to displaying lists and individual record content?",
+        "answer": "Record level"
+    },
+    {
+        "question": "Where should a user look on a record page to find a summary of key fields, such as a lead's email address?",
+        "answer": "The highlight panel"
+    },
+    {
+        "question": "Within an individual record, where is the 'Lead Source' field typically located?",
+        "answer": "The Details tab"
+    },
+    {
+        "question": "What is the function of the star icon located in the global navigation area?",
+        "answer": "It allows users to favorite a record for quick access later."
+    },
+    {
+        "question": "When opening the Leads tab, what is the name of the default intelligence-focused display?",
+        "answer": "Intelligence View"
+    },
+    {
+        "question": "What must a user select to switch from Intelligence View to a structured row-and-column format?",
+        "answer": "List View (Table View)"
+    },
+    {
+        "question": "When creating a custom list view, which setting determines if other users can see the view?",
+        "answer": "Visibility"
+    },
+    {
+        "question": "To filter a list view to show only the records owned by the current user, what filter criteria is used?",
+        "answer": "Owner = My [Records]"
+    },
+    {
+        "question": "What is the maximum number of records a Salesforce list view can display?",
+        "answer": "2,000 records"
+    },
+    {
+        "question": "If a user needs to view a set of data exceeding 2,000 records, what tool should they use instead of a list view?",
+        "answer": "A report"
+    },
+    {
+        "question": "In the Service Console layout, what information is typically displayed in the left column?",
+        "answer": "The Case list view"
+    },
+    {
+        "question": "In the Service Console layout, what content is found in the center column?",
+        "answer": "The active case record, including Feed and Details tabs."
+    },
+    {
+        "question": "In the Service Console layout, what information is stored in the right column?",
+        "answer": "Related lists, such as activities or contacts."
+    },
+    {
+        "question": "What is the primary difference in app-level navigation between the standard Sales app and the Service Console?",
+        "answer": "The Service Console uses a primary tab for Cases with a dropdown for other objects."
+    },
+    {
+        "question": "How are related records typically accessed within a record in Salesforce?",
+        "answer": "Through hyperlinks and related lists."
+    }
+]
