@@ -1,0 +1,82 @@
+[
+    {
+        "question": "What is the primary function of a Salesforce Dashboard?",
+        "answer": "It transforms report data into visual summaries like charts and graphs for quick decision-making."
+    },
+    {
+        "question": "From where do Salesforce Dashboards pull their data?",
+        "answer": "Salesforce reports."
+    },
+    {
+        "question": "Which Salesforce users are dashboards specifically useful for due to their 'at-a-glance' nature?",
+        "answer": "Business leaders and directors."
+    },
+    {
+        "question": "List two common ways to access the Dashboards page in Salesforce.",
+        "answer": "The Dashboards tab in an app or searching via the App Launcher."
+    },
+    {
+        "question": "What is the primary reason for creating a dashboard folder before building the dashboard itself?",
+        "answer": "To manage organization and control sharing access."
+    },
+    {
+        "question": "What does the 'View' access level allow a user to do with a dashboard folder?",
+        "answer": "The user can only open and see the dashboards."
+    },
+    {
+        "question": "Which folder access level allows a user to modify existing dashboards but not manage folder sharing?",
+        "answer": "Edit."
+    },
+    {
+        "question": "What is the highest dashboard folder access level that includes full control and folder management?",
+        "answer": "Manage."
+    },
+    {
+        "question": "What is the name of the workspace used to design and maintain dashboards in Salesforce?",
+        "answer": "Dashboard Builder."
+    },
+    {
+        "question": "In the Dashboard Builder, what is the 'Dashboard Canvas'?",
+        "answer": "The large grid area where widgets are placed and arranged."
+    },
+    {
+        "question": "What are 'Widgets' in the context of a Salesforce Dashboard?",
+        "answer": "The individual building blocks that display one piece of information, such as a chart or table."
+    },
+    {
+        "question": "Besides charts and tables, what are two other types of content a widget can display?",
+        "answer": "Rich text and images."
+    },
+    {
+        "question": "When adding a 'Chart or Table' widget, what must the user select first as the data source?",
+        "answer": "A source report."
+    },
+    {
+        "question": "Why is a horizontal bar chart recommended for identifying 'Best Sellers'?",
+        "answer": "The longer bars make top-performing items visually easy to identify quickly."
+    },
+    {
+        "question": "How can an administrator change the size of a widget on the dashboard canvas?",
+        "answer": "By dragging the corners of the widget."
+    },
+    {
+        "question": "What chart type is commonly used to show 'Top Buyers' by industry or segment?",
+        "answer": "Vertical Bar Chart."
+    },
+    {
+        "question": "If a chart's X-axis has too many grouped values, what step should be taken to improve clarity?",
+        "answer": "Remove extra fields to focus the chart on a single category, such as Industry."
+    },
+    {
+        "question": "According to best practices, what should dashboard administrators focus on instead of 'decoration'?",
+        "answer": "Supporting business decisions."
+    },
+    {
+        "question": "While reports explain data, dashboards _____ data visually.",
+        "answer": "communicate."
+    },
+    {
+        "question": "Concept: Dashboard Properties",
+        "answer": "The settings menu used to configure high-level dashboard configurations and presentation options."
+    }
+]
