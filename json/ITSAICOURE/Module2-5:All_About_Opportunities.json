@@ -1,0 +1,102 @@
+[
+    {
+        "question": "In the context of the Salesforce sales process, what does the Opportunity object represent?",
+        "answer": "A potential revenue stream or a specific deal that a company is actively working to close."
+    },
+    {
+        "question": "In the parent-child relational model of Salesforce, which object serves as the parent to both Opportunities and Contacts?",
+        "answer": "The Account object."
+    },
+    {
+        "question": "Which field on an Opportunity record tracks the specific step a deal has reached in the sales journey, such as Prospecting or Qualification?",
+        "answer": "The Stage field."
+    },
+    {
+        "question": "How is the value of the Probability field on an Opportunity typically determined?",
+        "answer": "It is automatically assigned based on the current value of the Stage field."
+    },
+    {
+        "question": "What is the formula used by Salesforce to determine the value of the Expected Revenue field?",
+        "answer": "Expected Revenue = Amount × Probability"
+    },
+    {
+        "question": "If an Opportunity has an Amount of $300,000 and is in a stage with a 10% Probability, what is the calculated Expected Revenue?",
+        "answer": "$30,000"
+    },
+    {
+        "question": "Why is the Expected Revenue field on an Opportunity record considered 'read-only' for users?",
+        "answer": "Because it is a dynamic calculation automatically updated by Salesforce based on Amount and Probability."
+    },
+    {
+        "question": "What is the significance of the Close Date field for sales management and forecasting?",
+        "answer": "It identifies when revenue is anticipated to materialize and helps align sales efforts with company goals."
+    },
+    {
+        "question": "What term describes the action of clicking a hyperlink to move from an Opportunity record directly to its related Account record?",
+        "answer": "Traversing objects."
+    },
+    {
+        "question": "Which three records are simultaneously created when a Salesforce lead is successfully converted?",
+        "answer": "An Account, a Contact, and an Opportunity."
+    },
+    {
+        "question": "Why does Salesforce maintain Products and Price Books as separate entities rather than storing prices directly on the Product record?",
+        "answer": "To allow a single product to have multiple different prices based on context, such as VIP status, region, or currency."
+    },
+    {
+        "question": "What must be associated with a Product in Salesforce before it can be assigned to custom price books or added to opportunities?",
+        "answer": "A Standard Price."
+    },
+    {
+        "question": "In Salesforce terminology, what is the specific record created when a product is added to an Opportunity?",
+        "answer": "An Opportunity Product Line Item."
+    },
+    {
+        "question": "Which feature allows a sales rep to offer a customer multiple proposal options, such as different quantities or discounts, for a single deal?",
+        "answer": "Quotes."
+    },
+    {
+        "question": "How many quotes can be actively synchronized with a single Opportunity record at one time?",
+        "answer": "One."
+    },
+    {
+        "question": "What is the primary benefit of using the Quote Sync feature in Salesforce?",
+        "answer": "It ensures that the Opportunity Amount and line items automatically stay updated with any changes made to the synced Quote."
+    },
+    {
+        "question": "What is the purpose of the 'Contact Roles' related list on an Opportunity?",
+        "answer": "It identifies which individuals at an account are decision-makers, influencers, or primary contacts for that specific deal."
+    },
+    {
+        "question": "When a quote is accepted and the deal is finalized, what document type is typically linked to the Opportunity before it is marked 'Closed Won'?",
+        "answer": "A Contract."
+    },
+    {
+        "question": "What does a high volume of opportunities stuck in early stages like 'Prospecting' generally indicate to a sales manager?",
+        "answer": "Potential problems in the sales pipeline that may require coaching or strategic intervention."
+    },
+    {
+        "question": "What is the difference between a Product in the catalog and an Opportunity Product Line Item?",
+        "answer": "The Product is a master catalog entry, while the Line Item represents a specific quantity and price applied to a specific deal."
+    },
+    {
+        "question": "Which Opportunity field identifies the specific sales representative responsible for managing the deal?",
+        "answer": "The Owner field."
+    },
+    {
+        "question": "The _____ field is a picklist that represents the deal's progress, while the _____ field is a percentage representing the likelihood of closing.",
+        "answer": "Stage; Probability"
+    },
+    {
+        "question": "To offer a 50% discount specifically for VIP clients without changing the standard price of a product, an admin should create a _____.",
+        "answer": "Custom Price Book"
+    },
+    {
+        "question": "Under what condition will an Opportunity's line items be replaced by the items listed on a Quote?",
+        "answer": "When the user initiates the Quote Sync process."
+    },
+    {
+        "question": "How does the relationship between Accounts and Opportunities allow for complex business scenarios, such as a client with multiple locations?",
+        "answer": "A single Account (parent) can have multiple Opportunities (children) linked to it for different projects or locations."
+    }
+]
