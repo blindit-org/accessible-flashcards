@@ -1,0 +1,102 @@
+[
+    {
+        "question": "What component of a Salesforce dashboard controls how users experience it and what data is visible?",
+        "answer": "Dashboard Properties"
+    },
+    {
+        "question": "In the Dashboard Builder, which icon must be selected to manage configuration options like the dashboard name and theme?",
+        "answer": "The gear icon"
+    },
+    {
+        "question": "What is the primary benefit of giving a dashboard a clear, professional name like 'Sales Performance Dashboard'?",
+        "answer": "It improves user adoption and helps users quickly locate the dashboard."
+    },
+    {
+        "question": "The Salesforce concept that determines whose data visibility rules are used when a dashboard runs is known as the _____.",
+        "answer": "Running user"
+    },
+    {
+        "question": "What determines which records are visible to a dashboard's running user?",
+        "answer": "Security access, role hierarchy, sharing rules, and permissions."
+    },
+    {
+        "question": "If the 'View Dashboard As' property is set to 'Me', whose access level is used to display data to all viewers?",
+        "answer": "The dashboard creator's access level."
+    },
+    {
+        "question": "Under what condition would a dashboard run as 'Me' only display Energy account data to all users?",
+        "answer": "When the creator only has access to accounts in the Energy industry."
+    },
+    {
+        "question": "When should the 'View Dashboard As' property be set to 'Another Person'?",
+        "answer": "When a dashboard needs to reflect the perspective of a specific regional leader or business owner."
+    },
+    {
+        "question": "Which 'View Dashboard As' setting transforms a standard dashboard into a Dynamic Dashboard?",
+        "answer": "The Dashboard Viewer"
+    },
+    {
+        "question": "How does a Dynamic Dashboard determine what data a specific sales representative sees?",
+        "answer": "It displays data based on the representative's own personal Salesforce access."
+    },
+    {
+        "question": "What is the main administrative advantage of using Dynamic Dashboards for a large organization?",
+        "answer": "One dashboard can serve many users without the need to create separate versions."
+    },
+    {
+        "question": "In a Dynamic Dashboard, what data is typically visible to an executive-level user?",
+        "answer": "Organization-wide results"
+    },
+    {
+        "question": "Which property allows leadership users to manually select the person whose data perspective they want to view?",
+        "answer": "Viewer Choice Option"
+    },
+    {
+        "question": "What are the two common visual themes available in Dashboard Properties?",
+        "answer": "Light Theme and Dark Theme"
+    },
+    {
+        "question": "Which action must be taken to transition from the Dashboard Builder back to user mode?",
+        "answer": "Select 'Done'"
+    },
+    {
+        "question": "What is the function of the 'Refresh' button on a dashboard page?",
+        "answer": "It reloads dashboard data using the most current Salesforce records available."
+    },
+    {
+        "question": "In most Salesforce environments, what is the maximum frequency for refreshing a dashboard?",
+        "answer": "Once every minute"
+    },
+    {
+        "question": "Name one specific business scenario where manually refreshing a dashboard is highly useful.",
+        "answer": "When a meeting is about to begin and the latest metrics are required."
+    },
+    {
+        "question": "What dashboard feature allows updates to be delivered automatically to a user's inbox?",
+        "answer": "Subscriptions"
+    },
+    {
+        "question": "What are the three standard frequency options for dashboard subscriptions?",
+        "answer": "Daily, Weekly, and Monthly"
+    },
+    {
+        "question": "Besides the dashboard creator, who can be included as recipients of a dashboard subscription?",
+        "answer": "Other team members"
+    },
+    {
+        "question": "Subscription Timing: What two specific scheduling factors can typically be configured?",
+        "answer": "Day of the week and time of delivery."
+    },
+    {
+        "question": "How do Refresh and Subscribe features transform dashboards into active decision-making tools?",
+        "answer": "By providing real-time updates and automated insights to keep teams aligned."
+    },
+    {
+        "question": "According to the module, what is the key functional difference between a Report and a Dashboard?",
+        "answer": "Reports provide detailed data, while dashboards visualize that data."
+    },
+    {
+        "question": "Term: Dynamic Dashboard",
+        "answer": "A dashboard where data visibility changes automatically based on the specific user viewing it."
+    }
+]
