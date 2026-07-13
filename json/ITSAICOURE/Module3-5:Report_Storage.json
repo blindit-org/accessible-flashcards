@@ -1,0 +1,82 @@
+[
+    {
+        "question": "What is the primary reason for exporting Salesforce report data?",
+        "answer": "To work with and analyze the information outside of the Salesforce platform."
+    },
+    {
+        "question": "Where is the 'Export' option located within a Salesforce report page?",
+        "answer": "Under the 'More' drop-down menu in the upper-right corner."
+    },
+    {
+        "question": "Which export view includes the report headers, grouping structure, and subtotals?",
+        "answer": "Formatted Report View"
+    },
+    {
+        "question": "When is the 'Details Only View' the most appropriate choice for exporting a report?",
+        "answer": "When the user plans to sort, calculate, or combine raw data in a spreadsheet tool."
+    },
+    {
+        "question": "Term: XLSX",
+        "answer": "The file format commonly used for modern Microsoft Excel workbooks."
+    },
+    {
+        "question": "Which file format is ideal for performing bulk data analysis or importing data into other systems?",
+        "answer": "CSV"
+    },
+    {
+        "question": "What feature allows Salesforce to automatically send updated report results to users on a schedule?",
+        "answer": "Report Subscriptions"
+    },
+    {
+        "question": "To automate a report, which option must be selected from the 'More' drop-down menu?",
+        "answer": "Subscribe"
+    },
+    {
+        "question": "The three available delivery frequencies for report subscriptions are daily, weekly, and _____.",
+        "answer": "monthly"
+    },
+    {
+        "question": "What is a major benefit of report subscriptions for organizational leadership?",
+        "answer": "They stay informed via automated updates without needing to run reports manually."
+    },
+    {
+        "question": "Which setting in a report subscription determines the specific people who will receive the data?",
+        "answer": "Recipient email addresses"
+    },
+    {
+        "question": "In a report subscription, what do 'trigger conditions' control?",
+        "answer": "The specific circumstances that cause the report delivery to be initiated."
+    },
+    {
+        "question": "Why would an administrator export a report to archive a 'snapshot'?",
+        "answer": "To preserve the report data as it existed at a specific point in time."
+    },
+    {
+        "question": "Concept: Formatted Report View",
+        "answer": "An export version that preserves the visual structure and groupings seen inside Salesforce."
+    },
+    {
+        "question": "What is a common use case for a sales manager subscribing to pipeline data every Monday?",
+        "answer": "To receive automated updates on sales progress at the start of the work week."
+    },
+    {
+        "question": "After selecting 'Export', what are the two main categories of choices Salesforce requires the user to make?",
+        "answer": "View type and file format."
+    },
+    {
+        "question": "How do report subscriptions contribute to increased Salesforce adoption?",
+        "answer": "By keeping stakeholders engaged with data through direct delivery to their inboxes."
+    },
+    {
+        "question": "A service leader who needs daily visibility into open case metrics should use which Salesforce feature?",
+        "answer": "Report Subscriptions"
+    },
+    {
+        "question": "The _____ view exports only raw records without headers or grouping formatting.",
+        "answer": "Details Only"
+    },
+    {
+        "question": "Why is it important for administrators to support both in-platform dashboards and scheduled exports?",
+        "answer": "To accommodate different user preferences for how they access and use business insights."
+    }
+]
