@@ -1,0 +1,110 @@
+[
+    {
+        "question": "What is the primary URL for the Salesforce Trust site homepage?",
+        "answer": "trust.salesforce.com"
+    },
+    {
+        "question": "What specific URL allows a user to go directly to the Salesforce status page?",
+        "answer": "status.salesforce.com"
+    },
+    {
+        "question": "Why are Sales Cloud and Service Cloud grouped together for status reporting on the Trust site?",
+        "answer": "They run on the core Salesforce platform and share underlying technology."
+    },
+    {
+        "question": "On the Salesforce Trust site, what does a green check mark indicate?",
+        "answer": "The instance is available."
+    },
+    {
+        "question": "Which color-coded icon on the Trust site signifies performance degradation?",
+        "answer": "An orange exclamation mark."
+    },
+    {
+        "question": "On the Salesforce Trust site, what does a red X icon represent?",
+        "answer": "Service disruption."
+    },
+    {
+        "question": "Which icon is used on the Salesforce Trust site to indicate scheduled maintenance?",
+        "answer": "A purple wrench."
+    },
+    {
+        "question": "Term for the server cluster that hosts a specific Salesforce organization.",
+        "answer": "Instance."
+    },
+    {
+        "question": "How does a performance issue on a specific Salesforce instance impact the organizations hosted there?",
+        "answer": "It affects all organizations on that instance."
+    },
+    {
+        "question": "Where on the status page can a user find historical logs for a specific instance?",
+        "answer": "The History tab within the instance's detail page."
+    },
+    {
+        "question": "What type of events are listed in the Maintenances tab of the Trust site?",
+        "answer": "Planned upgrades, updates, and emergency maintenance."
+    },
+    {
+        "question": "What is the purpose of the 'Subscribe' button on a specific instance's dashboard?",
+        "answer": "To receive email updates for that specific instance."
+    },
+    {
+        "question": "What three options comprise the 'build versus buy' decision model in Salesforce?",
+        "answer": "Customize, Buy, and Build."
+    },
+    {
+        "question": "Which strategy in the 'build versus buy' model is the fastest and least expensive?",
+        "answer": "Customize."
+    },
+    {
+        "question": "Which strategy in the 'build versus buy' model is typically the most resource-intensive?",
+        "answer": "Build."
+    },
+    {
+        "question": "Term for the boundary where declarative customization ends and programmatic customization begins.",
+        "answer": "Boundaries of customization."
+    },
+    {
+        "question": "What tools do administrators use for 'Customize' strategies in Salesforce?",
+        "answer": "Declarative tools (also known as clicks)."
+    },
+    {
+        "question": "Identify two programmatic tools developers use to 'Build' custom-coded solutions in Salesforce.",
+        "answer": "Apex and Lightning Web Components."
+    },
+    {
+        "question": "What four main factors influence the shift in priority between customizing, buying, or building?",
+        "answer": "Complexity, requirements, available solutions, and budget."
+    },
+    {
+        "question": "Why does Salesforce recommend using solutions found on the AppExchange over third-party solutions found elsewhere?",
+        "answer": "AppExchange solutions are vetted for compatibility and safety."
+    },
+    {
+        "question": "AppExchange category: Apps",
+        "answer": "Full solutions that can be free or paid."
+    },
+    {
+        "question": "In the context of the AppExchange, what are 'Components'?",
+        "answer": "Building blocks used in the Lightning App Builder."
+    },
+    {
+        "question": "Which AppExchange category provides templates for Experience Cloud sites?",
+        "answer": "Bolt Solutions."
+    },
+    {
+        "question": "What does the 'Lightning Data' category on the AppExchange provide?",
+        "answer": "Third-party data sets such as Dun & Bradstreet identifiers."
+    },
+    {
+        "question": "What is the purpose of 'Flow Solutions' on the AppExchange?",
+        "answer": "To provide pre-built automation templates."
+    },
+    {
+        "question": "How can an administrator access the AppExchange from within the Salesforce interface?",
+        "answer": "Navigate to Setup and search for AppExchange Marketplace in the Quick Find box."
+    },
+    {
+        "question": "The Salesforce Trust site is described as an essential tool for monitoring an organization's _____.",
+        "answer": "Health."
+    }
+]
